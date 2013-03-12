@@ -4,3 +4,10 @@
 *.jar
 *.war
 *.ear
+
+bin/
+.classpath
+.project
+.DS_Store
+META-INF/
+build.xml

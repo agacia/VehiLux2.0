@@ -1,0 +1,7 @@
+<configuration>
+    <argument name="baseFolder" value="./test/Luxembourg/" />
+    <argument name="baseName" value="Luxembourg" />
+    <argument name="stopHour" value="11" />
+    <argument name="insideFlowRatio" value="0.34" />
+    <argument name="referenceNodeId" value="77813703#1" />
+</configuration>
