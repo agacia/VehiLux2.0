@@ -35,7 +35,8 @@ public class Zone {
 	public ArrayList<Point2D.Double> points;
 	public ArrayList<Node> near_nodes;
     public double surface;
-	public double probability;
+	public double probabilityIn;
+	public double probabilityOut;
 	public Area area = null;
 	public String shortestPath;
 	public Node sourceNode;
@@ -51,8 +52,8 @@ public class Zone {
 		String s = new String();
 		s = String.format(
 						Locale.US,
-						"Zone %s:%n  -type: %s%n  -surface: %.15f%n   -probability: %.5f%n  -boundaries: (%f,%f) (%f,%f)%n  -points: [",
-						this.id, this.type, this.surface, this.probability,
+						"Zone %s:%n  -type: %s%n  -surface: %.15f%n   -probabilityIn: %.5f%n  -probabilityOut: %.5f%n  -boundaries: (%f,%f) (%f,%f)%n  -points: [",
+						this.id, this.type, this.surface, this.probabilityIn, this.probabilityIn,
 						this.min_x_boundary, this.min_y_boundary, this.max_x_boundary,
 						this.max_y_boundary);
 		for (Point2D.Double p : this.points) {

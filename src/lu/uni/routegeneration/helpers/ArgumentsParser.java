@@ -33,10 +33,10 @@ import org.xml.sax.helpers.DefaultHandler;
 public class ArgumentsParser {
 	
 	// default values  
-	private String baseFolder  = "./test/Luxembourg/";
+	private String baseFolder  = "./test/Luxembourg2013/";
 	private String baseName = "Luxembourg";
 	private double insideFlowRatio = 0.3435561009268159;
-	private int stopHour = 11;
+	private int stopHour = 23;
 	private double shiftingRatio = 0.40568854350331804;
 	private double defaultResidentialAreaProbability = 0.8512264551022459;
 	private double defaultCommercialAreaProbability = 0.42124639069257036;

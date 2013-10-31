@@ -229,9 +229,9 @@ public class RouteGenerationProblem extends Problem {
 
 	private void setRouteGenerationParameters(Individual ind) {
 		// set ZoneType probabilities
-		ZoneType.RESIDENTIAL.setProbability((Double)ind.getAllele(0)/100);
-		ZoneType.COMMERCIAL.setProbability((Double)ind.getAllele(1)/100);
-		ZoneType.INDUSTRIAL.setProbability((Double)ind.getAllele(2)/100);
+		ZoneType.RESIDENTIAL.setProbabilityIn((Double)ind.getAllele(0)/100);
+		ZoneType.COMMERCIAL.setProbabilityIn((Double)ind.getAllele(1)/100);
+		ZoneType.INDUSTRIAL.setProbabilityIn((Double)ind.getAllele(2)/100);
 
 		// set area probabilities
 		
@@ -322,9 +322,9 @@ public class RouteGenerationProblem extends Problem {
 	
 	private void setRouteGenerationParametersTest(double[] ind) {
 		// set ZoneType probabilities
-		ZoneType.RESIDENTIAL.setProbability(ind[0]/100);
-		ZoneType.COMMERCIAL.setProbability(ind[1]/100);
-		ZoneType.INDUSTRIAL.setProbability(ind[2]/100);
+		ZoneType.RESIDENTIAL.setProbabilityIn(ind[0]/100);
+		ZoneType.COMMERCIAL.setProbabilityIn(ind[1]/100);
+		ZoneType.INDUSTRIAL.setProbabilityIn(ind[2]/100);
 
 		// set area probabilities
 		

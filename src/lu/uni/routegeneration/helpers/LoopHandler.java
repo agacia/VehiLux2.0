@@ -1,5 +1,6 @@
 package lu.uni.routegeneration.helpers;
 
+import java.io.Console;
 import java.util.TreeSet;
 
 import lu.uni.routegeneration.generation.Flow;
@@ -47,7 +48,6 @@ public class LoopHandler extends DefaultHandler {
 	public void endElement(String uri, String localName, String qName) throws SAXException {
 		if (qName.equals("loop")) {
 			loops.add(currentLoop);
-			//System.out.println("cars: " + currentLoop.)
 		} 
 		else if (qName.equals("flow")) {
 			if(currentFlow !=null){

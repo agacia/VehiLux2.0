@@ -12,7 +12,11 @@ package lu.uni.routegeneration.generation;
 
 import java.awt.geom.Point2D;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -64,31 +68,15 @@ public class RouteGeneration {
 	    //logger.setLevel(Level.WARN);
 		
 		ArgumentsParser arguments = new ArgumentsParser();
-		arguments.parseXMLfile("config.xml");
+		arguments.parseXMLfile("configLuxembourg2013.xml");
+		RouteGeneration rg = new RouteGeneration(arguments);
+		
+//		rg.computeDijkstra();
+		rg.generateSortedTrips();
 		
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMdd_HHmm");
 		String outputFolder = dateFormat.format(Calendar.getInstance().getTime()) + "/";
-		
-		RouteGeneration rg = new RouteGeneration();
-		rg.setBaseFolder(arguments.getBaseFolder());
-		rg.setBaseName(arguments.getBaseName());
-		rg.setStopHour(arguments.getStopHour());
-		rg.setReferenceNodeId(arguments.getReferenceNodeId());
-		rg.readInput();
-		rg.setInsideFlowRatio(arguments.getInsideFlowRatio());
-		rg.setDefaultResidentialAreaProbability(arguments.getDefaultResidentialAreaProbability());
-		rg.setDefaultCommercialAreaProbability(arguments.getDefaultCommercialAreaProbability());
-		rg.setDefaultIndustrialAreaProbability(arguments.getDefaultIndustrialAreaProbability());
-		
-		rg.computeDijkstra();
-		VehlLuxLog.printAreasInfo(logger, rg);
-		
-		rg.generateSortedTrips();
-		
-		XMLParser.writeFlows(rg.getBaseFolder(), rg.getBaseName(), outputFolder, rg.getTrips(), rg.getVTypes(), rg.getStopTime());
-		XMLParser.writeRoutes(rg.getBaseFolder(), rg.getBaseName(), outputFolder, rg.getTrips(), rg.getVTypes());
-			
-		VehlLuxLog.printTripInfo(logger, rg);
+		rg.WriteTrips(outputFolder);
 	}
 	
 	// ----------- PARAMETERS ----------
@@ -103,7 +91,8 @@ public class RouteGeneration {
 	private HashMap<String, Zone> zones;
 	private ArrayList<Area> areas;
 	private ArrayList<VType> vtypes;
-	private TreeSet<Loop> loops;
+	private TreeSet<Loop> loopsDirectionIn;
+	private TreeSet<Loop> loopsDirectionOut;
 	private ArrayList<Trip> trips;
 	private Graph graph;
 	private Dijkstra referenceDjk;	
@@ -116,9 +105,9 @@ public class RouteGeneration {
 	private Area defaultResidentialArea;
 	private Random random;
 	long randomSeed = 123456L;
-	
 	public long[] inner = new long[stopHour];
 	public long[] outer = new long[stopHour];
+	private int hourInOut = 11;
 	
 	// ----------- Getters & Setters ----------
 	
@@ -208,33 +197,63 @@ public class RouteGeneration {
 		return areas;
 	}
 	
-	public TreeSet<Loop> getLoops() {
-		return loops;
+	public TreeSet<Loop> getLoopsIn() {
+		return loopsDirectionIn;
 	}
 	
-	public void setDefaultIndustrialAreaProbability(double defaultIndustrialAreaProbability) {
-		this.defaultIndustrialArea.setProbability(defaultIndustrialAreaProbability);
+	public TreeSet<Loop> getLoopsOut() {
+		return loopsDirectionOut;
 	}
 	
-	public void setDefaultCommercialAreaProbability(double defaultCommertialAreaProbability) {
-		this.defaultCommercialArea.setProbability(defaultCommertialAreaProbability);
-	}
-	
-	public void setDefaultResidentialAreaProbability(double defaultResidentialAreaProbability) {
-		this.defaultResidentialArea.setProbability(defaultResidentialAreaProbability);
+	public void setDefaultAreaProbability(Area area, double defaultAreaProbability) {
+		area.setProbability(defaultAreaProbability);
 	}
 	
 	// ----------- Constructor  ----------
 	
-	public RouteGeneration() {
+	public RouteGeneration(ArgumentsParser arguments) {
 		random = new Random(System.currentTimeMillis());
 		stopTime = stopHour * 3600;
 		sumResidentialSurface = 0.0;
 		sumCommercialSurface = 0.0;
 		sumIndustrialSurface = 0.0;
+		setBaseFolder(arguments.getBaseFolder());
+		setBaseName(arguments.getBaseName());
+		setStopHour(arguments.getStopHour());
+		setReferenceNodeId(arguments.getReferenceNodeId());
+		setInsideFlowRatio(arguments.getInsideFlowRatio());
+		
+		readInput(arguments);
 	}
 		
-	public void readInput() {
+	public void WriteTrips(String outputFolder) {
+		XMLParser.writeFlows(getBaseFolder(), getBaseName(), outputFolder, getTrips(), getVTypes(), getStopTime());
+		XMLParser.writeRoutes(getBaseFolder(), getBaseName(), outputFolder, getTrips(), getVTypes());
+		VehlLuxLog.printTripInfo(logger, this);
+		Writer out = null;
+		try {
+			String fileName = getBaseFolder()+outputFolder + "trips.txt";
+//			String fileName = outputFolder+"Luxembourg.rou.xml";
+			System.out.println("writing to " + fileName);
+			File file = new File(fileName);
+			if(!file.exists()) {
+				file.createNewFile();
+			} 
+			out = new  OutputStreamWriter(new FileOutputStream(file, false));
+			out.write("id departTime vehicleId sourceId destinationZoneType destinationId path\n");
+			for (Trip trip : getTrips()) {
+				out.write(trip.toString());
+			}
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public void readInput(ArgumentsParser arguments) {
 		if (baseFolder == null || baseFolder.isEmpty()) {
 			System.err.println("Please set the name of a base folder.");
 		}
@@ -242,7 +261,7 @@ public class RouteGeneration {
 			System.err.println("Please set the name of a base name for input files.");
 		}
 
-		System.out.println("config: " + baseName + " " + baseFolder + " " +stopHour);
+		logger.info("config: " + baseName + " " + baseFolder + " " +stopHour);
 		
 		logger.info("reading " + baseName + ".net.xml file...");
 		readNet(baseFolder + baseName + ".net.xml"); 
@@ -264,10 +283,13 @@ public class RouteGeneration {
 		logger.info("reading vehicle types from " + baseName + ".veh.xml file...");
 		readVehicleTypes(baseFolder + baseName + ".veh.xml");	
 		logger.info("read " + vtypes.size() + " vehicle types");
-		
-		logger.info("reading " + baseName + ".loop.xml file...");
-		readLoops(baseFolder + baseName + ".loop.xml");
-		VehlLuxLog.printLoopsInfo(logger, this);
+
+		logger.info("reading loops " + baseName + "_dir1.loop.xml file...");
+		loopsDirectionIn = readLoops(baseFolder + baseName + "_dir1.loop.xml");
+		VehlLuxLog.printLoopsInfo(logger, loopsDirectionIn);
+		logger.info("reading loops " + baseName + "_dir2.loop.xml file...");
+		loopsDirectionOut = readLoops(baseFolder + baseName + "_dir2.loop.xml");
+		VehlLuxLog.printLoopsInfo(logger, loopsDirectionOut);
 		
 		readGraph(baseFolder + baseName + ".dgs", baseFolder + baseName + ".net.xml");
 
@@ -275,6 +297,11 @@ public class RouteGeneration {
 		assignZonesToAreas();
 		VehlLuxLog.printAreasInfo(logger, this);
 		
+		// after read areas
+		setDefaultAreaProbability(this.defaultResidentialArea, arguments.getDefaultResidentialAreaProbability());
+		setDefaultAreaProbability(this.defaultCommercialArea, arguments.getDefaultCommercialAreaProbability());
+		setDefaultAreaProbability(this.defaultIndustrialArea, arguments.getDefaultIndustrialAreaProbability());
+
 		computeZonesProbabilities();
 	}
 	
@@ -317,9 +344,15 @@ public class RouteGeneration {
 		AreasHandler h = new AreasHandler();
 		XMLParser.readFile(path, h);
 		areas = h.getAreas();
-		ZoneType.RESIDENTIAL.setProbability(h.getResidentialTypeProbability());
-		ZoneType.COMMERCIAL.setProbability(h.getCommercialTypeProbability());
-		ZoneType.INDUSTRIAL.setProbability(h.getIndustrialTypeProbability());
+		
+		double aaa = h.getResidentialTypeProbabilityIn();
+		
+		ZoneType.RESIDENTIAL.setProbabilityIn(h.getResidentialTypeProbabilityIn());
+		ZoneType.COMMERCIAL.setProbabilityIn(h.getCommercialTypeProbabilityIn());
+		ZoneType.INDUSTRIAL.setProbabilityIn(h.getIndustrialTypeProbabilityIn());
+		ZoneType.RESIDENTIAL.setProbabilityOut(h.getResidentialTypeProbabilityOut());
+		ZoneType.COMMERCIAL.setProbabilityOut(h.getCommercialTypeProbabilityOut());
+		ZoneType.INDUSTRIAL.setProbabilityOut(h.getIndustrialTypeProbabilityOut());
 		defaultResidentialArea = new Area(1 - h.getResidentialAreasSumProbability(), ZoneType.RESIDENTIAL);
 		defaultCommercialArea = new Area(1 - h.getCommercialAreasSumProbability(), ZoneType.COMMERCIAL);
 		defaultIndustrialArea = new Area(1 - h.getIndustrialAreasSumProbability(), ZoneType.INDUSTRIAL);
@@ -360,19 +393,23 @@ public class RouteGeneration {
 			zone.area.addSurface(zone.surface);
 		}
 	}
+	
 	public void computeZonesProbabilities() {
 		double sumZone = 0;
 		double sumZoneWithoutDefault = 0;
 		double sumArea = 0;
 		double sumArea2 = 0;
 		double sumDefalultArea = 0;
-		double sumProb = 0;
+		double sumProbIn = 0;
+		double sumProbOut = 0;
 		for (Zone zone : zones.values()) {
 			sumZone += zone.surface;			
-			zone.probability = (zone.surface / zone.area.getSurface()) * zone.type.getProbability() * zone.area.getProbability();
-			sumProb += zone.probability;
+			zone.probabilityIn = (zone.surface / zone.area.getSurface()) * zone.type.getProbabilityIn() * zone.area.getProbability();
+			zone.probabilityOut = (zone.surface / zone.area.getSurface()) * zone.type.getProbabilityOut() * zone.area.getProbability();
+			sumProbIn += zone.probabilityIn;
+			sumProbOut += zone.probabilityOut;
 			if (zone.area!=defaultCommercialArea && zone.area!=defaultIndustrialArea && zone.area!=defaultResidentialArea) {
-				sumZoneWithoutDefault += zone.probability;
+				sumZoneWithoutDefault += zone.probabilityIn;
 			}
 		}
 		for (Area area : areas) {
@@ -380,7 +417,7 @@ public class RouteGeneration {
 		}
 		sumDefalultArea = defaultCommercialArea.getSurface() + defaultIndustrialArea.getSurface() + defaultResidentialArea.getSurface();
 		sumArea2 = sumArea + sumDefalultArea;
-		//System.out.println("sum zones: " + sumZone + ", sumArea: " + sumArea + ", sumProb: " + sumProb + ", sumDefalultArea: " + sumDefalultArea + ", sumArea2: " + sumArea2 + ", sumZoneWithoutDefault: " + sumZoneWithoutDefault);
+		System.out.println("sum zones: " + sumZone + ", sumArea: " + sumArea + ", sumProbIn: " + sumProbIn + ", sumProbOut: " + sumProbOut + ", sumDefalultArea: " + sumDefalultArea + ", sumArea2: " + sumArea2 + ", sumZoneWithoutDefault: " + sumZoneWithoutDefault);
 	}
 	
 	/**
@@ -399,10 +436,11 @@ public class RouteGeneration {
 	 * - For each loop a Loop object is created.
 	 * - For each loop, flows are created: one per hour.
 	 */
-	public void readLoops(String path) {
+	public TreeSet<Loop> readLoops(String path) {
 		LoopHandler h = new LoopHandler(stopHour);
 		XMLParser.readFile(path, h);
-		loops = h.getLoops();
+		TreeSet<Loop> loops = h.getLoops();
+		return loops;
 	}
 	
 	/**
@@ -447,7 +485,7 @@ public class RouteGeneration {
 	 * Checks if induction loops' base edges exist in the graph so that a Dijkstra
 	 */
 	private void checkIfGraphContainInductionLoops() {
-		for (Loop loop : loops) {
+		for (Loop loop : loopsDirectionIn) {
 			if (graph.getNode(loop.getEdge()) == null) {
 				logger.error("Error: Induction loop " + loop.getId() + " from edge " + loop.getEdge() + " is missing in the graph");
 			}
@@ -481,7 +519,7 @@ public class RouteGeneration {
 		referenceDjk.compute();
 		
 		logger.info("computing paths from each induction loop...");
-		for (Loop loop : loops) {
+		for (Loop loop : loopsDirectionIn) {
 			Dijkstra djk = new Dijkstra(Dijkstra.Element.NODE, loop.getEdge(),"weight");
 			djk.init(graph);
 			djk.setSource(graph.getNode(loop.getEdge()));
@@ -617,22 +655,27 @@ public class RouteGeneration {
 		Loop loop;
 		Flow flow;
 		logger.info("generating sorted trips....");
-		if (loops.isEmpty()) {
-			readLoops(baseFolder + baseName + ".loop.xml");
+		if (loopsDirectionIn.isEmpty()) {
+			loopsDirectionIn = readLoops(baseFolder + baseName + "_dir1.loop.xml");
 		}		
-		while (!loops.isEmpty()) {
+		if (loopsDirectionOut.isEmpty()) {
+			loopsDirectionOut = readLoops(baseFolder + baseName + "_dir2.loop.xml");
+		}
+		logger.info("currentHour: " + currentHour);
+		while (!loopsDirectionIn.isEmpty()) {
 		 	String vehicleId = vtypes.get((int)(org.util.Random.next() * vtypes.size())).getId();
 		 	Node sourceNode = null;
 		 	Trip trip = null;
 		 	isInner = false;
+		 	Boolean in = currentHour < hourInOut;
 		 	if (random.nextDouble() < insideFlowRatio) {
 		 		// inside flow
 		 		isInner = true;
-				Zone zone = pickUpOneZone(ZoneType.RESIDENTIAL);
+				Zone zone = pickUpOneZone(ZoneType.RESIDENTIAL, in);
 				int limit = 5;
 				if (zone == null && limit > 0) {
 					limit--;
-					zone = pickUpOneZone(ZoneType.RESIDENTIAL);
+					zone = pickUpOneZone(ZoneType.RESIDENTIAL, in);
 				}
 				if (zone == null) {
 					logger.warn("cannot pick up any residential zone!");
@@ -642,7 +685,7 @@ public class RouteGeneration {
 			} 
 			else {
 				// outside flow
-				loop = loops.pollFirst();
+				loop = loopsDirectionIn.pollFirst();
 				flow = loop.getFlows().pollFirst();
 				if (currentHour != flow.getHour()) {
 				     currentHour = flow.getHour();
@@ -656,7 +699,7 @@ public class RouteGeneration {
 					loop.addFlow(flow);
 				}
 				if (loop.hasFlow()) {
-					loops.add(loop);
+					loopsDirectionIn.add(loop);
 				}
 			}
 		 	
@@ -667,12 +710,14 @@ public class RouteGeneration {
 		 		else {
 		 			outer[currentHour-1]++;
 		 		}
-		 		trip = generateTrip(sourceNode, (int)currentTime, vehicleId, (inner[currentHour-1] + outer[currentHour-1]));
+		 		trip = generateTrip(sourceNode, (int)currentTime, vehicleId, (inner[currentHour-1] + outer[currentHour-1]), in);
 		 		if (trip != null) {
 		 			trips.add(trip);
 		 		}
 		 	}
-		}	
+		}
+
+		logger.info("currentHour after: " + currentHour);
 		
 		return trips;
 	}
@@ -684,26 +729,29 @@ public class RouteGeneration {
 		inner = new long[stopHour];
 		outer = new long[stopHour];
 		int currentHour = 0;
-		for (Loop loop : loops) {
+		Boolean in;
+		for (Loop loop : loopsDirectionIn) {
 			Node sourceNode = graph.getNode(loop.getEdge());
 			for (Flow flow : loop.getFlows()) {
 				if (flow.getHour() <= stopHour) {
 					currentHour = flow.getHour()-1;
+					in = currentHour < hourInOut;
 					for (int i = 0; i < flow.getVehicles(); i++) {
 						currentTime = flow.getTime();
 						if (currentTime < stopTime) {
 							String vehicleType = vtypes.get((int)(org.util.Random.next() * vtypes.size())).getId();
-							Trip trip = generateTrip(sourceNode, (int)currentTime, vehicleType, (outer[currentHour] + inner[currentHour]));
+							Trip trip = generateTrip(sourceNode, (int)currentTime, vehicleType, (outer[currentHour] + inner[currentHour]), in);
 							if (trip != null) {
 								outer[currentHour]++;
 								trips.add(trip);
 							}
 							// may generate additionally an inside flow
 							if (random.nextDouble() < insideFlowRatio) {
-								Zone zone = pickUpOneZone(ZoneType.RESIDENTIAL);
+								Zone zone = pickUpOneZone(ZoneType.RESIDENTIAL, true);
 								sourceNode = zone.sourceNode;
 								vehicleType = vtypes.get((int)(org.util.Random.next() * vtypes.size())).getId();
-								trip = generateTrip(sourceNode, (int)currentTime, vehicleType, (outer[currentHour] + inner[currentHour]));
+								logger.info("currentTime "+currentTime);
+								trip = generateTrip(sourceNode, (int)currentTime, vehicleType, (outer[currentHour] + inner[currentHour]), in);
 								if (trip != null) {
 									inner[currentHour]++;
 									trips.add(trip);
@@ -720,38 +768,40 @@ public class RouteGeneration {
 	}
 
 	
-	private Trip generateTrip(Node sourceNode, int currentTime, String vehicleType, long vehicleCounter) {
+	private Trip generateTrip(Node sourceNode, int currentTime, String vehicleType, long vehicleCounter, Boolean in) {
 		Trip trip = null;
 		if (sourceNode == null) {
 			return trip;
 		}
-		Zone zone = pickUpOneZone(null);
+		Zone zone = pickUpOneZone(null, in);
 		int limit = 5;
 		if (zone == null && limit > 0) {
 			limit--;
-			zone = pickUpOneZone(null);
+			zone = pickUpOneZone(null, in);
 		}
 		if (zone == null) {
 			logger.warn("cannot pick up destination zone!");
 			return trip;
 		}
 		Node destinationNode = zone.getDestinationNode();
-		if (destinationNode == null) {
+		if (destinationNode != null) {
+			trip.setDestinationId(destinationNode.getId());
+		}
+		else {
 			//logger.warn("Initialize and compute dijkstra first. There is no path from edge " + sourceNode.getId() + "to a random node ");
-			return trip;
+//			return trip;
 		}
 		trip = new Trip("_h" + (currentTime/3600) + "_" + vehicleCounter);
 		trip.setSourceId(sourceNode.getId());
-		trip.setDestinationId(destinationNode.getId());
 		trip.setDestinationZoneType(zone.type);
-		Path path = getPath(sourceNode, destinationNode);
 		trip.setDepartTime(currentTime);
 		trip.setVehicleId(vehicleType);
-		trip.setRoute(path);
+//		Path path = getPath(sourceNode, destinationNode);
+//		trip.setRoute(path);
 		return trip;
 	}
 	
-	private Zone pickUpOneZone(ZoneType zoneType) {
+	private Zone pickUpOneZone(ZoneType zoneType, Boolean in) {
 		Zone zone = null;
 		int maxTrials = 10;
 		int trials = 0;		
@@ -767,7 +817,12 @@ public class RouteGeneration {
 					}
 				}
 				else if (zoneType == null) {
-					sum += z.probability;
+					if (in) {
+						sum += z.probabilityIn;
+					}
+					else {
+						sum += z.probabilityOut;
+					}
 					if (sum > rand) { // select a zone based on its proba
 						zone = z;
 						break;

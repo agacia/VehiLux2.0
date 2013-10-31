@@ -1,6 +1,8 @@
 package lu.uni.routegeneration.generation;
 
+import java.awt.geom.Point2D;
 import java.util.List;
+import java.util.Locale;
 
 import lu.uni.routegeneration.evaluation.Detector;
 
@@ -10,14 +12,14 @@ import org.graphstream.graph.Path;
 
 public class Trip {
 
-	private String id;
-	private String sourceId;
-	private String destinationId;
+	private String id = "";
+	private String sourceId = "";
+	private String destinationId = "";
 	private Path path;
-	private String route;
+	private String route = "";
 	//private String[] edges;
 	private double departTime;
-	private String vehicleId;
+	private String vehicleId = "";
 	private double weight;
 	private ZoneType destinationZoneType;
 	
@@ -109,6 +111,16 @@ public class Trip {
 			}
 		}
 		route = sb.toString();
+	}
+	
+	public String toString() {
+		String s = new String();
+		s = String.format(
+						Locale.US,
+						"%s %.15f %s %s %s %s %s%n",
+						this.id, this.departTime, this.vehicleId, this.sourceId, this.destinationZoneType,
+						this.destinationId, this.path);
+		return s;
 	}
 	
 	public double computeWeight() {

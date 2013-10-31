@@ -55,17 +55,7 @@ public class OptimizationTest extends TestCase {
 	    	"-baseName", "Kirchberg",
 	    	"-referenceNodeId", "56640729#4",
 	    	});
-		RouteGeneration rg = new RouteGeneration();
-		rg.setBaseFolder(arguments.getBaseFolder());
-		rg.setBaseName(arguments.getBaseName());
-		rg.setStopHour(arguments.getStopHour());
-		rg.setReferenceNodeId(arguments.getReferenceNodeId());
-		rg.readInput();
-		rg.setInsideFlowRatio(arguments.getInsideFlowRatio());
-		rg.setDefaultResidentialAreaProbability(arguments.getDefaultResidentialAreaProbability());
-		rg.setDefaultCommercialAreaProbability(arguments.getDefaultCommercialAreaProbability());
-		rg.setDefaultIndustrialAreaProbability(arguments.getDefaultIndustrialAreaProbability());
-
+		RouteGeneration rg = new RouteGeneration(arguments);
 
 		RealEvaluation evaluator = new RealEvaluation();
 		evaluator.setBaseFolder(arguments.getBaseFolder());

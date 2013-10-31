@@ -1,0 +1,43 @@
+<additionals> 
+
+<inductionLoop id="1430" lane="109439388_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+<inductionLoop id="1430b" lane="24280120_2" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+
+<inductionLoop id="1420" lane="24430095_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+<inductionLoop id="1420b" lane="24430142_1" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+
+<inductionLoop id="1410" lane="26732375_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+<inductionLoop id="1410b" lane="26732368_1" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+
+<inductionLoop id="304" lane="124176818#2_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+<inductionLoop id="304b" lane="-124176818#2_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+
+<inductionLoop id="520" lane="-23866522#3_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+<inductionLoop id="520b" lane="23866522#3_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+
+<inductionLoop id="20" lane="-93626510#1_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+<inductionLoop id="20b" lane="93626510#1_1" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+
+<inductionLoop id="1232" lane="88714961_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+<inductionLoop id="1232b" lane="-88714961_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+
+<inductionLoop id="1444" lane="24563837#3_1" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+<inductionLoop id="1444b" lane="24802462#0_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+
+<inductionLoop id="1407" lane="52497560#1_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+<inductionLoop id="1407b" lane="24450055#1_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+
+<inductionLoop id="1475" lane="22884137_1" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+<inductionLoop id="1475b" lane="22876799#0_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+
+<inductionLoop id="10" lane="-74060059#0_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+<inductionLoop id="10b" lane="74060059#0_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+
+<inductionLoop id="30" lane="-85277975#1_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+<inductionLoop id="30b" lane="85277975#1_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+
+<inductionLoop id="818" lane="159139463#0_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+<inductionLoop id="818b" lane="-159139463#0_0" pos="1" freq="3600" file="Luxembourg.e1.401_0.xml" friendlyPos="true" splitByType="false" />
+
+</additionals>
+

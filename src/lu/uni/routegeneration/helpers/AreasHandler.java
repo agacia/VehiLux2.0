@@ -17,20 +17,35 @@ import org.xml.sax.helpers.DefaultHandler;
 */
 public class AreasHandler extends DefaultHandler {
 	
-	private double residentialTypeProbability = 0.0;
-	private double commercialTypeProbability = 0.0;
-	private double industrialTypeProbability = 0.0;
+	private double residentialTypeProbabilityIn = 0.0;
+	private double commercialTypeProbabilityIn = 0.0;
+	private double industrialTypeProbabilityIn = 0.0;
+	private double residentialTypeProbabilityOut = 0.0;
+	private double commercialTypeProbabilityOut = 0.0;
+	private double industrialTypeProbabilityOut = 0.0;
 	
-	public double getResidentialTypeProbability() {
-		return residentialTypeProbability;
+	public double getResidentialTypeProbabilityIn() {
+		return residentialTypeProbabilityIn;
 	}
 
-	public double getCommercialTypeProbability() {
-		return commercialTypeProbability;
+	public double getCommercialTypeProbabilityIn() {
+		return commercialTypeProbabilityIn;
 	}
 
-	public double getIndustrialTypeProbability() {
-		return industrialTypeProbability;
+	public double getIndustrialTypeProbabilityIn() {
+		return industrialTypeProbabilityIn;
+	}
+	
+	public double getResidentialTypeProbabilityOut() {
+		return residentialTypeProbabilityOut;
+	}
+
+	public double getCommercialTypeProbabilityOut() {
+		return commercialTypeProbabilityOut;
+	}
+
+	public double getIndustrialTypeProbabilityOut() {
+		return industrialTypeProbabilityOut;
 	}
 
 	private double residentialAreasSumProbability = 0.0;
@@ -60,9 +75,12 @@ public class AreasHandler extends DefaultHandler {
 		super.startElement(uri, localName, qName, attributes);
 		if (qName.equals("areas")) {
 			double sum = 0.0;
-			residentialTypeProbability += Double.parseDouble(attributes.getValue("residential_proba"));
-			commercialTypeProbability += Double.parseDouble(attributes.getValue("commercial_proba"));
-			industrialTypeProbability += Double.parseDouble(attributes.getValue("industrial_proba"));
+			residentialTypeProbabilityIn += Double.parseDouble(attributes.getValue("residential_proba_in"));
+			commercialTypeProbabilityIn += Double.parseDouble(attributes.getValue("commercial_proba_in"));
+			industrialTypeProbabilityIn += Double.parseDouble(attributes.getValue("industrial_proba_in"));
+			residentialTypeProbabilityOut += Double.parseDouble(attributes.getValue("residential_proba_out"));
+			commercialTypeProbabilityOut += Double.parseDouble(attributes.getValue("commercial_proba_out"));
+			industrialTypeProbabilityOut += Double.parseDouble(attributes.getValue("industrial_proba_out"));
 //			sum += residentialTypeProbability;
 //			sum += commercialTypeProbability;
 //			sum += industrialTypeProbability;

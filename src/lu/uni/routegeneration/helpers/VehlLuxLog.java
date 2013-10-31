@@ -1,5 +1,7 @@
 package lu.uni.routegeneration.helpers;
 
+import java.util.TreeSet;
+
 import org.apache.log4j.Logger;
 
 import lu.uni.routegeneration.generation.Area;
@@ -11,11 +13,11 @@ import lu.uni.routegeneration.generation.ZoneType;
 public class VehlLuxLog {
 	
 	
-	public static void printLoopsInfo(Logger logger, RouteGeneration rg) {
-		logger.info("read " + rg.getLoops().size() + " induction loops");	
+	public static void printLoopsInfo(Logger logger, TreeSet<Loop> loops) {
+		logger.info("read " + loops.size() + " induction loops");	
 		double readOuterFlow = 0;
 		logger.info("loop \t edge \t flow \n");
-		for (Loop loop : rg.getLoops()) {
+		for (Loop loop : loops) {
 			logger.info(loop.getId() + "\t " + loop.getEdge() + "\t " + loop.getTotalFlow() + "\n");
 			readOuterFlow += loop.getTotalFlow();
 		}
@@ -23,15 +25,15 @@ public class VehlLuxLog {
 	}
 	
 	public static void printAreasInfo(Logger logger, RouteGeneration rg) {
-		System.out.println("area type \t zones count \t surface \t probability");
+		logger.info("area type \t zones count \t surface \t probability");
 		for (Area area : rg.getAreas()) {
 			if (area.getZones() != null) {
-				System.out.println(area.getZoneType().name() + " \t " + area.getZones().size() + " \t " + area.getSurface() + " \t " + area.getProbability());
+				logger.info(area.getZoneType().name() + " \t " + area.getZones().size() + " \t " + area.getSurface() + " \t " + area.getProbability());
 			}	
 		}
-		System.out.println(rg.getDefaultResidentialArea().getZoneType().name() + " \t " + rg.getDefaultResidentialArea().getZones().size() + " \t " + rg.getDefaultResidentialArea().getSurface() + " \t " + rg.getDefaultResidentialArea().getProbability());
-		System.out.println(rg.getDefaultCommercialArea().getZoneType().name() + " \t " + rg.getDefaultCommercialArea().getZones().size() + " \t " + rg.getDefaultCommercialArea().getSurface() + " \t " + rg.getDefaultCommercialArea().getProbability());
-		System.out.println(rg.getDefaultIndustrialArea().getZoneType().name() + " \t " + rg.getDefaultIndustrialArea().getZones().size() + " \t " + rg.getDefaultIndustrialArea().getSurface() + " \t " + rg.getDefaultIndustrialArea().getProbability());
+		logger.info(rg.getDefaultResidentialArea().getZoneType().name() + " \t " + rg.getDefaultResidentialArea().getZones().size() + " \t " + rg.getDefaultResidentialArea().getSurface() + " \t " + rg.getDefaultResidentialArea().getProbability());
+		logger.info(rg.getDefaultCommercialArea().getZoneType().name() + " \t " + rg.getDefaultCommercialArea().getZones().size() + " \t " + rg.getDefaultCommercialArea().getSurface() + " \t " + rg.getDefaultCommercialArea().getProbability());
+		logger.info(rg.getDefaultIndustrialArea().getZoneType().name() + " \t " + rg.getDefaultIndustrialArea().getZones().size() + " \t " + rg.getDefaultIndustrialArea().getSurface() + " \t " + rg.getDefaultIndustrialArea().getProbability());
 	}
 	
 	public static void printTripInfo(Logger logger, RouteGeneration rg) {
@@ -64,10 +66,10 @@ public class VehlLuxLog {
 			inner += rg.inner[i];
 			outer += rg.outer[i];
 		}
-		System.out.println("hour \t inner \t outer \t residential \t commercial \t industrial \t sum");
+		logger.info("hour \t inner \t outer \t residential \t commercial \t industrial \t sum");
 		for (int i = 0; i < rg.getStopHour(); ++i) {
-			System.out.println(i + " \t " + rg.inner[i] + " \t " + rg.outer[i] + " \t " + res[i] + " \t " + com[i] + " \t " + ind[i]);
+			logger.info(i + " \t " + rg.inner[i] + " \t " + rg.outer[i] + " \t " + res[i] + " \t " + com[i] + " \t " + ind[i]);
 		}	
-		System.out.println("sum\t " + inner + " \t " + outer + " \t " + sumres + " \t " + sumcom + " \t " + sumind);
+		logger.info("sum\t " + inner + " \t " + outer + " \t " + sumres + " \t " + sumcom + " \t " + sumind);
 	}
 }

@@ -65,22 +65,13 @@ public class EditorTest extends TestCase {
 //	    	"-baseName", "Kirchberg",
 //	    	"-referenceNodeId", "56640729#4",
 //	    	});
-		RouteGeneration rg = new RouteGeneration();
-		rg.setBaseFolder(arguments.getBaseFolder());
-		rg.setBaseName(arguments.getBaseName());
-		rg.setStopHour(arguments.getStopHour());
-		rg.setReferenceNodeId(arguments.getReferenceNodeId());
-		rg.readInput();
-		rg.setInsideFlowRatio(arguments.getInsideFlowRatio());
-		rg.setDefaultResidentialAreaProbability(arguments.getDefaultResidentialAreaProbability());
-		rg.setDefaultCommercialAreaProbability(arguments.getDefaultCommercialAreaProbability());
-		rg.setDefaultIndustrialAreaProbability(arguments.getDefaultIndustrialAreaProbability());
-		
+		RouteGeneration rg = new RouteGeneration(arguments);
+			
 		EditorPanel editor = new EditorPanel(rg.getZones(), rg.getAreas());
 		
 		// set loops
 		ArrayList<String> edgeIds = new ArrayList<String>();
-		for (Loop loop : rg.getLoops()) {
+		for (Loop loop : rg.getLoopsIn()) {
 			edgeIds.add(loop.getEdge());
 		}
 		editor.setNodes("loops", rg.getNodes(edgeIds), Color.BLACK, 15, ShapeType.RECT );
