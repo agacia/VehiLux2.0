@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf8"?>
+<!DOCTYPE loops
+  PUBLIC 'University Of Luxembourg'
+  'traffic-counting-loops.dtd'>
+<loops>
+  <loop datefrom="1.5.2012" dateto="1.5.2012" direction="Z.I. Bourmicht - Bertrange" id="420">
+    <flow cars="134" hour="1" trucks="36"/>
+    <flow cars="42" hour="2" trucks="27"/>
+    <flow cars="15" hour="3" trucks="0"/>
+    <flow cars="21" hour="4" trucks="0"/>
+    <flow cars="13" hour="5" trucks="0"/>
+    <flow cars="23" hour="6" trucks="0"/>
+    <flow cars="26" hour="7" trucks="0"/>
+    <flow cars="16" hour="8" trucks="0"/>
+    <flow cars="44" hour="9" trucks="0"/>
+    <flow cars="88" hour="10" trucks="0"/>
+    <flow cars="106" hour="11" trucks="2"/>
+    <flow cars="130" hour="12" trucks="3"/>
+    <flow cars="194" hour="13" trucks="2"/>
+    <flow cars="147" hour="14" trucks="1"/>
+    <flow cars="155" hour="15" trucks="0"/>
+    <flow cars="162" hour="16" trucks="1"/>
+    <flow cars="180" hour="17" trucks="2"/>
+    <flow cars="219" hour="18" trucks="2"/>
+    <flow cars="225" hour="19" trucks="2"/>
+    <flow cars="186" hour="20" trucks="1"/>
+    <flow cars="123" hour="21" trucks="2"/>
+    <flow cars="116" hour="22" trucks="4"/>
+    <flow cars="73" hour="23" trucks="0"/>
+    <flow cars="46" hour="24" trucks="3"/>
+  </loop>
+  <loop datefrom="17.4.2012" dateto="17.4.2012" direction="Z.I. Bourmicht - Bertrange" id="420">
+    <flow cars="20" hour="1" trucks="1"/>
+    <flow cars="12" hour="2" trucks="0"/>
+    <flow cars="5" hour="3" trucks="0"/>
+    <flow cars="7" hour="4" trucks="0"/>
+    <flow cars="9" hour="5" trucks="2"/>
+    <flow cars="46" hour="6" trucks="5"/>
+    <flow cars="144" hour="7" trucks="13"/>
+    <flow cars="292" hour="8" trucks="39"/>
+    <flow cars="329" hour="9" trucks="23"/>
+    <flow cars="314" hour="10" trucks="33"/>
+    <flow cars="363" hour="11" trucks="36"/>
+    <flow cars="465" hour="12" trucks="38"/>
+    <flow cars="677" hour="13" trucks="27"/>
+    <flow cars="441" hour="14" trucks="27"/>
+    <flow cars="408" hour="15" trucks="34"/>
+    <flow cars="470" hour="16" trucks="19"/>
+    <flow cars="745" hour="17" trucks="38"/>
+    <flow cars="922" hour="18" trucks="33"/>
+    <flow cars="903" hour="19" trucks="20"/>
+    <flow cars="439" hour="20" trucks="5"/>
+    <flow cars="249" hour="21" trucks="5"/>
+    <flow cars="150" hour="22" trucks="1"/>
+    <flow cars="100" hour="23" trucks="1"/>
+    <flow cars="57" hour="24" trucks="1"/>
+  </loop>
+  <loop datefrom="10.4.2012" dateto="10.4.2012" direction="Z.I. Bourmicht - Bertrange" id="420">
+    <flow cars="20" hour="1" trucks="0"/>
+    <flow cars="7" hour="2" trucks="0"/>
+    <flow cars="11" hour="3" trucks="0"/>
+    <flow cars="11" hour="4" trucks="0"/>
+    <flow cars="16" hour="5" trucks="0"/>
+    <flow cars="56" hour="6" trucks="2"/>
+    <flow cars="153" hour="7" trucks="10"/>
+    <flow cars="230" hour="8" trucks="21"/>
+    <flow cars="261" hour="9" trucks="29"/>
+    <flow cars="271" hour="10" trucks="38"/>
+    <flow cars="353" hour="11" trucks="33"/>
+    <flow cars="403" hour="12" trucks="25"/>
+    <flow cars="648" hour="13" trucks="26"/>
+    <flow cars="402" hour="14" trucks="18"/>
+    <flow cars="417" hour="15" trucks="34"/>
+    <flow cars="470" hour="16" trucks="25"/>
+    <flow cars="715" hour="17" trucks="28"/>
+    <flow cars="853" hour="18" trucks="28"/>
+    <flow cars="665" hour="19" trucks="12"/>
+    <flow cars="340" hour="20" trucks="35"/>
+    <flow cars="194" hour="21" trucks="7"/>
+    <flow cars="126" hour="22" trucks="16"/>
+    <flow cars="89" hour="23" trucks="1"/>
+    <flow cars="61" hour="24" trucks="1"/>
+  </loop>
+  <loop datefrom="27.3.2012" dateto="27.3.2012" direction="Z.I. Bourmicht - Bertrange" id="420">
+    <flow cars="28" hour="1" trucks="0"/>
+    <flow cars="9" hour="2" trucks="5"/>
+    <flow cars="6" hour="3" trucks="0"/>
+    <flow cars="8" hour="4" trucks="0"/>
+    <flow cars="9" hour="5" trucks="6"/>
+    <flow cars="53" hour="6" trucks="3"/>
+    <flow cars="156" hour="7" trucks="15"/>
+    <flow cars="260" hour="8" trucks="35"/>
+    <flow cars="338" hour="9" trucks="27"/>
+    <flow cars="358" hour="10" trucks="37"/>
+    <flow cars="390" hour="11" trucks="34"/>
+    <flow cars="506" hour="12" trucks="40"/>
+    <flow cars="748" hour="13" trucks="31"/>
+    <flow cars="464" hour="14" trucks="33"/>
+    <flow cars="438" hour="15" trucks="33"/>
+    <flow cars="541" hour="16" trucks="33"/>
+    <flow cars="709" hour="17" trucks="35"/>
+    <flow cars="929" hour="18" trucks="32"/>
+    <flow cars="820" hour="19" trucks="16"/>
+    <flow cars="455" hour="20" trucks="5"/>
+    <flow cars="248" hour="21" trucks="5"/>
+    <flow cars="143" hour="22" trucks="2"/>
+    <flow cars="103" hour="23" trucks="1"/>
+    <flow cars="52" hour="24" trucks="2"/>
+  </loop>
+  <loop datefrom="20.3.2012" dateto="20.3.2012" direction="Z.I. Bourmicht - Bertrange" id="420">
+    <flow cars="14" hour="1" trucks="0"/>
+    <flow cars="6" hour="2" trucks="0"/>
+    <flow cars="5" hour="3" trucks="1"/>
+    <flow cars="6" hour="4" trucks="0"/>
+    <flow cars="19" hour="5" trucks="1"/>
+    <flow cars="50" hour="6" trucks="3"/>
+    <flow cars="145" hour="7" trucks="13"/>
+    <flow cars="316" hour="8" trucks="37"/>
+    <flow cars="323" hour="9" trucks="32"/>
+    <flow cars="314" hour="10" trucks="26"/>
+    <flow cars="356" hour="11" trucks="36"/>
+    <flow cars="530" hour="12" trucks="34"/>
+    <flow cars="685" hour="13" trucks="34"/>
+    <flow cars="487" hour="14" trucks="28"/>
+    <flow cars="479" hour="15" trucks="33"/>
+    <flow cars="478" hour="16" trucks="21"/>
+    <flow cars="705" hour="17" trucks="25"/>
+    <flow cars="906" hour="18" trucks="17"/>
+    <flow cars="807" hour="19" trucks="12"/>
+    <flow cars="397" hour="20" trucks="6"/>
+    <flow cars="210" hour="21" trucks="7"/>
+    <flow cars="142" hour="22" trucks="0"/>
+    <flow cars="111" hour="23" trucks="1"/>
+    <flow cars="54" hour="24" trucks="2"/>
+  </loop>
+  <loop datefrom="13.3.2012" dateto="13.3.2012" direction="Z.I. Bourmicht - Bertrange" id="420">
+    <flow cars="21" hour="1" trucks="2"/>
+    <flow cars="6" hour="2" trucks="0"/>
+    <flow cars="3" hour="3" trucks="0"/>
+    <flow cars="8" hour="4" trucks="0"/>
+    <flow cars="9" hour="5" trucks="3"/>
+    <flow cars="55" hour="6" trucks="3"/>
+    <flow cars="171" hour="7" trucks="9"/>
+    <flow cars="294" hour="8" trucks="26"/>
+    <flow cars="336" hour="9" trucks="29"/>
+    <flow cars="325" hour="10" trucks="38"/>
+    <flow cars="387" hour="11" trucks="35"/>
+    <flow cars="518" hour="12" trucks="28"/>
+    <flow cars="643" hour="13" trucks="20"/>
+    <flow cars="454" hour="14" trucks="26"/>
+    <flow cars="485" hour="15" trucks="30"/>
+    <flow cars="507" hour="16" trucks="27"/>
+    <flow cars="713" hour="17" trucks="19"/>
+    <flow cars="878" hour="18" trucks="22"/>
+    <flow cars="844" hour="19" trucks="21"/>
+    <flow cars="382" hour="20" trucks="4"/>
+    <flow cars="213" hour="21" trucks="2"/>
+    <flow cars="174" hour="22" trucks="1"/>
+    <flow cars="85" hour="23" trucks="0"/>
+    <flow cars="53" hour="24" trucks="2"/>
+  </loop>
+  <loop datefrom="6.3.2012" dateto="6.3.2012" direction="Z.I. Bourmicht - Bertrange" id="420">
+    <flow cars="14" hour="1" trucks="0"/>
+    <flow cars="6" hour="2" trucks="1"/>
+    <flow cars="6" hour="3" trucks="0"/>
+    <flow cars="6" hour="4" trucks="0"/>
+    <flow cars="11" hour="5" trucks="3"/>
+    <flow cars="45" hour="6" trucks="2"/>
+    <flow cars="140" hour="7" trucks="13"/>
+    <flow cars="280" hour="8" trucks="29"/>
+    <flow cars="339" hour="9" trucks="33"/>
+    <flow cars="338" hour="10" trucks="22"/>
+    <flow cars="357" hour="11" trucks="23"/>
+    <flow cars="486" hour="12" trucks="36"/>
+    <flow cars="606" hour="13" trucks="22"/>
+    <flow cars="465" hour="14" trucks="18"/>
+    <flow cars="454" hour="15" trucks="28"/>
+    <flow cars="503" hour="16" trucks="28"/>
+    <flow cars="675" hour="17" trucks="42"/>
+    <flow cars="893" hour="18" trucks="31"/>
+    <flow cars="786" hour="19" trucks="16"/>
+    <flow cars="377" hour="20" trucks="5"/>
+    <flow cars="224" hour="21" trucks="4"/>
+    <flow cars="167" hour="22" trucks="1"/>
+    <flow cars="119" hour="23" trucks="0"/>
+    <flow cars="62" hour="24" trucks="2"/>
+  </loop>
+  <loop datefrom="28.2.2012" dateto="28.2.2012" direction="Z.I. Bourmicht - Bertrange" id="420">
+    <flow cars="19" hour="1" trucks="0"/>
+    <flow cars="11" hour="2" trucks="0"/>
+    <flow cars="6" hour="3" trucks="0"/>
+    <flow cars="4" hour="4" trucks="0"/>
+    <flow cars="13" hour="5" trucks="2"/>
+    <flow cars="52" hour="6" trucks="3"/>
+    <flow cars="146" hour="7" trucks="9"/>
+    <flow cars="284" hour="8" trucks="25"/>
+    <flow cars="324" hour="9" trucks="21"/>
+    <flow cars="338" hour="10" trucks="22"/>
+    <flow cars="357" hour="11" trucks="35"/>
+    <flow cars="463" hour="12" trucks="35"/>
+    <flow cars="673" hour="13" trucks="36"/>
+    <flow cars="465" hour="14" trucks="35"/>
+    <flow cars="460" hour="15" trucks="23"/>
+    <flow cars="538" hour="16" trucks="30"/>
+    <flow cars="717" hour="17" trucks="27"/>
+    <flow cars="903" hour="18" trucks="16"/>
+    <flow cars="793" hour="19" trucks="12"/>
+    <flow cars="373" hour="20" trucks="5"/>
+    <flow cars="220" hour="21" trucks="6"/>
+    <flow cars="166" hour="22" trucks="3"/>
+    <flow cars="95" hour="23" trucks="0"/>
+    <flow cars="59" hour="24" trucks="3"/>
+  </loop>
+  <loop datefrom="7.2.2012" dateto="7.2.2012" direction="Z.I. Bourmicht - Bertrange" id="420">
+    <flow cars="25" hour="1" trucks="1"/>
+    <flow cars="2" hour="2" trucks="1"/>
+    <flow cars="9" hour="3" trucks="0"/>
+    <flow cars="4" hour="4" trucks="0"/>
+    <flow cars="12" hour="5" trucks="0"/>
+    <flow cars="51" hour="6" trucks="2"/>
+    <flow cars="127" hour="7" trucks="7"/>
+    <flow cars="233" hour="8" trucks="27"/>
+    <flow cars="314" hour="9" trucks="24"/>
+    <flow cars="304" hour="10" trucks="26"/>
+    <flow cars="331" hour="11" trucks="17"/>
+    <flow cars="439" hour="12" trucks="37"/>
+    <flow cars="725" hour="13" trucks="32"/>
+    <flow cars="456" hour="14" trucks="22"/>
+    <flow cars="445" hour="15" trucks="20"/>
+    <flow cars="519" hour="16" trucks="17"/>
+    <flow cars="661" hour="17" trucks="28"/>
+    <flow cars="879" hour="18" trucks="22"/>
+    <flow cars="730" hour="19" trucks="9"/>
+    <flow cars="342" hour="20" trucks="1"/>
+    <flow cars="173" hour="21" trucks="2"/>
+    <flow cars="139" hour="22" trucks="0"/>
+    <flow cars="79" hour="23" trucks="0"/>
+    <flow cars="54" hour="24" trucks="1"/>
+  </loop>
+  <loop datefrom="31.1.2012" dateto="31.1.2012" direction="Z.I. Bourmicht - Bertrange" id="420">
+    <flow cars="18" hour="1" trucks="1"/>
+    <flow cars="4" hour="2" trucks="5"/>
+    <flow cars="7" hour="3" trucks="5"/>
+    <flow cars="5" hour="4" trucks="0"/>
+    <flow cars="15" hour="5" trucks="4"/>
+    <flow cars="61" hour="6" trucks="3"/>
+    <flow cars="125" hour="7" trucks="6"/>
+    <flow cars="217" hour="8" trucks="18"/>
+    <flow cars="329" hour="9" trucks="24"/>
+    <flow cars="306" hour="10" trucks="17"/>
+    <flow cars="293" hour="11" trucks="30"/>
+    <flow cars="433" hour="12" trucks="34"/>
+    <flow cars="682" hour="13" trucks="26"/>
+    <flow cars="458" hour="14" trucks="26"/>
+    <flow cars="452" hour="15" trucks="21"/>
+    <flow cars="488" hour="16" trucks="23"/>
+    <flow cars="758" hour="17" trucks="27"/>
+    <flow cars="854" hour="18" trucks="22"/>
+    <flow cars="792" hour="19" trucks="19"/>
+    <flow cars="389" hour="20" trucks="5"/>
+    <flow cars="212" hour="21" trucks="4"/>
+    <flow cars="183" hour="22" trucks="1"/>
+    <flow cars="84" hour="23" trucks="0"/>
+    <flow cars="45" hour="24" trucks="1"/>
+  </loop>
+</loops>

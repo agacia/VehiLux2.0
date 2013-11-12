@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf8"?>
+<!DOCTYPE loops
+  PUBLIC 'University Of Luxembourg'
+  'traffic-counting-loops.dtd'>
+<loops>
+  <loop datefrom="1.5.2012" dateto="1.5.2012" direction="Moutfort - Assel" id="479">
+    <flow cars="43" hour="1" trucks="0"/>
+    <flow cars="39" hour="2" trucks="0"/>
+    <flow cars="33" hour="3" trucks="1"/>
+    <flow cars="19" hour="4" trucks="0"/>
+    <flow cars="13" hour="5" trucks="0"/>
+    <flow cars="14" hour="6" trucks="0"/>
+    <flow cars="45" hour="7" trucks="0"/>
+    <flow cars="45" hour="8" trucks="1"/>
+    <flow cars="41" hour="9" trucks="1"/>
+    <flow cars="65" hour="10" trucks="1"/>
+    <flow cars="157" hour="11" trucks="1"/>
+    <flow cars="218" hour="12" trucks="4"/>
+    <flow cars="205" hour="13" trucks="1"/>
+    <flow cars="195" hour="14" trucks="0"/>
+    <flow cars="288" hour="15" trucks="3"/>
+    <flow cars="329" hour="16" trucks="1"/>
+    <flow cars="240" hour="17" trucks="2"/>
+    <flow cars="204" hour="18" trucks="2"/>
+    <flow cars="175" hour="19" trucks="1"/>
+    <flow cars="144" hour="20" trucks="1"/>
+    <flow cars="91" hour="21" trucks="2"/>
+    <flow cars="94" hour="22" trucks="2"/>
+    <flow cars="80" hour="23" trucks="1"/>
+    <flow cars="36" hour="24" trucks="2"/>
+  </loop>
+  <loop datefrom="24.4.2012" dateto="24.4.2012" direction="Moutfort - Assel" id="479">
+    <flow cars="12" hour="1" trucks="0"/>
+    <flow cars="13" hour="2" trucks="0"/>
+    <flow cars="5" hour="3" trucks="1"/>
+    <flow cars="6" hour="4" trucks="1"/>
+    <flow cars="0" hour="5" trucks="1"/>
+    <flow cars="12" hour="6" trucks="9"/>
+    <flow cars="54" hour="7" trucks="16"/>
+    <flow cars="115" hour="8" trucks="24"/>
+    <flow cars="88" hour="9" trucks="34"/>
+    <flow cars="122" hour="10" trucks="23"/>
+    <flow cars="143" hour="11" trucks="25"/>
+    <flow cars="153" hour="12" trucks="31"/>
+    <flow cars="185" hour="13" trucks="23"/>
+    <flow cars="211" hour="14" trucks="27"/>
+    <flow cars="269" hour="15" trucks="31"/>
+    <flow cars="363" hour="16" trucks="19"/>
+    <flow cars="544" hour="17" trucks="20"/>
+    <flow cars="594" hour="18" trucks="10"/>
+    <flow cars="562" hour="19" trucks="12"/>
+    <flow cars="335" hour="20" trucks="4"/>
+    <flow cars="157" hour="21" trucks="7"/>
+    <flow cars="138" hour="22" trucks="1"/>
+    <flow cars="122" hour="23" trucks="2"/>
+    <flow cars="70" hour="24" trucks="1"/>
+  </loop>
+  <loop datefrom="17.4.2012" dateto="17.4.2012" direction="Moutfort - Assel" id="479">
+    <flow cars="25" hour="1" trucks="0"/>
+    <flow cars="10" hour="2" trucks="2"/>
+    <flow cars="3" hour="3" trucks="1"/>
+    <flow cars="3" hour="4" trucks="1"/>
+    <flow cars="3" hour="5" trucks="1"/>
+    <flow cars="20" hour="6" trucks="5"/>
+    <flow cars="48" hour="7" trucks="19"/>
+    <flow cars="117" hour="8" trucks="20"/>
+    <flow cars="96" hour="9" trucks="24"/>
+    <flow cars="124" hour="10" trucks="35"/>
+    <flow cars="159" hour="11" trucks="24"/>
+    <flow cars="165" hour="12" trucks="30"/>
+    <flow cars="214" hour="13" trucks="24"/>
+    <flow cars="177" hour="14" trucks="28"/>
+    <flow cars="267" hour="15" trucks="34"/>
+    <flow cars="353" hour="16" trucks="20"/>
+    <flow cars="564" hour="17" trucks="13"/>
+    <flow cars="628" hour="18" trucks="18"/>
+    <flow cars="516" hour="19" trucks="12"/>
+    <flow cars="325" hour="20" trucks="7"/>
+    <flow cars="165" hour="21" trucks="3"/>
+    <flow cars="133" hour="22" trucks="1"/>
+    <flow cars="103" hour="23" trucks="1"/>
+    <flow cars="76" hour="24" trucks="1"/>
+  </loop>
+  <loop datefrom="10.4.2012" dateto="10.4.2012" direction="Moutfort - Assel" id="479">
+    <flow cars="29" hour="1" trucks="0"/>
+    <flow cars="14" hour="2" trucks="0"/>
+    <flow cars="5" hour="3" trucks="0"/>
+    <flow cars="3" hour="4" trucks="1"/>
+    <flow cars="2" hour="5" trucks="1"/>
+    <flow cars="13" hour="6" trucks="6"/>
+    <flow cars="53" hour="7" trucks="9"/>
+    <flow cars="99" hour="8" trucks="19"/>
+    <flow cars="118" hour="9" trucks="27"/>
+    <flow cars="119" hour="10" trucks="25"/>
+    <flow cars="146" hour="11" trucks="27"/>
+    <flow cars="162" hour="12" trucks="17"/>
+    <flow cars="190" hour="13" trucks="25"/>
+    <flow cars="192" hour="14" trucks="24"/>
+    <flow cars="282" hour="15" trucks="26"/>
+    <flow cars="371" hour="16" trucks="23"/>
+    <flow cars="480" hour="17" trucks="9"/>
+    <flow cars="590" hour="18" trucks="11"/>
+    <flow cars="508" hour="19" trucks="7"/>
+    <flow cars="245" hour="20" trucks="7"/>
+    <flow cars="149" hour="21" trucks="3"/>
+    <flow cars="110" hour="22" trucks="3"/>
+    <flow cars="115" hour="23" trucks="2"/>
+    <flow cars="77" hour="24" trucks="3"/>
+  </loop>
+  <loop datefrom="3.4.2012" dateto="3.4.2012" direction="Moutfort - Assel" id="479">
+    <flow cars="26" hour="1" trucks="0"/>
+    <flow cars="14" hour="2" trucks="0"/>
+    <flow cars="6" hour="3" trucks="2"/>
+    <flow cars="3" hour="4" trucks="1"/>
+    <flow cars="3" hour="5" trucks="1"/>
+    <flow cars="18" hour="6" trucks="6"/>
+    <flow cars="57" hour="7" trucks="13"/>
+    <flow cars="111" hour="8" trucks="21"/>
+    <flow cars="119" hour="9" trucks="31"/>
+    <flow cars="121" hour="10" trucks="25"/>
+    <flow cars="175" hour="11" trucks="21"/>
+    <flow cars="196" hour="12" trucks="25"/>
+    <flow cars="223" hour="13" trucks="22"/>
+    <flow cars="232" hour="14" trucks="25"/>
+    <flow cars="354" hour="15" trucks="26"/>
+    <flow cars="441" hour="16" trucks="22"/>
+    <flow cars="633" hour="17" trucks="13"/>
+    <flow cars="782" hour="18" trucks="14"/>
+    <flow cars="630" hour="19" trucks="10"/>
+    <flow cars="324" hour="20" trucks="7"/>
+    <flow cars="183" hour="21" trucks="4"/>
+    <flow cars="123" hour="22" trucks="2"/>
+    <flow cars="147" hour="23" trucks="2"/>
+    <flow cars="78" hour="24" trucks="1"/>
+  </loop>
+  <loop datefrom="27.3.2012" dateto="27.3.2012" direction="Moutfort - Assel" id="479">
+    <flow cars="22" hour="1" trucks="0"/>
+    <flow cars="5" hour="2" trucks="0"/>
+    <flow cars="6" hour="3" trucks="1"/>
+    <flow cars="2" hour="4" trucks="1"/>
+    <flow cars="7" hour="5" trucks="2"/>
+    <flow cars="15" hour="6" trucks="8"/>
+    <flow cars="47" hour="7" trucks="18"/>
+    <flow cars="124" hour="8" trucks="17"/>
+    <flow cars="108" hour="9" trucks="36"/>
+    <flow cars="134" hour="10" trucks="21"/>
+    <flow cars="138" hour="11" trucks="32"/>
+    <flow cars="156" hour="12" trucks="24"/>
+    <flow cars="211" hour="13" trucks="22"/>
+    <flow cars="216" hour="14" trucks="36"/>
+    <flow cars="278" hour="15" trucks="26"/>
+    <flow cars="387" hour="16" trucks="24"/>
+    <flow cars="524" hour="17" trucks="20"/>
+    <flow cars="663" hour="18" trucks="19"/>
+    <flow cars="556" hour="19" trucks="17"/>
+    <flow cars="287" hour="20" trucks="9"/>
+    <flow cars="186" hour="21" trucks="5"/>
+    <flow cars="132" hour="22" trucks="2"/>
+    <flow cars="117" hour="23" trucks="2"/>
+    <flow cars="66" hour="24" trucks="1"/>
+  </loop>
+  <loop datefrom="20.3.2012" dateto="20.3.2012" direction="Moutfort - Assel" id="479">
+    <flow cars="18" hour="1" trucks="0"/>
+    <flow cars="5" hour="2" trucks="0"/>
+    <flow cars="5" hour="3" trucks="2"/>
+    <flow cars="2" hour="4" trucks="1"/>
+    <flow cars="3" hour="5" trucks="0"/>
+    <flow cars="11" hour="6" trucks="6"/>
+    <flow cars="51" hour="7" trucks="15"/>
+    <flow cars="113" hour="8" trucks="26"/>
+    <flow cars="90" hour="9" trucks="27"/>
+    <flow cars="122" hour="10" trucks="29"/>
+    <flow cars="139" hour="11" trucks="19"/>
+    <flow cars="168" hour="12" trucks="16"/>
+    <flow cars="207" hour="13" trucks="23"/>
+    <flow cars="222" hour="14" trucks="19"/>
+    <flow cars="271" hour="15" trucks="29"/>
+    <flow cars="380" hour="16" trucks="13"/>
+    <flow cars="539" hour="17" trucks="18"/>
+    <flow cars="627" hour="18" trucks="16"/>
+    <flow cars="527" hour="19" trucks="12"/>
+    <flow cars="261" hour="20" trucks="6"/>
+    <flow cars="183" hour="21" trucks="7"/>
+    <flow cars="135" hour="22" trucks="2"/>
+    <flow cars="138" hour="23" trucks="2"/>
+    <flow cars="61" hour="24" trucks="1"/>
+  </loop>
+  <loop datefrom="13.3.2012" dateto="13.3.2012" direction="Moutfort - Assel" id="479">
+    <flow cars="25" hour="1" trucks="0"/>
+    <flow cars="14" hour="2" trucks="0"/>
+    <flow cars="4" hour="3" trucks="2"/>
+    <flow cars="4" hour="4" trucks="1"/>
+    <flow cars="5" hour="5" trucks="0"/>
+    <flow cars="12" hour="6" trucks="10"/>
+    <flow cars="46" hour="7" trucks="15"/>
+    <flow cars="107" hour="8" trucks="16"/>
+    <flow cars="104" hour="9" trucks="28"/>
+    <flow cars="99" hour="10" trucks="32"/>
+    <flow cars="144" hour="11" trucks="24"/>
+    <flow cars="179" hour="12" trucks="20"/>
+    <flow cars="190" hour="13" trucks="30"/>
+    <flow cars="208" hour="14" trucks="25"/>
+    <flow cars="275" hour="15" trucks="34"/>
+    <flow cars="355" hour="16" trucks="16"/>
+    <flow cars="545" hour="17" trucks="22"/>
+    <flow cars="651" hour="18" trucks="14"/>
+    <flow cars="478" hour="19" trucks="6"/>
+    <flow cars="309" hour="20" trucks="9"/>
+    <flow cars="177" hour="21" trucks="5"/>
+    <flow cars="134" hour="22" trucks="2"/>
+    <flow cars="104" hour="23" trucks="2"/>
+    <flow cars="71" hour="24" trucks="1"/>
+  </loop>
+  <loop datefrom="6.3.2012" dateto="6.3.2012" direction="Moutfort - Assel" id="479">
+    <flow cars="23" hour="1" trucks="1"/>
+    <flow cars="14" hour="2" trucks="0"/>
+    <flow cars="6" hour="3" trucks="0"/>
+    <flow cars="3" hour="4" trucks="0"/>
+    <flow cars="3" hour="5" trucks="1"/>
+    <flow cars="11" hour="6" trucks="7"/>
+    <flow cars="47" hour="7" trucks="19"/>
+    <flow cars="112" hour="8" trucks="17"/>
+    <flow cars="123" hour="9" trucks="28"/>
+    <flow cars="125" hour="10" trucks="27"/>
+    <flow cars="121" hour="11" trucks="17"/>
+    <flow cars="173" hour="12" trucks="19"/>
+    <flow cars="181" hour="13" trucks="25"/>
+    <flow cars="192" hour="14" trucks="22"/>
+    <flow cars="271" hour="15" trucks="23"/>
+    <flow cars="351" hour="16" trucks="17"/>
+    <flow cars="492" hour="17" trucks="13"/>
+    <flow cars="628" hour="18" trucks="15"/>
+    <flow cars="531" hour="19" trucks="13"/>
+    <flow cars="299" hour="20" trucks="8"/>
+    <flow cars="174" hour="21" trucks="7"/>
+    <flow cars="125" hour="22" trucks="1"/>
+    <flow cars="125" hour="23" trucks="1"/>
+    <flow cars="64" hour="24" trucks="1"/>
+  </loop>
+  <loop datefrom="21.2.2012" dateto="21.2.2012" direction="Moutfort - Assel" id="479">
+    <flow cars="19" hour="1" trucks="0"/>
+    <flow cars="9" hour="2" trucks="0"/>
+    <flow cars="10" hour="3" trucks="1"/>
+    <flow cars="10" hour="4" trucks="0"/>
+    <flow cars="7" hour="5" trucks="0"/>
+    <flow cars="16" hour="6" trucks="8"/>
+    <flow cars="41" hour="7" trucks="8"/>
+    <flow cars="89" hour="8" trucks="12"/>
+    <flow cars="91" hour="9" trucks="18"/>
+    <flow cars="102" hour="10" trucks="18"/>
+    <flow cars="124" hour="11" trucks="21"/>
+    <flow cars="157" hour="12" trucks="18"/>
+    <flow cars="169" hour="13" trucks="16"/>
+    <flow cars="191" hour="14" trucks="21"/>
+    <flow cars="256" hour="15" trucks="15"/>
+    <flow cars="340" hour="16" trucks="10"/>
+    <flow cars="436" hour="17" trucks="19"/>
+    <flow cars="520" hour="18" trucks="9"/>
+    <flow cars="471" hour="19" trucks="10"/>
+    <flow cars="230" hour="20" trucks="8"/>
+    <flow cars="144" hour="21" trucks="5"/>
+    <flow cars="120" hour="22" trucks="2"/>
+    <flow cars="112" hour="23" trucks="1"/>
+    <flow cars="68" hour="24" trucks="1"/>
+  </loop>
+</loops>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf8"?>
+<!DOCTYPE loops
+  PUBLIC 'University Of Luxembourg'
+  'traffic-counting-loops.dtd'>
+<loops>
+  <loop datefrom="1.5.2012" dateto="1.5.2012" direction="Lorentzweiler - Walferdange" id="401">
+    <flow cars="109" hour="1" trucks="0"/>
+    <flow cars="87" hour="2" trucks="1"/>
+    <flow cars="41" hour="3" trucks="1"/>
+    <flow cars="61" hour="4" trucks="0"/>
+    <flow cars="104" hour="5" trucks="1"/>
+    <flow cars="79" hour="6" trucks="0"/>
+    <flow cars="81" hour="7" trucks="1"/>
+    <flow cars="141" hour="8" trucks="3"/>
+    <flow cars="149" hour="9" trucks="2"/>
+    <flow cars="246" hour="10" trucks="2"/>
+    <flow cars="294" hour="11" trucks="4"/>
+    <flow cars="364" hour="12" trucks="7"/>
+    <flow cars="318" hour="13" trucks="4"/>
+    <flow cars="332" hour="14" trucks="2"/>
+    <flow cars="403" hour="15" trucks="3"/>
+    <flow cars="398" hour="16" trucks="6"/>
+    <flow cars="404" hour="17" trucks="2"/>
+    <flow cars="463" hour="18" trucks="7"/>
+    <flow cars="492" hour="19" trucks="3"/>
+    <flow cars="387" hour="20" trucks="2"/>
+    <flow cars="308" hour="21" trucks="2"/>
+    <flow cars="245" hour="22" trucks="3"/>
+    <flow cars="152" hour="23" trucks="2"/>
+    <flow cars="70" hour="24" trucks="0"/>
+  </loop>
+  <loop datefrom="24.4.2012" dateto="24.4.2012" direction="Lorentzweiler - Walferdange" id="401">
+    <flow cars="25" hour="1" trucks="2"/>
+    <flow cars="14" hour="2" trucks="0"/>
+    <flow cars="11" hour="3" trucks="1"/>
+    <flow cars="24" hour="4" trucks="4"/>
+    <flow cars="54" hour="5" trucks="4"/>
+    <flow cars="181" hour="6" trucks="13"/>
+    <flow cars="534" hour="7" trucks="17"/>
+    <flow cars="708" hour="8" trucks="38"/>
+    <flow cars="575" hour="9" trucks="27"/>
+    <flow cars="314" hour="10" trucks="18"/>
+    <flow cars="302" hour="11" trucks="13"/>
+    <flow cars="412" hour="12" trucks="22"/>
+    <flow cars="421" hour="13" trucks="13"/>
+    <flow cars="462" hour="14" trucks="29"/>
+    <flow cars="488" hour="15" trucks="25"/>
+    <flow cars="518" hour="16" trucks="35"/>
+    <flow cars="490" hour="17" trucks="28"/>
+    <flow cars="552" hour="18" trucks="18"/>
+    <flow cars="502" hour="19" trucks="13"/>
+    <flow cars="347" hour="20" trucks="13"/>
+    <flow cars="225" hour="21" trucks="6"/>
+    <flow cars="179" hour="22" trucks="3"/>
+    <flow cars="163" hour="23" trucks="5"/>
+    <flow cars="72" hour="24" trucks="2"/>
+  </loop>
+  <loop datefrom="17.4.2012" dateto="17.4.2012" direction="Lorentzweiler - Walferdange" id="401">
+    <flow cars="30" hour="1" trucks="0"/>
+    <flow cars="22" hour="2" trucks="2"/>
+    <flow cars="7" hour="3" trucks="1"/>
+    <flow cars="25" hour="4" trucks="2"/>
+    <flow cars="54" hour="5" trucks="3"/>
+    <flow cars="195" hour="6" trucks="13"/>
+    <flow cars="565" hour="7" trucks="16"/>
+    <flow cars="680" hour="8" trucks="38"/>
+    <flow cars="600" hour="9" trucks="30"/>
+    <flow cars="488" hour="10" trucks="19"/>
+    <flow cars="417" hour="11" trucks="34"/>
+    <flow cars="450" hour="12" trucks="27"/>
+    <flow cars="450" hour="13" trucks="25"/>
+    <flow cars="549" hour="14" trucks="38"/>
+    <flow cars="552" hour="15" trucks="34"/>
+    <flow cars="527" hour="16" trucks="36"/>
+    <flow cars="537" hour="17" trucks="26"/>
+    <flow cars="580" hour="18" trucks="22"/>
+    <flow cars="481" hour="19" trucks="7"/>
+    <flow cars="366" hour="20" trucks="11"/>
+    <flow cars="261" hour="21" trucks="11"/>
+    <flow cars="200" hour="22" trucks="4"/>
+    <flow cars="187" hour="23" trucks="8"/>
+    <flow cars="57" hour="24" trucks="0"/>
+  </loop>
+  <loop datefrom="10.4.2012" dateto="10.4.2012" direction="Lorentzweiler - Walferdange" id="401">
+    <flow cars="59" hour="1" trucks="0"/>
+    <flow cars="26" hour="2" trucks="0"/>
+    <flow cars="18" hour="3" trucks="1"/>
+    <flow cars="16" hour="4" trucks="2"/>
+    <flow cars="45" hour="5" trucks="5"/>
+    <flow cars="181" hour="6" trucks="11"/>
+    <flow cars="460" hour="7" trucks="7"/>
+    <flow cars="622" hour="8" trucks="24"/>
+    <flow cars="471" hour="9" trucks="30"/>
+    <flow cars="426" hour="10" trucks="23"/>
+    <flow cars="418" hour="11" trucks="25"/>
+    <flow cars="433" hour="12" trucks="32"/>
+    <flow cars="398" hour="13" trucks="25"/>
+    <flow cars="417" hour="14" trucks="29"/>
+    <flow cars="416" hour="15" trucks="24"/>
+    <flow cars="443" hour="16" trucks="16"/>
+    <flow cars="512" hour="17" trucks="19"/>
+    <flow cars="545" hour="18" trucks="17"/>
+    <flow cars="446" hour="19" trucks="5"/>
+    <flow cars="319" hour="20" trucks="15"/>
+    <flow cars="205" hour="21" trucks="6"/>
+    <flow cars="164" hour="22" trucks="7"/>
+    <flow cars="140" hour="23" trucks="6"/>
+    <flow cars="84" hour="24" trucks="4"/>
+  </loop>
+  <loop datefrom="3.4.2012" dateto="3.4.2012" direction="Lorentzweiler - Walferdange" id="401">
+    <flow cars="34" hour="1" trucks="0"/>
+    <flow cars="17" hour="2" trucks="1"/>
+    <flow cars="14" hour="3" trucks="3"/>
+    <flow cars="27" hour="4" trucks="2"/>
+    <flow cars="46" hour="5" trucks="6"/>
+    <flow cars="200" hour="6" trucks="14"/>
+    <flow cars="493" hour="7" trucks="22"/>
+    <flow cars="582" hour="8" trucks="26"/>
+    <flow cars="501" hour="9" trucks="23"/>
+    <flow cars="454" hour="10" trucks="28"/>
+    <flow cars="405" hour="11" trucks="33"/>
+    <flow cars="413" hour="12" trucks="34"/>
+    <flow cars="426" hour="13" trucks="25"/>
+    <flow cars="466" hour="14" trucks="26"/>
+    <flow cars="560" hour="15" trucks="30"/>
+    <flow cars="503" hour="16" trucks="29"/>
+    <flow cars="512" hour="17" trucks="20"/>
+    <flow cars="614" hour="18" trucks="19"/>
+    <flow cars="462" hour="19" trucks="15"/>
+    <flow cars="362" hour="20" trucks="15"/>
+    <flow cars="260" hour="21" trucks="12"/>
+    <flow cars="191" hour="22" trucks="8"/>
+    <flow cars="147" hour="23" trucks="2"/>
+    <flow cars="86" hour="24" trucks="3"/>
+  </loop>
+  <loop datefrom="27.3.2012" dateto="27.3.2012" direction="Lorentzweiler - Walferdange" id="401">
+    <flow cars="31" hour="1" trucks="0"/>
+    <flow cars="13" hour="2" trucks="2"/>
+    <flow cars="15" hour="3" trucks="3"/>
+    <flow cars="19" hour="4" trucks="2"/>
+    <flow cars="49" hour="5" trucks="6"/>
+    <flow cars="192" hour="6" trucks="14"/>
+    <flow cars="512" hour="7" trucks="16"/>
+    <flow cars="785" hour="8" trucks="35"/>
+    <flow cars="649" hour="9" trucks="32"/>
+    <flow cars="534" hour="10" trucks="28"/>
+    <flow cars="450" hour="11" trucks="23"/>
+    <flow cars="487" hour="12" trucks="25"/>
+    <flow cars="440" hour="13" trucks="31"/>
+    <flow cars="560" hour="14" trucks="32"/>
+    <flow cars="550" hour="15" trucks="38"/>
+    <flow cars="549" hour="16" trucks="30"/>
+    <flow cars="568" hour="17" trucks="18"/>
+    <flow cars="623" hour="18" trucks="15"/>
+    <flow cars="528" hour="19" trucks="14"/>
+    <flow cars="367" hour="20" trucks="12"/>
+    <flow cars="240" hour="21" trucks="6"/>
+    <flow cars="193" hour="22" trucks="4"/>
+    <flow cars="179" hour="23" trucks="6"/>
+    <flow cars="72" hour="24" trucks="4"/>
+  </loop>
+  <loop datefrom="20.3.2012" dateto="20.3.2012" direction="Lorentzweiler - Walferdange" id="401">
+    <flow cars="17" hour="1" trucks="0"/>
+    <flow cars="17" hour="2" trucks="2"/>
+    <flow cars="9" hour="3" trucks="2"/>
+    <flow cars="21" hour="4" trucks="4"/>
+    <flow cars="52" hour="5" trucks="4"/>
+    <flow cars="188" hour="6" trucks="12"/>
+    <flow cars="511" hour="7" trucks="12"/>
+    <flow cars="739" hour="8" trucks="36"/>
+    <flow cars="687" hour="9" trucks="36"/>
+    <flow cars="499" hour="10" trucks="33"/>
+    <flow cars="433" hour="11" trucks="33"/>
+    <flow cars="485" hour="12" trucks="30"/>
+    <flow cars="411" hour="13" trucks="34"/>
+    <flow cars="457" hour="14" trucks="34"/>
+    <flow cars="527" hour="15" trucks="29"/>
+    <flow cars="507" hour="16" trucks="31"/>
+    <flow cars="545" hour="17" trucks="25"/>
+    <flow cars="615" hour="18" trucks="34"/>
+    <flow cars="525" hour="19" trucks="12"/>
+    <flow cars="365" hour="20" trucks="15"/>
+    <flow cars="219" hour="21" trucks="10"/>
+    <flow cars="168" hour="22" trucks="5"/>
+    <flow cars="138" hour="23" trucks="7"/>
+    <flow cars="68" hour="24" trucks="4"/>
+  </loop>
+  <loop datefrom="13.3.2012" dateto="13.3.2012" direction="Lorentzweiler - Walferdange" id="401">
+    <flow cars="25" hour="1" trucks="1"/>
+    <flow cars="13" hour="2" trucks="4"/>
+    <flow cars="8" hour="3" trucks="3"/>
+    <flow cars="22" hour="4" trucks="3"/>
+    <flow cars="45" hour="5" trucks="6"/>
+    <flow cars="160" hour="6" trucks="12"/>
+    <flow cars="525" hour="7" trucks="24"/>
+    <flow cars="760" hour="8" trucks="41"/>
+    <flow cars="587" hour="9" trucks="34"/>
+    <flow cars="517" hour="10" trucks="34"/>
+    <flow cars="431" hour="11" trucks="32"/>
+    <flow cars="407" hour="12" trucks="38"/>
+    <flow cars="427" hour="13" trucks="36"/>
+    <flow cars="421" hour="14" trucks="36"/>
+    <flow cars="525" hour="15" trucks="30"/>
+    <flow cars="480" hour="16" trucks="27"/>
+    <flow cars="548" hour="17" trucks="33"/>
+    <flow cars="549" hour="18" trucks="24"/>
+    <flow cars="509" hour="19" trucks="11"/>
+    <flow cars="399" hour="20" trucks="11"/>
+    <flow cars="234" hour="21" trucks="8"/>
+    <flow cars="195" hour="22" trucks="7"/>
+    <flow cars="146" hour="23" trucks="7"/>
+    <flow cars="72" hour="24" trucks="6"/>
+  </loop>
+  <loop datefrom="6.3.2012" dateto="6.3.2012" direction="Lorentzweiler - Walferdange" id="401">
+    <flow cars="18" hour="1" trucks="0"/>
+    <flow cars="15" hour="2" trucks="1"/>
+    <flow cars="13" hour="3" trucks="4"/>
+    <flow cars="25" hour="4" trucks="2"/>
+    <flow cars="49" hour="5" trucks="5"/>
+    <flow cars="177" hour="6" trucks="9"/>
+    <flow cars="511" hour="7" trucks="22"/>
+    <flow cars="749" hour="8" trucks="38"/>
+    <flow cars="577" hour="9" trucks="28"/>
+    <flow cars="474" hour="10" trucks="35"/>
+    <flow cars="423" hour="11" trucks="26"/>
+    <flow cars="450" hour="12" trucks="25"/>
+    <flow cars="442" hour="13" trucks="30"/>
+    <flow cars="471" hour="14" trucks="40"/>
+    <flow cars="550" hour="15" trucks="33"/>
+    <flow cars="509" hour="16" trucks="28"/>
+    <flow cars="555" hour="17" trucks="15"/>
+    <flow cars="583" hour="18" trucks="28"/>
+    <flow cars="489" hour="19" trucks="14"/>
+    <flow cars="338" hour="20" trucks="16"/>
+    <flow cars="188" hour="21" trucks="9"/>
+    <flow cars="153" hour="22" trucks="5"/>
+    <flow cars="139" hour="23" trucks="6"/>
+    <flow cars="78" hour="24" trucks="2"/>
+  </loop>
+  <loop datefrom="28.2.2012" dateto="28.2.2012" direction="Lorentzweiler - Walferdange" id="401">
+    <flow cars="23" hour="1" trucks="1"/>
+    <flow cars="14" hour="2" trucks="1"/>
+    <flow cars="10" hour="3" trucks="2"/>
+    <flow cars="11" hour="4" trucks="5"/>
+    <flow cars="44" hour="5" trucks="4"/>
+    <flow cars="180" hour="6" trucks="8"/>
+    <flow cars="542" hour="7" trucks="14"/>
+    <flow cars="805" hour="8" trucks="36"/>
+    <flow cars="590" hour="9" trucks="25"/>
+    <flow cars="472" hour="10" trucks="31"/>
+    <flow cars="391" hour="11" trucks="37"/>
+    <flow cars="419" hour="12" trucks="35"/>
+    <flow cars="462" hour="13" trucks="35"/>
+    <flow cars="483" hour="14" trucks="28"/>
+    <flow cars="508" hour="15" trucks="32"/>
+    <flow cars="510" hour="16" trucks="26"/>
+    <flow cars="597" hour="17" trucks="27"/>
+    <flow cars="564" hour="18" trucks="12"/>
+    <flow cars="503" hour="19" trucks="14"/>
+    <flow cars="345" hour="20" trucks="11"/>
+    <flow cars="230" hour="21" trucks="8"/>
+    <flow cars="203" hour="22" trucks="10"/>
+    <flow cars="169" hour="23" trucks="4"/>
+    <flow cars="85" hour="24" trucks="1"/>
+  </loop>
+</loops>

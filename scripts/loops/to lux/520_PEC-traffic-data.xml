@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf8"?>
+<!DOCTYPE loops
+  PUBLIC 'University Of Luxembourg'
+  'traffic-counting-loops.dtd'>
+<loops>
+  <loop datefrom="1.5.2012" dateto="1.5.2012" direction="Mersch - Luxembourg" id="520">
+    <flow cars="56" hour="1" trucks="0"/>
+    <flow cars="35" hour="2" trucks="1"/>
+    <flow cars="15" hour="3" trucks="0"/>
+    <flow cars="37" hour="4" trucks="0"/>
+    <flow cars="61" hour="5" trucks="1"/>
+    <flow cars="19" hour="6" trucks="0"/>
+    <flow cars="24" hour="7" trucks="1"/>
+    <flow cars="54" hour="8" trucks="1"/>
+    <flow cars="82" hour="9" trucks="1"/>
+    <flow cars="78" hour="10" trucks="1"/>
+    <flow cars="116" hour="11" trucks="3"/>
+    <flow cars="143" hour="12" trucks="2"/>
+    <flow cars="134" hour="13" trucks="3"/>
+    <flow cars="129" hour="14" trucks="2"/>
+    <flow cars="145" hour="15" trucks="2"/>
+    <flow cars="159" hour="16" trucks="4"/>
+    <flow cars="155" hour="17" trucks="1"/>
+    <flow cars="173" hour="18" trucks="2"/>
+    <flow cars="194" hour="19" trucks="0"/>
+    <flow cars="159" hour="20" trucks="1"/>
+    <flow cars="115" hour="21" trucks="0"/>
+    <flow cars="95" hour="22" trucks="1"/>
+    <flow cars="45" hour="23" trucks="0"/>
+    <flow cars="24" hour="24" trucks="0"/>
+  </loop>
+  <loop datefrom="24.4.2012" dateto="24.4.2012" direction="Mersch - Luxembourg" id="520">
+    <flow cars="12" hour="1" trucks="0"/>
+    <flow cars="7" hour="2" trucks="1"/>
+    <flow cars="6" hour="3" trucks="0"/>
+    <flow cars="5" hour="4" trucks="0"/>
+    <flow cars="12" hour="5" trucks="0"/>
+    <flow cars="77" hour="6" trucks="4"/>
+    <flow cars="192" hour="7" trucks="7"/>
+    <flow cars="344" hour="8" trucks="16"/>
+    <flow cars="300" hour="9" trucks="16"/>
+    <flow cars="234" hour="10" trucks="11"/>
+    <flow cars="241" hour="11" trucks="6"/>
+    <flow cars="236" hour="12" trucks="11"/>
+    <flow cars="218" hour="13" trucks="18"/>
+    <flow cars="267" hour="14" trucks="12"/>
+    <flow cars="274" hour="15" trucks="10"/>
+    <flow cars="296" hour="16" trucks="9"/>
+    <flow cars="290" hour="17" trucks="9"/>
+    <flow cars="324" hour="18" trucks="12"/>
+    <flow cars="260" hour="19" trucks="5"/>
+    <flow cars="167" hour="20" trucks="6"/>
+    <flow cars="102" hour="21" trucks="5"/>
+    <flow cars="103" hour="22" trucks="2"/>
+    <flow cars="45" hour="23" trucks="3"/>
+    <flow cars="26" hour="24" trucks="0"/>
+  </loop>
+  <loop datefrom="17.4.2012" dateto="17.4.2012" direction="Mersch - Luxembourg" id="520">
+    <flow cars="6" hour="1" trucks="0"/>
+    <flow cars="7" hour="2" trucks="0"/>
+    <flow cars="6" hour="3" trucks="1"/>
+    <flow cars="5" hour="4" trucks="0"/>
+    <flow cars="10" hour="5" trucks="1"/>
+    <flow cars="85" hour="6" trucks="5"/>
+    <flow cars="183" hour="7" trucks="12"/>
+    <flow cars="371" hour="8" trucks="17"/>
+    <flow cars="270" hour="9" trucks="11"/>
+    <flow cars="213" hour="10" trucks="11"/>
+    <flow cars="229" hour="11" trucks="14"/>
+    <flow cars="270" hour="12" trucks="17"/>
+    <flow cars="250" hour="13" trucks="12"/>
+    <flow cars="288" hour="14" trucks="8"/>
+    <flow cars="259" hour="15" trucks="20"/>
+    <flow cars="266" hour="16" trucks="10"/>
+    <flow cars="352" hour="17" trucks="6"/>
+    <flow cars="336" hour="18" trucks="9"/>
+    <flow cars="265" hour="19" trucks="8"/>
+    <flow cars="163" hour="20" trucks="6"/>
+    <flow cars="114" hour="21" trucks="6"/>
+    <flow cars="100" hour="22" trucks="2"/>
+    <flow cars="60" hour="23" trucks="3"/>
+    <flow cars="19" hour="24" trucks="0"/>
+  </loop>
+  <loop datefrom="10.4.2012" dateto="10.4.2012" direction="Mersch - Luxembourg" id="520">
+    <flow cars="17" hour="1" trucks="0"/>
+    <flow cars="5" hour="2" trucks="0"/>
+    <flow cars="6" hour="3" trucks="0"/>
+    <flow cars="3" hour="4" trucks="1"/>
+    <flow cars="13" hour="5" trucks="0"/>
+    <flow cars="55" hour="6" trucks="4"/>
+    <flow cars="150" hour="7" trucks="7"/>
+    <flow cars="255" hour="8" trucks="12"/>
+    <flow cars="231" hour="9" trucks="18"/>
+    <flow cars="225" hour="10" trucks="8"/>
+    <flow cars="225" hour="11" trucks="10"/>
+    <flow cars="248" hour="12" trucks="11"/>
+    <flow cars="235" hour="13" trucks="5"/>
+    <flow cars="239" hour="14" trucks="19"/>
+    <flow cars="245" hour="15" trucks="9"/>
+    <flow cars="236" hour="16" trucks="9"/>
+    <flow cars="312" hour="17" trucks="8"/>
+    <flow cars="311" hour="18" trucks="11"/>
+    <flow cars="202" hour="19" trucks="4"/>
+    <flow cars="150" hour="20" trucks="6"/>
+    <flow cars="89" hour="21" trucks="4"/>
+    <flow cars="90" hour="22" trucks="2"/>
+    <flow cars="40" hour="23" trucks="3"/>
+    <flow cars="30" hour="24" trucks="1"/>
+  </loop>
+  <loop datefrom="3.4.2012" dateto="3.4.2012" direction="Mersch - Luxembourg" id="520">
+    <flow cars="19" hour="1" trucks="0"/>
+    <flow cars="11" hour="2" trucks="0"/>
+    <flow cars="5" hour="3" trucks="0"/>
+    <flow cars="6" hour="4" trucks="0"/>
+    <flow cars="12" hour="5" trucks="0"/>
+    <flow cars="84" hour="6" trucks="7"/>
+    <flow cars="175" hour="7" trucks="11"/>
+    <flow cars="300" hour="8" trucks="13"/>
+    <flow cars="255" hour="9" trucks="10"/>
+    <flow cars="226" hour="10" trucks="7"/>
+    <flow cars="208" hour="11" trucks="15"/>
+    <flow cars="249" hour="12" trucks="13"/>
+    <flow cars="225" hour="13" trucks="8"/>
+    <flow cars="271" hour="14" trucks="15"/>
+    <flow cars="286" hour="15" trucks="14"/>
+    <flow cars="295" hour="16" trucks="15"/>
+    <flow cars="315" hour="17" trucks="6"/>
+    <flow cars="303" hour="18" trucks="11"/>
+    <flow cars="261" hour="19" trucks="4"/>
+    <flow cars="185" hour="20" trucks="5"/>
+    <flow cars="122" hour="21" trucks="5"/>
+    <flow cars="79" hour="22" trucks="2"/>
+    <flow cars="54" hour="23" trucks="3"/>
+    <flow cars="47" hour="24" trucks="0"/>
+  </loop>
+  <loop datefrom="27.3.2012" dateto="27.3.2012" direction="Mersch - Luxembourg" id="520">
+    <flow cars="16" hour="1" trucks="0"/>
+    <flow cars="12" hour="2" trucks="0"/>
+    <flow cars="7" hour="3" trucks="0"/>
+    <flow cars="3" hour="4" trucks="0"/>
+    <flow cars="13" hour="5" trucks="0"/>
+    <flow cars="81" hour="6" trucks="5"/>
+    <flow cars="170" hour="7" trucks="11"/>
+    <flow cars="362" hour="8" trucks="18"/>
+    <flow cars="262" hour="9" trucks="14"/>
+    <flow cars="232" hour="10" trucks="15"/>
+    <flow cars="205" hour="11" trucks="12"/>
+    <flow cars="251" hour="12" trucks="12"/>
+    <flow cars="262" hour="13" trucks="16"/>
+    <flow cars="321" hour="14" trucks="16"/>
+    <flow cars="288" hour="15" trucks="15"/>
+    <flow cars="284" hour="16" trucks="7"/>
+    <flow cars="327" hour="17" trucks="6"/>
+    <flow cars="357" hour="18" trucks="11"/>
+    <flow cars="283" hour="19" trucks="5"/>
+    <flow cars="206" hour="20" trucks="6"/>
+    <flow cars="126" hour="21" trucks="4"/>
+    <flow cars="102" hour="22" trucks="2"/>
+    <flow cars="63" hour="23" trucks="3"/>
+    <flow cars="26" hour="24" trucks="0"/>
+  </loop>
+  <loop datefrom="20.3.2012" dateto="20.3.2012" direction="Mersch - Luxembourg" id="520">
+    <flow cars="6" hour="1" trucks="0"/>
+    <flow cars="5" hour="2" trucks="0"/>
+    <flow cars="5" hour="3" trucks="1"/>
+    <flow cars="5" hour="4" trucks="0"/>
+    <flow cars="12" hour="5" trucks="0"/>
+    <flow cars="81" hour="6" trucks="4"/>
+    <flow cars="180" hour="7" trucks="7"/>
+    <flow cars="390" hour="8" trucks="15"/>
+    <flow cars="270" hour="9" trucks="17"/>
+    <flow cars="229" hour="10" trucks="9"/>
+    <flow cars="231" hour="11" trucks="14"/>
+    <flow cars="234" hour="12" trucks="9"/>
+    <flow cars="244" hour="13" trucks="15"/>
+    <flow cars="307" hour="14" trucks="12"/>
+    <flow cars="247" hour="15" trucks="10"/>
+    <flow cars="268" hour="16" trucks="9"/>
+    <flow cars="319" hour="17" trucks="11"/>
+    <flow cars="352" hour="18" trucks="8"/>
+    <flow cars="280" hour="19" trucks="5"/>
+    <flow cars="169" hour="20" trucks="7"/>
+    <flow cars="110" hour="21" trucks="4"/>
+    <flow cars="118" hour="22" trucks="2"/>
+    <flow cars="51" hour="23" trucks="5"/>
+    <flow cars="30" hour="24" trucks="0"/>
+  </loop>
+  <loop datefrom="13.3.2012" dateto="13.3.2012" direction="Mersch - Luxembourg" id="520">
+    <flow cars="18" hour="1" trucks="0"/>
+    <flow cars="7" hour="2" trucks="0"/>
+    <flow cars="7" hour="3" trucks="0"/>
+    <flow cars="8" hour="4" trucks="1"/>
+    <flow cars="12" hour="5" trucks="0"/>
+    <flow cars="62" hour="6" trucks="4"/>
+    <flow cars="170" hour="7" trucks="10"/>
+    <flow cars="374" hour="8" trucks="18"/>
+    <flow cars="267" hour="9" trucks="10"/>
+    <flow cars="229" hour="10" trucks="7"/>
+    <flow cars="225" hour="11" trucks="13"/>
+    <flow cars="223" hour="12" trucks="15"/>
+    <flow cars="244" hour="13" trucks="11"/>
+    <flow cars="315" hour="14" trucks="22"/>
+    <flow cars="241" hour="15" trucks="13"/>
+    <flow cars="269" hour="16" trucks="13"/>
+    <flow cars="292" hour="17" trucks="12"/>
+    <flow cars="350" hour="18" trucks="10"/>
+    <flow cars="247" hour="19" trucks="5"/>
+    <flow cars="178" hour="20" trucks="6"/>
+    <flow cars="78" hour="21" trucks="6"/>
+    <flow cars="104" hour="22" trucks="2"/>
+    <flow cars="45" hour="23" trucks="3"/>
+    <flow cars="33" hour="24" trucks="0"/>
+  </loop>
+  <loop datefrom="6.3.2012" dateto="6.3.2012" direction="Mersch - Luxembourg" id="520">
+    <flow cars="9" hour="1" trucks="0"/>
+    <flow cars="8" hour="2" trucks="1"/>
+    <flow cars="4" hour="3" trucks="0"/>
+    <flow cars="8" hour="4" trucks="1"/>
+    <flow cars="12" hour="5" trucks="0"/>
+    <flow cars="82" hour="6" trucks="5"/>
+    <flow cars="170" hour="7" trucks="8"/>
+    <flow cars="354" hour="8" trucks="15"/>
+    <flow cars="230" hour="9" trucks="10"/>
+    <flow cars="222" hour="10" trucks="7"/>
+    <flow cars="223" hour="11" trucks="14"/>
+    <flow cars="244" hour="12" trucks="8"/>
+    <flow cars="222" hour="13" trucks="12"/>
+    <flow cars="322" hour="14" trucks="12"/>
+    <flow cars="254" hour="15" trucks="8"/>
+    <flow cars="280" hour="16" trucks="7"/>
+    <flow cars="311" hour="17" trucks="7"/>
+    <flow cars="346" hour="18" trucks="6"/>
+    <flow cars="279" hour="19" trucks="4"/>
+    <flow cars="160" hour="20" trucks="5"/>
+    <flow cars="82" hour="21" trucks="5"/>
+    <flow cars="69" hour="22" trucks="2"/>
+    <flow cars="47" hour="23" trucks="5"/>
+    <flow cars="40" hour="24" trucks="0"/>
+  </loop>
+  <loop datefrom="28.2.2012" dateto="28.2.2012" direction="Mersch - Luxembourg" id="520">
+    <flow cars="12" hour="1" trucks="0"/>
+    <flow cars="8" hour="2" trucks="0"/>
+    <flow cars="6" hour="3" trucks="0"/>
+    <flow cars="5" hour="4" trucks="1"/>
+    <flow cars="6" hour="5" trucks="0"/>
+    <flow cars="73" hour="6" trucks="6"/>
+    <flow cars="158" hour="7" trucks="8"/>
+    <flow cars="357" hour="8" trucks="17"/>
+    <flow cars="256" hour="9" trucks="9"/>
+    <flow cars="200" hour="10" trucks="7"/>
+    <flow cars="205" hour="11" trucks="15"/>
+    <flow cars="236" hour="12" trucks="8"/>
+    <flow cars="245" hour="13" trucks="12"/>
+    <flow cars="277" hour="14" trucks="12"/>
+    <flow cars="255" hour="15" trucks="8"/>
+    <flow cars="277" hour="16" trucks="13"/>
+    <flow cars="285" hour="17" trucks="7"/>
+    <flow cars="348" hour="18" trucks="6"/>
+    <flow cars="257" hour="19" trucks="4"/>
+    <flow cars="183" hour="20" trucks="5"/>
+    <flow cars="87" hour="21" trucks="3"/>
+    <flow cars="101" hour="22" trucks="2"/>
+    <flow cars="60" hour="23" trucks="3"/>
+    <flow cars="24" hour="24" trucks="0"/>
+  </loop>
+</loops>

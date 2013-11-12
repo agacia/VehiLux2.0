@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf8"?>
+<!DOCTYPE loops
+  PUBLIC 'University Of Luxembourg'
+  'traffic-counting-loops.dtd'>
+<loops>
+  <loop datefrom="24.4.2012" dateto="24.4.2012" direction="Echangeur Kirchberg - Echangeur Irrgarten" id="1429">
+    <flow cars="75" hour="1" trucks="16"/>
+    <flow cars="49" hour="2" trucks="14"/>
+    <flow cars="30" hour="3" trucks="10"/>
+    <flow cars="49" hour="4" trucks="14"/>
+    <flow cars="83" hour="5" trucks="32"/>
+    <flow cars="321" hour="6" trucks="38"/>
+    <flow cars="578" hour="7" trucks="141"/>
+    <flow cars="1115" hour="8" trucks="208"/>
+    <flow cars="1183" hour="9" trucks="189"/>
+    <flow cars="1117" hour="10" trucks="271"/>
+    <flow cars="1051" hour="11" trucks="452"/>
+    <flow cars="1135" hour="12" trucks="336"/>
+    <flow cars="1405" hour="13" trucks="293"/>
+    <flow cars="1414" hour="14" trucks="473"/>
+    <flow cars="1438" hour="15" trucks="310"/>
+    <flow cars="1662" hour="16" trucks="299"/>
+    <flow cars="2750" hour="17" trucks="335"/>
+    <flow cars="3219" hour="18" trucks="295"/>
+    <flow cars="2899" hour="19" trucks="223"/>
+    <flow cars="1215" hour="20" trucks="367"/>
+    <flow cars="817" hour="21" trucks="209"/>
+    <flow cars="538" hour="22" trucks="44"/>
+    <flow cars="469" hour="23" trucks="35"/>
+    <flow cars="258" hour="24" trucks="19"/>
+  </loop>
+  <loop datefrom="17.4.2012" dateto="17.4.2012" direction="Echangeur Kirchberg - Echangeur Irrgarten" id="1429">
+    <flow cars="65" hour="1" trucks="9"/>
+    <flow cars="36" hour="2" trucks="7"/>
+    <flow cars="41" hour="3" trucks="15"/>
+    <flow cars="54" hour="4" trucks="17"/>
+    <flow cars="65" hour="5" trucks="24"/>
+    <flow cars="294" hour="6" trucks="34"/>
+    <flow cars="613" hour="7" trucks="140"/>
+    <flow cars="1137" hour="8" trucks="201"/>
+    <flow cars="1380" hour="9" trucks="263"/>
+    <flow cars="1197" hour="10" trucks="362"/>
+    <flow cars="1044" hour="11" trucks="285"/>
+    <flow cars="1157" hour="12" trucks="281"/>
+    <flow cars="1465" hour="13" trucks="299"/>
+    <flow cars="1381" hour="14" trucks="308"/>
+    <flow cars="1397" hour="15" trucks="293"/>
+    <flow cars="1726" hour="16" trucks="316"/>
+    <flow cars="2644" hour="17" trucks="393"/>
+    <flow cars="3360" hour="18" trucks="231"/>
+    <flow cars="2787" hour="19" trucks="180"/>
+    <flow cars="1424" hour="20" trucks="123"/>
+    <flow cars="811" hour="21" trucks="81"/>
+    <flow cars="588" hour="22" trucks="37"/>
+    <flow cars="354" hour="23" trucks="16"/>
+    <flow cars="220" hour="24" trucks="21"/>
+  </loop>
+  <loop datefrom="10.4.2012" dateto="10.4.2012" direction="Echangeur Kirchberg - Echangeur Irrgarten" id="1429">
+    <flow cars="129" hour="1" trucks="15"/>
+    <flow cars="42" hour="2" trucks="13"/>
+    <flow cars="49" hour="3" trucks="14"/>
+    <flow cars="72" hour="4" trucks="21"/>
+    <flow cars="97" hour="5" trucks="27"/>
+    <flow cars="281" hour="6" trucks="29"/>
+    <flow cars="490" hour="7" trucks="68"/>
+    <flow cars="756" hour="8" trucks="493"/>
+    <flow cars="1267" hour="9" trucks="186"/>
+    <flow cars="1222" hour="10" trucks="208"/>
+    <flow cars="1106" hour="11" trucks="207"/>
+    <flow cars="1212" hour="12" trucks="220"/>
+    <flow cars="1310" hour="13" trucks="184"/>
+    <flow cars="1494" hour="14" trucks="197"/>
+    <flow cars="1458" hour="15" trucks="212"/>
+    <flow cars="1601" hour="16" trucks="206"/>
+    <flow cars="2429" hour="17" trucks="238"/>
+    <flow cars="2924" hour="18" trucks="168"/>
+    <flow cars="2329" hour="19" trucks="139"/>
+    <flow cars="1190" hour="20" trucks="120"/>
+    <flow cars="486" hour="21" trucks="174"/>
+    <flow cars="470" hour="22" trucks="37"/>
+    <flow cars="355" hour="23" trucks="21"/>
+    <flow cars="182" hour="24" trucks="15"/>
+  </loop>
+  <loop datefrom="3.4.2012" dateto="3.4.2012" direction="Echangeur Kirchberg - Echangeur Irrgarten" id="1429">
+    <flow cars="94" hour="1" trucks="23"/>
+    <flow cars="45" hour="2" trucks="21"/>
+    <flow cars="44" hour="3" trucks="13"/>
+    <flow cars="51" hour="4" trucks="21"/>
+    <flow cars="72" hour="5" trucks="22"/>
+    <flow cars="302" hour="6" trucks="30"/>
+    <flow cars="486" hour="7" trucks="79"/>
+    <flow cars="1123" hour="8" trucks="228"/>
+    <flow cars="1238" hour="9" trucks="319"/>
+    <flow cars="1161" hour="10" trucks="301"/>
+    <flow cars="1011" hour="11" trucks="315"/>
+    <flow cars="1107" hour="12" trucks="357"/>
+    <flow cars="1180" hour="13" trucks="309"/>
+    <flow cars="1308" hour="14" trucks="333"/>
+    <flow cars="1282" hour="15" trucks="335"/>
+    <flow cars="1565" hour="16" trucks="367"/>
+    <flow cars="2372" hour="17" trucks="415"/>
+    <flow cars="2941" hour="18" trucks="258"/>
+    <flow cars="2335" hour="19" trucks="181"/>
+    <flow cars="1279" hour="20" trucks="147"/>
+    <flow cars="570" hour="21" trucks="193"/>
+    <flow cars="465" hour="22" trucks="35"/>
+    <flow cars="304" hour="23" trucks="23"/>
+    <flow cars="202" hour="24" trucks="16"/>
+  </loop>
+  <loop datefrom="27.3.2012" dateto="27.3.2012" direction="Echangeur Kirchberg - Echangeur Irrgarten" id="1429">
+    <flow cars="82" hour="1" trucks="16"/>
+    <flow cars="40" hour="2" trucks="15"/>
+    <flow cars="32" hour="3" trucks="18"/>
+    <flow cars="55" hour="4" trucks="21"/>
+    <flow cars="70" hour="5" trucks="18"/>
+    <flow cars="275" hour="6" trucks="29"/>
+    <flow cars="486" hour="7" trucks="64"/>
+    <flow cars="1057" hour="8" trucks="193"/>
+    <flow cars="1299" hour="9" trucks="282"/>
+    <flow cars="1276" hour="10" trucks="426"/>
+    <flow cars="1028" hour="11" trucks="357"/>
+    <flow cars="1084" hour="12" trucks="350"/>
+    <flow cars="1323" hour="13" trucks="320"/>
+    <flow cars="1492" hour="14" trucks="320"/>
+    <flow cars="1383" hour="15" trucks="339"/>
+    <flow cars="1630" hour="16" trucks="297"/>
+    <flow cars="2703" hour="17" trucks="370"/>
+    <flow cars="3182" hour="18" trucks="379"/>
+    <flow cars="2643" hour="19" trucks="218"/>
+    <flow cars="1464" hour="20" trucks="131"/>
+    <flow cars="678" hour="21" trucks="170"/>
+    <flow cars="553" hour="22" trucks="52"/>
+    <flow cars="399" hour="23" trucks="27"/>
+    <flow cars="229" hour="24" trucks="15"/>
+  </loop>
+  <loop datefrom="20.3.2012" dateto="20.3.2012" direction="Echangeur Kirchberg - Echangeur Irrgarten" id="1429">
+    <flow cars="75" hour="1" trucks="20"/>
+    <flow cars="30" hour="2" trucks="12"/>
+    <flow cars="30" hour="3" trucks="16"/>
+    <flow cars="49" hour="4" trucks="21"/>
+    <flow cars="79" hour="5" trucks="27"/>
+    <flow cars="284" hour="6" trucks="34"/>
+    <flow cars="588" hour="7" trucks="112"/>
+    <flow cars="1136" hour="8" trucks="231"/>
+    <flow cars="1409" hour="9" trucks="297"/>
+    <flow cars="1107" hour="10" trucks="354"/>
+    <flow cars="1027" hour="11" trucks="311"/>
+    <flow cars="1007" hour="12" trucks="329"/>
+    <flow cars="1259" hour="13" trucks="365"/>
+    <flow cars="1418" hour="14" trucks="339"/>
+    <flow cars="1388" hour="15" trucks="351"/>
+    <flow cars="1576" hour="16" trucks="369"/>
+    <flow cars="2561" hour="17" trucks="542"/>
+    <flow cars="2687" hour="18" trucks="780"/>
+    <flow cars="2458" hour="19" trucks="308"/>
+    <flow cars="1080" hour="20" trucks="204"/>
+    <flow cars="654" hour="21" trucks="64"/>
+    <flow cars="555" hour="22" trucks="45"/>
+    <flow cars="339" hour="23" trucks="24"/>
+    <flow cars="206" hour="24" trucks="11"/>
+  </loop>
+  <loop datefrom="13.3.2012" dateto="13.3.2012" direction="Echangeur Kirchberg - Echangeur Irrgarten" id="1429">
+    <flow cars="55" hour="1" trucks="17"/>
+    <flow cars="37" hour="2" trucks="12"/>
+    <flow cars="31" hour="3" trucks="16"/>
+    <flow cars="54" hour="4" trucks="14"/>
+    <flow cars="71" hour="5" trucks="25"/>
+    <flow cars="274" hour="6" trucks="40"/>
+    <flow cars="403" hour="7" trucks="76"/>
+    <flow cars="1040" hour="8" trucks="227"/>
+    <flow cars="1285" hour="9" trucks="324"/>
+    <flow cars="1209" hour="10" trucks="334"/>
+    <flow cars="1097" hour="11" trucks="325"/>
+    <flow cars="1248" hour="12" trucks="281"/>
+    <flow cars="1439" hour="13" trucks="322"/>
+    <flow cars="1508" hour="14" trucks="318"/>
+    <flow cars="1161" hour="15" trucks="302"/>
+    <flow cars="1543" hour="16" trucks="385"/>
+    <flow cars="2451" hour="17" trucks="483"/>
+    <flow cars="3126" hour="18" trucks="422"/>
+    <flow cars="2370" hour="19" trucks="414"/>
+    <flow cars="1116" hour="20" trucks="109"/>
+    <flow cars="630" hour="21" trucks="52"/>
+    <flow cars="497" hour="22" trucks="28"/>
+    <flow cars="405" hour="23" trucks="15"/>
+    <flow cars="214" hour="24" trucks="21"/>
+  </loop>
+  <loop datefrom="6.3.2012" dateto="6.3.2012" direction="Echangeur Kirchberg - Echangeur Irrgarten" id="1429">
+    <flow cars="75" hour="1" trucks="16"/>
+    <flow cars="40" hour="2" trucks="8"/>
+    <flow cars="38" hour="3" trucks="16"/>
+    <flow cars="42" hour="4" trucks="20"/>
+    <flow cars="76" hour="5" trucks="18"/>
+    <flow cars="312" hour="6" trucks="33"/>
+    <flow cars="456" hour="7" trucks="64"/>
+    <flow cars="995" hour="8" trucks="162"/>
+    <flow cars="1366" hour="9" trucks="258"/>
+    <flow cars="1187" hour="10" trucks="365"/>
+    <flow cars="947" hour="11" trucks="312"/>
+    <flow cars="1155" hour="12" trucks="271"/>
+    <flow cars="1345" hour="13" trucks="264"/>
+    <flow cars="1615" hour="14" trucks="256"/>
+    <flow cars="1421" hour="15" trucks="279"/>
+    <flow cars="1689" hour="16" trucks="227"/>
+    <flow cars="2729" hour="17" trucks="264"/>
+    <flow cars="3314" hour="18" trucks="218"/>
+    <flow cars="2310" hour="19" trucks="343"/>
+    <flow cars="1176" hour="20" trucks="114"/>
+    <flow cars="708" hour="21" trucks="67"/>
+    <flow cars="508" hour="22" trucks="32"/>
+    <flow cars="338" hour="23" trucks="23"/>
+    <flow cars="212" hour="24" trucks="15"/>
+  </loop>
+  <loop datefrom="28.2.2012" dateto="28.2.2012" direction="Echangeur Kirchberg - Echangeur Irrgarten" id="1429">
+    <flow cars="93" hour="1" trucks="10"/>
+    <flow cars="36" hour="2" trucks="12"/>
+    <flow cars="40" hour="3" trucks="21"/>
+    <flow cars="46" hour="4" trucks="19"/>
+    <flow cars="75" hour="5" trucks="15"/>
+    <flow cars="279" hour="6" trucks="16"/>
+    <flow cars="442" hour="7" trucks="62"/>
+    <flow cars="885" hour="8" trucks="188"/>
+    <flow cars="1384" hour="9" trucks="228"/>
+    <flow cars="1185" hour="10" trucks="301"/>
+    <flow cars="935" hour="11" trucks="278"/>
+    <flow cars="1135" hour="12" trucks="264"/>
+    <flow cars="1449" hour="13" trucks="241"/>
+    <flow cars="1581" hour="14" trucks="265"/>
+    <flow cars="1404" hour="15" trucks="251"/>
+    <flow cars="1756" hour="16" trucks="264"/>
+    <flow cars="2702" hour="17" trucks="250"/>
+    <flow cars="3229" hour="18" trucks="218"/>
+    <flow cars="1696" hour="19" trucks="952"/>
+    <flow cars="1238" hour="20" trucks="111"/>
+    <flow cars="667" hour="21" trucks="62"/>
+    <flow cars="533" hour="22" trucks="43"/>
+    <flow cars="371" hour="23" trucks="23"/>
+    <flow cars="192" hour="24" trucks="20"/>
+  </loop>
+  <loop datefrom="21.2.2012" dateto="21.2.2012" direction="Echangeur Kirchberg - Echangeur Irrgarten" id="1429">
+    <flow cars="69" hour="1" trucks="11"/>
+    <flow cars="34" hour="2" trucks="13"/>
+    <flow cars="39" hour="3" trucks="20"/>
+    <flow cars="67" hour="4" trucks="19"/>
+    <flow cars="77" hour="5" trucks="19"/>
+    <flow cars="299" hour="6" trucks="25"/>
+    <flow cars="408" hour="7" trucks="54"/>
+    <flow cars="956" hour="8" trucks="181"/>
+    <flow cars="1147" hour="9" trucks="253"/>
+    <flow cars="985" hour="10" trucks="262"/>
+    <flow cars="887" hour="11" trucks="250"/>
+    <flow cars="1021" hour="12" trucks="255"/>
+    <flow cars="1149" hour="13" trucks="195"/>
+    <flow cars="1382" hour="14" trucks="184"/>
+    <flow cars="1214" hour="15" trucks="200"/>
+    <flow cars="1432" hour="16" trucks="205"/>
+    <flow cars="2111" hour="17" trucks="211"/>
+    <flow cars="2760" hour="18" trucks="191"/>
+    <flow cars="1704" hour="19" trucks="502"/>
+    <flow cars="998" hour="20" trucks="78"/>
+    <flow cars="578" hour="21" trucks="48"/>
+    <flow cars="437" hour="22" trucks="37"/>
+    <flow cars="266" hour="23" trucks="21"/>
+    <flow cars="164" hour="24" trucks="20"/>
+  </loop>
+</loops>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf8"?>
+<!DOCTYPE loops
+  PUBLIC 'University Of Luxembourg'
+  'traffic-counting-loops.dtd'>
+<loops>
+  <loop datefrom="24.4.2012" dateto="24.4.2012" direction="Luxembourg - Echangeur Potaschbierg" id="1431">
+    <flow cars="56" hour="1" trucks="15"/>
+    <flow cars="45" hour="2" trucks="7"/>
+    <flow cars="30" hour="3" trucks="15"/>
+    <flow cars="29" hour="4" trucks="24"/>
+    <flow cars="34" hour="5" trucks="30"/>
+    <flow cars="98" hour="6" trucks="43"/>
+    <flow cars="301" hour="7" trucks="118"/>
+    <flow cars="635" hour="8" trucks="262"/>
+    <flow cars="686" hour="9" trucks="217"/>
+    <flow cars="634" hour="10" trucks="311"/>
+    <flow cars="582" hour="11" trucks="443"/>
+    <flow cars="608" hour="12" trucks="359"/>
+    <flow cars="713" hour="13" trucks="389"/>
+    <flow cars="770" hour="14" trucks="378"/>
+    <flow cars="717" hour="15" trucks="377"/>
+    <flow cars="783" hour="16" trucks="390"/>
+    <flow cars="1060" hour="17" trucks="425"/>
+    <flow cars="1249" hour="18" trucks="318"/>
+    <flow cars="1297" hour="19" trucks="226"/>
+    <flow cars="793" hour="20" trucks="197"/>
+    <flow cars="613" hour="21" trucks="147"/>
+    <flow cars="344" hour="22" trucks="57"/>
+    <flow cars="331" hour="23" trucks="27"/>
+    <flow cars="160" hour="24" trucks="13"/>
+  </loop>
+  <loop datefrom="17.4.2012" dateto="17.4.2012" direction="Luxembourg - Echangeur Potaschbierg" id="1431">
+    <flow cars="65" hour="1" trucks="10"/>
+    <flow cars="33" hour="2" trucks="14"/>
+    <flow cars="32" hour="3" trucks="15"/>
+    <flow cars="34" hour="4" trucks="28"/>
+    <flow cars="32" hour="5" trucks="19"/>
+    <flow cars="87" hour="6" trucks="33"/>
+    <flow cars="342" hour="7" trucks="142"/>
+    <flow cars="723" hour="8" trucks="266"/>
+    <flow cars="900" hour="9" trucks="231"/>
+    <flow cars="705" hour="10" trucks="353"/>
+    <flow cars="609" hour="11" trucks="306"/>
+    <flow cars="669" hour="12" trucks="324"/>
+    <flow cars="832" hour="13" trucks="369"/>
+    <flow cars="801" hour="14" trucks="294"/>
+    <flow cars="840" hour="15" trucks="316"/>
+    <flow cars="892" hour="16" trucks="364"/>
+    <flow cars="1131" hour="17" trucks="394"/>
+    <flow cars="1390" hour="18" trucks="289"/>
+    <flow cars="1332" hour="19" trucks="242"/>
+    <flow cars="871" hour="20" trucks="167"/>
+    <flow cars="533" hour="21" trucks="124"/>
+    <flow cars="335" hour="22" trucks="47"/>
+    <flow cars="274" hour="23" trucks="23"/>
+    <flow cars="151" hour="24" trucks="17"/>
+  </loop>
+  <loop datefrom="10.4.2012" dateto="10.4.2012" direction="Luxembourg - Echangeur Potaschbierg" id="1431">
+    <flow cars="92" hour="1" trucks="15"/>
+    <flow cars="37" hour="2" trucks="11"/>
+    <flow cars="34" hour="3" trucks="17"/>
+    <flow cars="43" hour="4" trucks="21"/>
+    <flow cars="45" hour="5" trucks="25"/>
+    <flow cars="96" hour="6" trucks="25"/>
+    <flow cars="248" hour="7" trucks="46"/>
+    <flow cars="503" hour="8" trucks="165"/>
+    <flow cars="767" hour="9" trucks="246"/>
+    <flow cars="634" hour="10" trucks="321"/>
+    <flow cars="559" hour="11" trucks="283"/>
+    <flow cars="636" hour="12" trucks="269"/>
+    <flow cars="683" hour="13" trucks="271"/>
+    <flow cars="784" hour="14" trucks="269"/>
+    <flow cars="838" hour="15" trucks="299"/>
+    <flow cars="856" hour="16" trucks="290"/>
+    <flow cars="944" hour="17" trucks="313"/>
+    <flow cars="1152" hour="18" trucks="235"/>
+    <flow cars="1076" hour="19" trucks="200"/>
+    <flow cars="765" hour="20" trucks="171"/>
+    <flow cars="414" hour="21" trucks="84"/>
+    <flow cars="243" hour="22" trucks="28"/>
+    <flow cars="216" hour="23" trucks="26"/>
+    <flow cars="127" hour="24" trucks="18"/>
+  </loop>
+  <loop datefrom="3.4.2012" dateto="3.4.2012" direction="Luxembourg - Echangeur Potaschbierg" id="1431">
+    <flow cars="73" hour="1" trucks="20"/>
+    <flow cars="40" hour="2" trucks="17"/>
+    <flow cars="31" hour="3" trucks="13"/>
+    <flow cars="32" hour="4" trucks="17"/>
+    <flow cars="42" hour="5" trucks="19"/>
+    <flow cars="102" hour="6" trucks="40"/>
+    <flow cars="236" hour="7" trucks="52"/>
+    <flow cars="705" hour="8" trucks="245"/>
+    <flow cars="811" hour="9" trucks="299"/>
+    <flow cars="694" hour="10" trucks="266"/>
+    <flow cars="600" hour="11" trucks="324"/>
+    <flow cars="617" hour="12" trucks="325"/>
+    <flow cars="655" hour="13" trucks="320"/>
+    <flow cars="797" hour="14" trucks="313"/>
+    <flow cars="846" hour="15" trucks="363"/>
+    <flow cars="892" hour="16" trucks="384"/>
+    <flow cars="1048" hour="17" trucks="443"/>
+    <flow cars="1258" hour="18" trucks="324"/>
+    <flow cars="1204" hour="19" trucks="231"/>
+    <flow cars="812" hour="20" trucks="221"/>
+    <flow cars="503" hour="21" trucks="103"/>
+    <flow cars="294" hour="22" trucks="34"/>
+    <flow cars="225" hour="23" trucks="39"/>
+    <flow cars="136" hour="24" trucks="19"/>
+  </loop>
+  <loop datefrom="27.3.2012" dateto="27.3.2012" direction="Luxembourg - Echangeur Potaschbierg" id="1431">
+    <flow cars="83" hour="1" trucks="20"/>
+    <flow cars="37" hour="2" trucks="13"/>
+    <flow cars="29" hour="3" trucks="26"/>
+    <flow cars="22" hour="4" trucks="21"/>
+    <flow cars="29" hour="5" trucks="26"/>
+    <flow cars="105" hour="6" trucks="32"/>
+    <flow cars="270" hour="7" trucks="59"/>
+    <flow cars="596" hour="8" trucks="192"/>
+    <flow cars="817" hour="9" trucks="269"/>
+    <flow cars="766" hour="10" trucks="352"/>
+    <flow cars="608" hour="11" trucks="358"/>
+    <flow cars="660" hour="12" trucks="311"/>
+    <flow cars="772" hour="13" trucks="338"/>
+    <flow cars="879" hour="14" trucks="306"/>
+    <flow cars="861" hour="15" trucks="319"/>
+    <flow cars="912" hour="16" trucks="338"/>
+    <flow cars="1115" hour="17" trucks="378"/>
+    <flow cars="1303" hour="18" trucks="306"/>
+    <flow cars="1296" hour="19" trucks="252"/>
+    <flow cars="896" hour="20" trucks="160"/>
+    <flow cars="511" hour="21" trucks="119"/>
+    <flow cars="316" hour="22" trucks="38"/>
+    <flow cars="271" hour="23" trucks="32"/>
+    <flow cars="146" hour="24" trucks="19"/>
+  </loop>
+  <loop datefrom="20.3.2012" dateto="20.3.2012" direction="Luxembourg - Echangeur Potaschbierg" id="1431">
+    <flow cars="53" hour="1" trucks="20"/>
+    <flow cars="29" hour="2" trucks="18"/>
+    <flow cars="23" hour="3" trucks="18"/>
+    <flow cars="29" hour="4" trucks="8"/>
+    <flow cars="35" hour="5" trucks="26"/>
+    <flow cars="111" hour="6" trucks="27"/>
+    <flow cars="337" hour="7" trucks="140"/>
+    <flow cars="695" hour="8" trucks="271"/>
+    <flow cars="838" hour="9" trucks="267"/>
+    <flow cars="675" hour="10" trucks="316"/>
+    <flow cars="619" hour="11" trucks="328"/>
+    <flow cars="659" hour="12" trucks="322"/>
+    <flow cars="728" hour="13" trucks="333"/>
+    <flow cars="821" hour="14" trucks="328"/>
+    <flow cars="843" hour="15" trucks="374"/>
+    <flow cars="848" hour="16" trucks="386"/>
+    <flow cars="986" hour="17" trucks="466"/>
+    <flow cars="1208" hour="18" trucks="386"/>
+    <flow cars="1102" hour="19" trucks="217"/>
+    <flow cars="799" hour="20" trucks="92"/>
+    <flow cars="380" hour="21" trucks="59"/>
+    <flow cars="309" hour="22" trucks="38"/>
+    <flow cars="266" hour="23" trucks="25"/>
+    <flow cars="173" hour="24" trucks="16"/>
+  </loop>
+  <loop datefrom="13.3.2012" dateto="13.3.2012" direction="Luxembourg - Echangeur Potaschbierg" id="1431">
+    <flow cars="52" hour="1" trucks="12"/>
+    <flow cars="32" hour="2" trucks="7"/>
+    <flow cars="19" hour="3" trucks="13"/>
+    <flow cars="21" hour="4" trucks="24"/>
+    <flow cars="23" hour="5" trucks="23"/>
+    <flow cars="116" hour="6" trucks="27"/>
+    <flow cars="285" hour="7" trucks="61"/>
+    <flow cars="624" hour="8" trucks="259"/>
+    <flow cars="839" hour="9" trucks="265"/>
+    <flow cars="661" hour="10" trucks="331"/>
+    <flow cars="622" hour="11" trucks="377"/>
+    <flow cars="696" hour="12" trucks="340"/>
+    <flow cars="770" hour="13" trucks="386"/>
+    <flow cars="858" hour="14" trucks="306"/>
+    <flow cars="833" hour="15" trucks="323"/>
+    <flow cars="893" hour="16" trucks="355"/>
+    <flow cars="1088" hour="17" trucks="335"/>
+    <flow cars="1267" hour="18" trucks="232"/>
+    <flow cars="1295" hour="19" trucks="217"/>
+    <flow cars="778" hour="20" trucks="74"/>
+    <flow cars="395" hour="21" trucks="49"/>
+    <flow cars="291" hour="22" trucks="34"/>
+    <flow cars="316" hour="23" trucks="26"/>
+    <flow cars="154" hour="24" trucks="22"/>
+  </loop>
+  <loop datefrom="6.3.2012" dateto="6.3.2012" direction="Luxembourg - Echangeur Potaschbierg" id="1431">
+    <flow cars="46" hour="1" trucks="17"/>
+    <flow cars="30" hour="2" trucks="11"/>
+    <flow cars="30" hour="3" trucks="10"/>
+    <flow cars="25" hour="4" trucks="12"/>
+    <flow cars="26" hour="5" trucks="21"/>
+    <flow cars="110" hour="6" trucks="30"/>
+    <flow cars="247" hour="7" trucks="57"/>
+    <flow cars="382" hour="8" trucks="99"/>
+    <flow cars="708" hour="9" trucks="295"/>
+    <flow cars="605" hour="10" trucks="417"/>
+    <flow cars="492" hour="11" trucks="335"/>
+    <flow cars="564" hour="12" trucks="359"/>
+    <flow cars="659" hour="13" trucks="355"/>
+    <flow cars="799" hour="14" trucks="293"/>
+    <flow cars="767" hour="15" trucks="312"/>
+    <flow cars="904" hour="16" trucks="327"/>
+    <flow cars="1124" hour="17" trucks="324"/>
+    <flow cars="1348" hour="18" trucks="311"/>
+    <flow cars="1218" hour="19" trucks="231"/>
+    <flow cars="615" hour="20" trucks="105"/>
+    <flow cars="372" hour="21" trucks="57"/>
+    <flow cars="309" hour="22" trucks="27"/>
+    <flow cars="274" hour="23" trucks="20"/>
+    <flow cars="145" hour="24" trucks="18"/>
+  </loop>
+  <loop datefrom="28.2.2012" dateto="28.2.2012" direction="Luxembourg - Echangeur Potaschbierg" id="1431">
+    <flow cars="73" hour="1" trucks="13"/>
+    <flow cars="30" hour="2" trucks="7"/>
+    <flow cars="24" hour="3" trucks="19"/>
+    <flow cars="28" hour="4" trucks="22"/>
+    <flow cars="32" hour="5" trucks="15"/>
+    <flow cars="95" hour="6" trucks="28"/>
+    <flow cars="249" hour="7" trucks="50"/>
+    <flow cars="474" hour="8" trucks="133"/>
+    <flow cars="785" hour="9" trucks="290"/>
+    <flow cars="549" hour="10" trucks="337"/>
+    <flow cars="450" hour="11" trucks="342"/>
+    <flow cars="486" hour="12" trucks="358"/>
+    <flow cars="598" hour="13" trucks="346"/>
+    <flow cars="726" hour="14" trucks="326"/>
+    <flow cars="678" hour="15" trucks="335"/>
+    <flow cars="795" hour="16" trucks="382"/>
+    <flow cars="1062" hour="17" trucks="362"/>
+    <flow cars="1248" hour="18" trucks="337"/>
+    <flow cars="1084" hour="19" trucks="148"/>
+    <flow cars="572" hour="20" trucks="96"/>
+    <flow cars="377" hour="21" trucks="64"/>
+    <flow cars="288" hour="22" trucks="38"/>
+    <flow cars="264" hour="23" trucks="17"/>
+    <flow cars="133" hour="24" trucks="22"/>
+  </loop>
+  <loop datefrom="21.2.2012" dateto="21.2.2012" direction="Luxembourg - Echangeur Potaschbierg" id="1431">
+    <flow cars="64" hour="1" trucks="16"/>
+    <flow cars="22" hour="2" trucks="13"/>
+    <flow cars="28" hour="3" trucks="15"/>
+    <flow cars="44" hour="4" trucks="23"/>
+    <flow cars="29" hour="5" trucks="25"/>
+    <flow cars="92" hour="6" trucks="32"/>
+    <flow cars="232" hour="7" trucks="55"/>
+    <flow cars="563" hour="8" trucks="151"/>
+    <flow cars="696" hour="9" trucks="259"/>
+    <flow cars="666" hour="10" trucks="312"/>
+    <flow cars="585" hour="11" trucks="291"/>
+    <flow cars="599" hour="12" trucks="287"/>
+    <flow cars="732" hour="13" trucks="259"/>
+    <flow cars="811" hour="14" trucks="251"/>
+    <flow cars="772" hour="15" trucks="283"/>
+    <flow cars="840" hour="16" trucks="302"/>
+    <flow cars="1095" hour="17" trucks="309"/>
+    <flow cars="1242" hour="18" trucks="268"/>
+    <flow cars="991" hour="19" trucks="156"/>
+    <flow cars="542" hour="20" trucks="81"/>
+    <flow cars="398" hour="21" trucks="49"/>
+    <flow cars="278" hour="22" trucks="31"/>
+    <flow cars="226" hour="23" trucks="31"/>
+    <flow cars="127" hour="24" trucks="16"/>
+  </loop>
+</loops>

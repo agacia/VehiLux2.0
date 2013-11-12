@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf8"?>
+<!DOCTYPE loops
+  PUBLIC 'University Of Luxembourg'
+  'traffic-counting-loops.dtd'>
+<loops>
+  <loop datefrom="17.4.2012" dateto="17.4.2012" direction="Deux sens" id="304">
+    <flow cars="60" hour="1" trucks="2"/>
+    <flow cars="35" hour="2" trucks="4"/>
+    <flow cars="18" hour="3" trucks="6"/>
+    <flow cars="19" hour="4" trucks="1"/>
+    <flow cars="79" hour="5" trucks="8"/>
+    <flow cars="297" hour="6" trucks="19"/>
+    <flow cars="729" hour="7" trucks="47"/>
+    <flow cars="795" hour="8" trucks="31"/>
+    <flow cars="868" hour="9" trucks="44"/>
+    <flow cars="732" hour="10" trucks="54"/>
+    <flow cars="651" hour="11" trucks="32"/>
+    <flow cars="763" hour="12" trucks="30"/>
+    <flow cars="792" hour="13" trucks="38"/>
+    <flow cars="883" hour="14" trucks="47"/>
+    <flow cars="904" hour="15" trucks="42"/>
+    <flow cars="938" hour="16" trucks="38"/>
+    <flow cars="1206" hour="17" trucks="40"/>
+    <flow cars="1291" hour="18" trucks="31"/>
+    <flow cars="1132" hour="19" trucks="25"/>
+    <flow cars="678" hour="20" trucks="15"/>
+    <flow cars="537" hour="21" trucks="19"/>
+    <flow cars="350" hour="22" trucks="14"/>
+    <flow cars="241" hour="23" trucks="6"/>
+    <flow cars="138" hour="24" trucks="6"/>
+  </loop>
+  <loop datefrom="27.3.2012" dateto="27.3.2012" direction="Deux sens" id="304">
+    <flow cars="73" hour="1" trucks="5"/>
+    <flow cars="54" hour="2" trucks="4"/>
+    <flow cars="20" hour="3" trucks="5"/>
+    <flow cars="26" hour="4" trucks="4"/>
+    <flow cars="79" hour="5" trucks="9"/>
+    <flow cars="289" hour="6" trucks="17"/>
+    <flow cars="776" hour="7" trucks="49"/>
+    <flow cars="778" hour="8" trucks="23"/>
+    <flow cars="868" hour="9" trucks="41"/>
+    <flow cars="760" hour="10" trucks="59"/>
+    <flow cars="706" hour="11" trucks="38"/>
+    <flow cars="761" hour="12" trucks="39"/>
+    <flow cars="772" hour="13" trucks="49"/>
+    <flow cars="844" hour="14" trucks="40"/>
+    <flow cars="865" hour="15" trucks="34"/>
+    <flow cars="964" hour="16" trucks="42"/>
+    <flow cars="1163" hour="17" trucks="33"/>
+    <flow cars="1309" hour="18" trucks="28"/>
+    <flow cars="1046" hour="19" trucks="18"/>
+    <flow cars="778" hour="20" trucks="11"/>
+    <flow cars="552" hour="21" trucks="19"/>
+    <flow cars="368" hour="22" trucks="6"/>
+    <flow cars="299" hour="23" trucks="5"/>
+    <flow cars="162" hour="24" trucks="9"/>
+  </loop>
+  <loop datefrom="20.3.2012" dateto="20.3.2012" direction="Deux sens" id="304">
+    <flow cars="57" hour="1" trucks="2"/>
+    <flow cars="30" hour="2" trucks="2"/>
+    <flow cars="18" hour="3" trucks="3"/>
+    <flow cars="15" hour="4" trucks="4"/>
+    <flow cars="72" hour="5" trucks="3"/>
+    <flow cars="278" hour="6" trucks="28"/>
+    <flow cars="719" hour="7" trucks="46"/>
+    <flow cars="616" hour="8" trucks="30"/>
+    <flow cars="818" hour="9" trucks="52"/>
+    <flow cars="711" hour="10" trucks="43"/>
+    <flow cars="686" hour="11" trucks="46"/>
+    <flow cars="804" hour="12" trucks="36"/>
+    <flow cars="762" hour="13" trucks="42"/>
+    <flow cars="902" hour="14" trucks="44"/>
+    <flow cars="978" hour="15" trucks="49"/>
+    <flow cars="991" hour="16" trucks="36"/>
+    <flow cars="1210" hour="17" trucks="26"/>
+    <flow cars="1279" hour="18" trucks="24"/>
+    <flow cars="1102" hour="19" trucks="22"/>
+    <flow cars="678" hour="20" trucks="18"/>
+    <flow cars="448" hour="21" trucks="12"/>
+    <flow cars="332" hour="22" trucks="12"/>
+    <flow cars="257" hour="23" trucks="11"/>
+    <flow cars="149" hour="24" trucks="9"/>
+  </loop>
+  <loop datefrom="13.3.2012" dateto="13.3.2012" direction="Deux sens" id="304">
+    <flow cars="54" hour="1" trucks="5"/>
+    <flow cars="36" hour="2" trucks="3"/>
+    <flow cars="18" hour="3" trucks="2"/>
+    <flow cars="17" hour="4" trucks="7"/>
+    <flow cars="70" hour="5" trucks="6"/>
+    <flow cars="299" hour="6" trucks="19"/>
+    <flow cars="744" hour="7" trucks="40"/>
+    <flow cars="601" hour="8" trucks="29"/>
+    <flow cars="780" hour="9" trucks="55"/>
+    <flow cars="722" hour="10" trucks="62"/>
+    <flow cars="724" hour="11" trucks="37"/>
+    <flow cars="753" hour="12" trucks="45"/>
+    <flow cars="808" hour="13" trucks="38"/>
+    <flow cars="865" hour="14" trucks="34"/>
+    <flow cars="938" hour="15" trucks="46"/>
+    <flow cars="989" hour="16" trucks="33"/>
+    <flow cars="1203" hour="17" trucks="26"/>
+    <flow cars="1309" hour="18" trucks="39"/>
+    <flow cars="1081" hour="19" trucks="22"/>
+    <flow cars="711" hour="20" trucks="16"/>
+    <flow cars="445" hour="21" trucks="14"/>
+    <flow cars="364" hour="22" trucks="5"/>
+    <flow cars="293" hour="23" trucks="10"/>
+    <flow cars="154" hour="24" trucks="6"/>
+  </loop>
+  <loop datefrom="6.3.2012" dateto="6.3.2012" direction="Deux sens" id="304">
+    <flow cars="53" hour="1" trucks="7"/>
+    <flow cars="33" hour="2" trucks="1"/>
+    <flow cars="21" hour="3" trucks="1"/>
+    <flow cars="17" hour="4" trucks="5"/>
+    <flow cars="75" hour="5" trucks="7"/>
+    <flow cars="299" hour="6" trucks="17"/>
+    <flow cars="777" hour="7" trucks="28"/>
+    <flow cars="593" hour="8" trucks="24"/>
+    <flow cars="791" hour="9" trucks="59"/>
+    <flow cars="664" hour="10" trucks="53"/>
+    <flow cars="623" hour="11" trucks="45"/>
+    <flow cars="666" hour="12" trucks="37"/>
+    <flow cars="712" hour="13" trucks="36"/>
+    <flow cars="824" hour="14" trucks="42"/>
+    <flow cars="893" hour="15" trucks="37"/>
+    <flow cars="942" hour="16" trucks="31"/>
+    <flow cars="1164" hour="17" trucks="39"/>
+    <flow cars="1261" hour="18" trucks="24"/>
+    <flow cars="1008" hour="19" trucks="17"/>
+    <flow cars="673" hour="20" trucks="20"/>
+    <flow cars="443" hour="21" trucks="11"/>
+    <flow cars="344" hour="22" trucks="8"/>
+    <flow cars="268" hour="23" trucks="10"/>
+    <flow cars="138" hour="24" trucks="7"/>
+  </loop>
+  <loop datefrom="28.2.2012" dateto="28.2.2012" direction="Deux sens" id="304">
+    <flow cars="67" hour="1" trucks="3"/>
+    <flow cars="24" hour="2" trucks="3"/>
+    <flow cars="23" hour="3" trucks="3"/>
+    <flow cars="22" hour="4" trucks="2"/>
+    <flow cars="76" hour="5" trucks="6"/>
+    <flow cars="279" hour="6" trucks="16"/>
+    <flow cars="749" hour="7" trucks="50"/>
+    <flow cars="696" hour="8" trucks="20"/>
+    <flow cars="891" hour="9" trucks="53"/>
+    <flow cars="674" hour="10" trucks="50"/>
+    <flow cars="663" hour="11" trucks="36"/>
+    <flow cars="679" hour="12" trucks="57"/>
+    <flow cars="753" hour="13" trucks="33"/>
+    <flow cars="833" hour="14" trucks="45"/>
+    <flow cars="973" hour="15" trucks="43"/>
+    <flow cars="964" hour="16" trucks="23"/>
+    <flow cars="1113" hour="17" trucks="44"/>
+    <flow cars="1286" hour="18" trucks="24"/>
+    <flow cars="1068" hour="19" trucks="22"/>
+    <flow cars="683" hour="20" trucks="16"/>
+    <flow cars="434" hour="21" trucks="17"/>
+    <flow cars="343" hour="22" trucks="5"/>
+    <flow cars="315" hour="23" trucks="10"/>
+    <flow cars="132" hour="24" trucks="7"/>
+  </loop>
+  <loop datefrom="21.2.2012" dateto="21.2.2012" direction="Deux sens" id="304">
+    <flow cars="60" hour="1" trucks="3"/>
+    <flow cars="37" hour="2" trucks="0"/>
+    <flow cars="30" hour="3" trucks="2"/>
+    <flow cars="19" hour="4" trucks="1"/>
+    <flow cars="61" hour="5" trucks="7"/>
+    <flow cars="254" hour="6" trucks="18"/>
+    <flow cars="619" hour="7" trucks="44"/>
+    <flow cars="867" hour="8" trucks="50"/>
+    <flow cars="798" hour="9" trucks="44"/>
+    <flow cars="628" hour="10" trucks="40"/>
+    <flow cars="626" hour="11" trucks="48"/>
+    <flow cars="658" hour="12" trucks="41"/>
+    <flow cars="676" hour="13" trucks="19"/>
+    <flow cars="734" hour="14" trucks="41"/>
+    <flow cars="854" hour="15" trucks="25"/>
+    <flow cars="829" hour="16" trucks="39"/>
+    <flow cars="1072" hour="17" trucks="37"/>
+    <flow cars="1198" hour="18" trucks="30"/>
+    <flow cars="934" hour="19" trucks="22"/>
+    <flow cars="577" hour="20" trucks="16"/>
+    <flow cars="393" hour="21" trucks="13"/>
+    <flow cars="281" hour="22" trucks="6"/>
+    <flow cars="258" hour="23" trucks="8"/>
+    <flow cars="121" hour="24" trucks="4"/>
+  </loop>
+  <loop datefrom="31.1.2012" dateto="31.1.2012" direction="Deux sens" id="304">
+    <flow cars="56" hour="1" trucks="4"/>
+    <flow cars="25" hour="2" trucks="0"/>
+    <flow cars="20" hour="3" trucks="1"/>
+    <flow cars="12" hour="4" trucks="4"/>
+    <flow cars="67" hour="5" trucks="7"/>
+    <flow cars="258" hour="6" trucks="17"/>
+    <flow cars="702" hour="7" trucks="31"/>
+    <flow cars="554" hour="8" trucks="32"/>
+    <flow cars="598" hour="9" trucks="36"/>
+    <flow cars="730" hour="10" trucks="51"/>
+    <flow cars="635" hour="11" trucks="36"/>
+    <flow cars="704" hour="12" trucks="30"/>
+    <flow cars="780" hour="13" trucks="40"/>
+    <flow cars="856" hour="14" trucks="49"/>
+    <flow cars="870" hour="15" trucks="45"/>
+    <flow cars="977" hour="16" trucks="54"/>
+    <flow cars="1120" hour="17" trucks="25"/>
+    <flow cars="1273" hour="18" trucks="31"/>
+    <flow cars="1031" hour="19" trucks="20"/>
+    <flow cars="686" hour="20" trucks="14"/>
+    <flow cars="421" hour="21" trucks="16"/>
+    <flow cars="292" hour="22" trucks="5"/>
+    <flow cars="249" hour="23" trucks="7"/>
+    <flow cars="101" hour="24" trucks="8"/>
+  </loop>
+  <loop datefrom="24.1.2012" dateto="24.1.2012" direction="Deux sens" id="304">
+    <flow cars="79" hour="1" trucks="12"/>
+    <flow cars="21" hour="2" trucks="3"/>
+    <flow cars="22" hour="3" trucks="2"/>
+    <flow cars="22" hour="4" trucks="1"/>
+    <flow cars="69" hour="5" trucks="8"/>
+    <flow cars="267" hour="6" trucks="21"/>
+    <flow cars="740" hour="7" trucks="37"/>
+    <flow cars="603" hour="8" trucks="25"/>
+    <flow cars="568" hour="9" trucks="30"/>
+    <flow cars="729" hour="10" trucks="48"/>
+    <flow cars="650" hour="11" trucks="44"/>
+    <flow cars="712" hour="12" trucks="31"/>
+    <flow cars="729" hour="13" trucks="36"/>
+    <flow cars="815" hour="14" trucks="37"/>
+    <flow cars="961" hour="15" trucks="31"/>
+    <flow cars="892" hour="16" trucks="38"/>
+    <flow cars="1108" hour="17" trucks="30"/>
+    <flow cars="1228" hour="18" trucks="37"/>
+    <flow cars="1056" hour="19" trucks="18"/>
+    <flow cars="657" hour="20" trucks="17"/>
+    <flow cars="420" hour="21" trucks="15"/>
+    <flow cars="338" hour="22" trucks="4"/>
+    <flow cars="241" hour="23" trucks="6"/>
+    <flow cars="107" hour="24" trucks="9"/>
+  </loop>
+  <loop datefrom="17.1.2012" dateto="17.1.2012" direction="Deux sens" id="304">
+    <flow cars="59" hour="1" trucks="5"/>
+    <flow cars="19" hour="2" trucks="1"/>
+    <flow cars="22" hour="3" trucks="5"/>
+    <flow cars="15" hour="4" trucks="0"/>
+    <flow cars="81" hour="5" trucks="9"/>
+    <flow cars="283" hour="6" trucks="21"/>
+    <flow cars="740" hour="7" trucks="50"/>
+    <flow cars="765" hour="8" trucks="23"/>
+    <flow cars="826" hour="9" trucks="45"/>
+    <flow cars="717" hour="10" trucks="54"/>
+    <flow cars="650" hour="11" trucks="42"/>
+    <flow cars="731" hour="12" trucks="49"/>
+    <flow cars="793" hour="13" trucks="38"/>
+    <flow cars="839" hour="14" trucks="37"/>
+    <flow cars="899" hour="15" trucks="36"/>
+    <flow cars="932" hour="16" trucks="35"/>
+    <flow cars="1160" hour="17" trucks="38"/>
+    <flow cars="1337" hour="18" trucks="29"/>
+    <flow cars="1085" hour="19" trucks="26"/>
+    <flow cars="693" hour="20" trucks="19"/>
+    <flow cars="435" hour="21" trucks="14"/>
+    <flow cars="324" hour="22" trucks="10"/>
+    <flow cars="322" hour="23" trucks="7"/>
+    <flow cars="134" hour="24" trucks="5"/>
+  </loop>
+</loops>

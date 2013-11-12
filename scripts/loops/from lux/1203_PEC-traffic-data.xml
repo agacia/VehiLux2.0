@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf8"?>
+<!DOCTYPE loops
+  PUBLIC 'University Of Luxembourg'
+  'traffic-counting-loops.dtd'>
+<loops>
+  <loop datefrom="29.3.2011" dateto="29.3.2011" direction="Luxembourg - Echternach" id="1203">
+    <flow cars="43" hour="1" trucks="0"/>
+    <flow cars="31" hour="2" trucks="1"/>
+    <flow cars="12" hour="3" trucks="1"/>
+    <flow cars="5" hour="4" trucks="2"/>
+    <flow cars="12" hour="5" trucks="2"/>
+    <flow cars="30" hour="6" trucks="6"/>
+    <flow cars="170" hour="7" trucks="22"/>
+    <flow cars="347" hour="8" trucks="30"/>
+    <flow cars="383" hour="9" trucks="27"/>
+    <flow cars="419" hour="10" trucks="45"/>
+    <flow cars="412" hour="11" trucks="27"/>
+    <flow cars="427" hour="12" trucks="31"/>
+    <flow cars="542" hour="13" trucks="26"/>
+    <flow cars="549" hour="14" trucks="31"/>
+    <flow cars="573" hour="15" trucks="21"/>
+    <flow cars="713" hour="16" trucks="28"/>
+    <flow cars="888" hour="17" trucks="23"/>
+    <flow cars="906" hour="18" trucks="35"/>
+    <flow cars="747" hour="19" trucks="10"/>
+    <flow cars="467" hour="20" trucks="10"/>
+    <flow cars="348" hour="21" trucks="8"/>
+    <flow cars="233" hour="22" trucks="2"/>
+    <flow cars="216" hour="23" trucks="4"/>
+    <flow cars="138" hour="24" trucks="2"/>
+  </loop>
+  <loop datefrom="22.3.2011" dateto="22.3.2011" direction="Luxembourg - Echternach" id="1203">
+    <flow cars="101" hour="1" trucks="0"/>
+    <flow cars="23" hour="2" trucks="2"/>
+    <flow cars="11" hour="3" trucks="0"/>
+    <flow cars="9" hour="4" trucks="2"/>
+    <flow cars="12" hour="5" trucks="4"/>
+    <flow cars="40" hour="6" trucks="4"/>
+    <flow cars="166" hour="7" trucks="15"/>
+    <flow cars="359" hour="8" trucks="35"/>
+    <flow cars="329" hour="9" trucks="27"/>
+    <flow cars="436" hour="10" trucks="37"/>
+    <flow cars="424" hour="11" trucks="21"/>
+    <flow cars="447" hour="12" trucks="33"/>
+    <flow cars="486" hour="13" trucks="26"/>
+    <flow cars="485" hour="14" trucks="28"/>
+    <flow cars="590" hour="15" trucks="32"/>
+    <flow cars="677" hour="16" trucks="32"/>
+    <flow cars="867" hour="17" trucks="21"/>
+    <flow cars="908" hour="18" trucks="25"/>
+    <flow cars="770" hour="19" trucks="14"/>
+    <flow cars="457" hour="20" trucks="11"/>
+    <flow cars="285" hour="21" trucks="6"/>
+    <flow cars="232" hour="22" trucks="2"/>
+    <flow cars="208" hour="23" trucks="4"/>
+    <flow cars="108" hour="24" trucks="0"/>
+  </loop>
+  <loop datefrom="15.3.2011" dateto="15.3.2011" direction="Luxembourg - Echternach" id="1203">
+    <flow cars="31" hour="1" trucks="1"/>
+    <flow cars="33" hour="2" trucks="2"/>
+    <flow cars="8" hour="3" trucks="1"/>
+    <flow cars="9" hour="4" trucks="1"/>
+    <flow cars="15" hour="5" trucks="5"/>
+    <flow cars="34" hour="6" trucks="3"/>
+    <flow cars="151" hour="7" trucks="21"/>
+    <flow cars="344" hour="8" trucks="26"/>
+    <flow cars="343" hour="9" trucks="19"/>
+    <flow cars="433" hour="10" trucks="26"/>
+    <flow cars="444" hour="11" trucks="26"/>
+    <flow cars="445" hour="12" trucks="38"/>
+    <flow cars="517" hour="13" trucks="28"/>
+    <flow cars="541" hour="14" trucks="23"/>
+    <flow cars="576" hour="15" trucks="20"/>
+    <flow cars="653" hour="16" trucks="31"/>
+    <flow cars="867" hour="17" trucks="32"/>
+    <flow cars="936" hour="18" trucks="19"/>
+    <flow cars="713" hour="19" trucks="15"/>
+    <flow cars="448" hour="20" trucks="8"/>
+    <flow cars="317" hour="21" trucks="7"/>
+    <flow cars="228" hour="22" trucks="1"/>
+    <flow cars="156" hour="23" trucks="5"/>
+    <flow cars="106" hour="24" trucks="0"/>
+  </loop>
+  <loop datefrom="8.3.2011" dateto="8.3.2011" direction="Luxembourg - Echternach" id="1203">
+    <flow cars="45" hour="1" trucks="0"/>
+    <flow cars="24" hour="2" trucks="2"/>
+    <flow cars="8" hour="3" trucks="1"/>
+    <flow cars="7" hour="4" trucks="3"/>
+    <flow cars="14" hour="5" trucks="4"/>
+    <flow cars="32" hour="6" trucks="5"/>
+    <flow cars="149" hour="7" trucks="12"/>
+    <flow cars="344" hour="8" trucks="29"/>
+    <flow cars="323" hour="9" trucks="26"/>
+    <flow cars="384" hour="10" trucks="24"/>
+    <flow cars="404" hour="11" trucks="30"/>
+    <flow cars="438" hour="12" trucks="30"/>
+    <flow cars="470" hour="13" trucks="23"/>
+    <flow cars="491" hour="14" trucks="28"/>
+    <flow cars="529" hour="15" trucks="19"/>
+    <flow cars="603" hour="16" trucks="31"/>
+    <flow cars="831" hour="17" trucks="19"/>
+    <flow cars="894" hour="18" trucks="21"/>
+    <flow cars="730" hour="19" trucks="9"/>
+    <flow cars="485" hour="20" trucks="6"/>
+    <flow cars="299" hour="21" trucks="8"/>
+    <flow cars="202" hour="22" trucks="3"/>
+    <flow cars="193" hour="23" trucks="3"/>
+    <flow cars="98" hour="24" trucks="2"/>
+  </loop>
+  <loop datefrom="1.3.2011" dateto="1.3.2011" direction="Luxembourg - Echternach" id="1203">
+    <flow cars="59" hour="1" trucks="0"/>
+    <flow cars="20" hour="2" trucks="2"/>
+    <flow cars="14" hour="3" trucks="1"/>
+    <flow cars="6" hour="4" trucks="2"/>
+    <flow cars="13" hour="5" trucks="4"/>
+    <flow cars="47" hour="6" trucks="4"/>
+    <flow cars="150" hour="7" trucks="19"/>
+    <flow cars="351" hour="8" trucks="34"/>
+    <flow cars="338" hour="9" trucks="22"/>
+    <flow cars="351" hour="10" trucks="28"/>
+    <flow cars="422" hour="11" trucks="32"/>
+    <flow cars="463" hour="12" trucks="24"/>
+    <flow cars="450" hour="13" trucks="25"/>
+    <flow cars="502" hour="14" trucks="30"/>
+    <flow cars="579" hour="15" trucks="31"/>
+    <flow cars="664" hour="16" trucks="28"/>
+    <flow cars="834" hour="17" trucks="28"/>
+    <flow cars="916" hour="18" trucks="22"/>
+    <flow cars="840" hour="19" trucks="15"/>
+    <flow cars="478" hour="20" trucks="5"/>
+    <flow cars="299" hour="21" trucks="5"/>
+    <flow cars="186" hour="22" trucks="3"/>
+    <flow cars="207" hour="23" trucks="3"/>
+    <flow cars="107" hour="24" trucks="4"/>
+  </loop>
+  <loop datefrom="22.2.2011" dateto="22.2.2011" direction="Luxembourg - Echternach" id="1203">
+    <flow cars="44" hour="1" trucks="0"/>
+    <flow cars="22" hour="2" trucks="2"/>
+    <flow cars="12" hour="3" trucks="1"/>
+    <flow cars="7" hour="4" trucks="2"/>
+    <flow cars="12" hour="5" trucks="5"/>
+    <flow cars="30" hour="6" trucks="5"/>
+    <flow cars="147" hour="7" trucks="16"/>
+    <flow cars="283" hour="8" trucks="32"/>
+    <flow cars="312" hour="9" trucks="23"/>
+    <flow cars="295" hour="10" trucks="25"/>
+    <flow cars="365" hour="11" trucks="21"/>
+    <flow cars="382" hour="12" trucks="31"/>
+    <flow cars="415" hour="13" trucks="22"/>
+    <flow cars="443" hour="14" trucks="31"/>
+    <flow cars="484" hour="15" trucks="19"/>
+    <flow cars="581" hour="16" trucks="22"/>
+    <flow cars="849" hour="17" trucks="27"/>
+    <flow cars="828" hour="18" trucks="20"/>
+    <flow cars="701" hour="19" trucks="13"/>
+    <flow cars="401" hour="20" trucks="10"/>
+    <flow cars="232" hour="21" trucks="6"/>
+    <flow cars="180" hour="22" trucks="3"/>
+    <flow cars="148" hour="23" trucks="1"/>
+    <flow cars="105" hour="24" trucks="0"/>
+  </loop>
+  <loop datefrom="15.2.2011" dateto="15.2.2011" direction="Luxembourg - Echternach" id="1203">
+    <flow cars="70" hour="1" trucks="0"/>
+    <flow cars="33" hour="2" trucks="2"/>
+    <flow cars="10" hour="3" trucks="0"/>
+    <flow cars="5" hour="4" trucks="1"/>
+    <flow cars="10" hour="5" trucks="4"/>
+    <flow cars="43" hour="6" trucks="5"/>
+    <flow cars="144" hour="7" trucks="18"/>
+    <flow cars="334" hour="8" trucks="22"/>
+    <flow cars="330" hour="9" trucks="21"/>
+    <flow cars="403" hour="10" trucks="33"/>
+    <flow cars="366" hour="11" trucks="32"/>
+    <flow cars="412" hour="12" trucks="18"/>
+    <flow cars="454" hour="13" trucks="32"/>
+    <flow cars="457" hour="14" trucks="23"/>
+    <flow cars="534" hour="15" trucks="31"/>
+    <flow cars="677" hour="16" trucks="31"/>
+    <flow cars="819" hour="17" trucks="25"/>
+    <flow cars="850" hour="18" trucks="15"/>
+    <flow cars="809" hour="19" trucks="16"/>
+    <flow cars="463" hour="20" trucks="6"/>
+    <flow cars="290" hour="21" trucks="6"/>
+    <flow cars="218" hour="22" trucks="1"/>
+    <flow cars="192" hour="23" trucks="4"/>
+    <flow cars="114" hour="24" trucks="1"/>
+  </loop>
+  <loop datefrom="8.2.2011" dateto="8.2.2011" direction="Luxembourg - Echternach" id="1203">
+    <flow cars="40" hour="1" trucks="1"/>
+    <flow cars="17" hour="2" trucks="2"/>
+    <flow cars="6" hour="3" trucks="0"/>
+    <flow cars="8" hour="4" trucks="1"/>
+    <flow cars="9" hour="5" trucks="3"/>
+    <flow cars="36" hour="6" trucks="6"/>
+    <flow cars="139" hour="7" trucks="15"/>
+    <flow cars="323" hour="8" trucks="35"/>
+    <flow cars="322" hour="9" trucks="26"/>
+    <flow cars="371" hour="10" trucks="28"/>
+    <flow cars="415" hour="11" trucks="38"/>
+    <flow cars="424" hour="12" trucks="32"/>
+    <flow cars="438" hour="13" trucks="20"/>
+    <flow cars="472" hour="14" trucks="28"/>
+    <flow cars="589" hour="15" trucks="33"/>
+    <flow cars="656" hour="16" trucks="28"/>
+    <flow cars="834" hour="17" trucks="20"/>
+    <flow cars="875" hour="18" trucks="19"/>
+    <flow cars="814" hour="19" trucks="11"/>
+    <flow cars="429" hour="20" trucks="8"/>
+    <flow cars="275" hour="21" trucks="5"/>
+    <flow cars="219" hour="22" trucks="2"/>
+    <flow cars="200" hour="23" trucks="3"/>
+    <flow cars="107" hour="24" trucks="2"/>
+  </loop>
+  <loop datefrom="18.1.2011" dateto="18.1.2011" direction="Luxembourg - Echternach" id="1203">
+    <flow cars="39" hour="1" trucks="1"/>
+    <flow cars="15" hour="2" trucks="1"/>
+    <flow cars="9" hour="3" trucks="2"/>
+    <flow cars="7" hour="4" trucks="0"/>
+    <flow cars="8" hour="5" trucks="4"/>
+    <flow cars="44" hour="6" trucks="9"/>
+    <flow cars="154" hour="7" trucks="18"/>
+    <flow cars="316" hour="8" trucks="24"/>
+    <flow cars="299" hour="9" trucks="22"/>
+    <flow cars="348" hour="10" trucks="27"/>
+    <flow cars="350" hour="11" trucks="30"/>
+    <flow cars="397" hour="12" trucks="32"/>
+    <flow cars="454" hour="13" trucks="27"/>
+    <flow cars="462" hour="14" trucks="22"/>
+    <flow cars="489" hour="15" trucks="39"/>
+    <flow cars="637" hour="16" trucks="26"/>
+    <flow cars="857" hour="17" trucks="15"/>
+    <flow cars="878" hour="18" trucks="17"/>
+    <flow cars="770" hour="19" trucks="11"/>
+    <flow cars="434" hour="20" trucks="6"/>
+    <flow cars="290" hour="21" trucks="5"/>
+    <flow cars="208" hour="22" trucks="1"/>
+    <flow cars="192" hour="23" trucks="6"/>
+    <flow cars="93" hour="24" trucks="2"/>
+  </loop>
+  <loop datefrom="11.1.2011" dateto="11.1.2011" direction="Luxembourg - Echternach" id="1203">
+    <flow cars="23" hour="1" trucks="1"/>
+    <flow cars="19" hour="2" trucks="2"/>
+    <flow cars="8" hour="3" trucks="0"/>
+    <flow cars="6" hour="4" trucks="2"/>
+    <flow cars="6" hour="5" trucks="2"/>
+    <flow cars="39" hour="6" trucks="6"/>
+    <flow cars="111" hour="7" trucks="12"/>
+    <flow cars="287" hour="8" trucks="24"/>
+    <flow cars="321" hour="9" trucks="23"/>
+    <flow cars="340" hour="10" trucks="23"/>
+    <flow cars="398" hour="11" trucks="31"/>
+    <flow cars="398" hour="12" trucks="32"/>
+    <flow cars="444" hour="13" trucks="25"/>
+    <flow cars="435" hour="14" trucks="21"/>
+    <flow cars="556" hour="15" trucks="24"/>
+    <flow cars="657" hour="16" trucks="19"/>
+    <flow cars="796" hour="17" trucks="18"/>
+    <flow cars="899" hour="18" trucks="12"/>
+    <flow cars="811" hour="19" trucks="9"/>
+    <flow cars="449" hour="20" trucks="7"/>
+    <flow cars="289" hour="21" trucks="5"/>
+    <flow cars="238" hour="22" trucks="3"/>
+    <flow cars="158" hour="23" trucks="4"/>
+    <flow cars="83" hour="24" trucks="2"/>
+  </loop>
+</loops>

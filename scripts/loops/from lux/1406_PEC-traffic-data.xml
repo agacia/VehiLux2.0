@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf8"?>
+<!DOCTYPE loops
+  PUBLIC 'University Of Luxembourg'
+  'traffic-counting-loops.dtd'>
+<loops>
+  <loop datefrom="24.4.2012" dateto="24.4.2012" direction="Luxembourg - Esch-sur-Alzette" id="1406">
+    <flow cars="172" hour="1" trucks="13"/>
+    <flow cars="95" hour="2" trucks="6"/>
+    <flow cars="49" hour="3" trucks="3"/>
+    <flow cars="34" hour="4" trucks="10"/>
+    <flow cars="55" hour="5" trucks="22"/>
+    <flow cars="164" hour="6" trucks="47"/>
+    <flow cars="578" hour="7" trucks="147"/>
+    <flow cars="1302" hour="8" trucks="208"/>
+    <flow cars="1441" hour="9" trucks="229"/>
+    <flow cars="1223" hour="10" trucks="228"/>
+    <flow cars="1263" hour="11" trucks="239"/>
+    <flow cars="1553" hour="12" trucks="254"/>
+    <flow cars="1761" hour="13" trucks="195"/>
+    <flow cars="1786" hour="14" trucks="297"/>
+    <flow cars="2231" hour="15" trucks="267"/>
+    <flow cars="2504" hour="16" trucks="261"/>
+    <flow cars="3441" hour="17" trucks="200"/>
+    <flow cars="3884" hour="18" trucks="135"/>
+    <flow cars="3796" hour="19" trucks="97"/>
+    <flow cars="2292" hour="20" trucks="68"/>
+    <flow cars="1431" hour="21" trucks="33"/>
+    <flow cars="887" hour="22" trucks="30"/>
+    <flow cars="787" hour="23" trucks="24"/>
+    <flow cars="471" hour="24" trucks="18"/>
+  </loop>
+  <loop datefrom="17.4.2012" dateto="17.4.2012" direction="Luxembourg - Esch-sur-Alzette" id="1406">
+    <flow cars="170" hour="1" trucks="6"/>
+    <flow cars="105" hour="2" trucks="6"/>
+    <flow cars="32" hour="3" trucks="8"/>
+    <flow cars="39" hour="4" trucks="6"/>
+    <flow cars="57" hour="5" trucks="26"/>
+    <flow cars="165" hour="6" trucks="49"/>
+    <flow cars="593" hour="7" trucks="119"/>
+    <flow cars="1250" hour="8" trucks="196"/>
+    <flow cars="1439" hour="9" trucks="251"/>
+    <flow cars="1280" hour="10" trucks="284"/>
+    <flow cars="1561" hour="11" trucks="243"/>
+    <flow cars="1852" hour="12" trucks="243"/>
+    <flow cars="1867" hour="13" trucks="200"/>
+    <flow cars="1802" hour="14" trucks="178"/>
+    <flow cars="2233" hour="15" trucks="215"/>
+    <flow cars="2559" hour="16" trucks="169"/>
+    <flow cars="3546" hour="17" trucks="177"/>
+    <flow cars="4128" hour="18" trucks="107"/>
+    <flow cars="3681" hour="19" trucks="65"/>
+    <flow cars="2066" hour="20" trucks="42"/>
+    <flow cars="1282" hour="21" trucks="143"/>
+    <flow cars="830" hour="22" trucks="24"/>
+    <flow cars="722" hour="23" trucks="21"/>
+    <flow cars="386" hour="24" trucks="13"/>
+  </loop>
+  <loop datefrom="10.4.2012" dateto="10.4.2012" direction="Luxembourg - Esch-sur-Alzette" id="1406">
+    <flow cars="153" hour="1" trucks="8"/>
+    <flow cars="91" hour="2" trucks="4"/>
+    <flow cars="54" hour="3" trucks="10"/>
+    <flow cars="34" hour="4" trucks="6"/>
+    <flow cars="63" hour="5" trucks="22"/>
+    <flow cars="150" hour="6" trucks="53"/>
+    <flow cars="436" hour="7" trucks="116"/>
+    <flow cars="1048" hour="8" trucks="187"/>
+    <flow cars="1277" hour="9" trucks="258"/>
+    <flow cars="1228" hour="10" trucks="236"/>
+    <flow cars="1285" hour="11" trucks="243"/>
+    <flow cars="1529" hour="12" trucks="225"/>
+    <flow cars="1542" hour="13" trucks="176"/>
+    <flow cars="1574" hour="14" trucks="225"/>
+    <flow cars="2075" hour="15" trucks="217"/>
+    <flow cars="2498" hour="16" trucks="193"/>
+    <flow cars="3483" hour="17" trucks="151"/>
+    <flow cars="3691" hour="18" trucks="96"/>
+    <flow cars="3325" hour="19" trucks="74"/>
+    <flow cars="1675" hour="20" trucks="47"/>
+    <flow cars="943" hour="21" trucks="188"/>
+    <flow cars="715" hour="22" trucks="22"/>
+    <flow cars="685" hour="23" trucks="20"/>
+    <flow cars="373" hour="24" trucks="15"/>
+  </loop>
+  <loop datefrom="3.4.2012" dateto="3.4.2012" direction="Luxembourg - Esch-sur-Alzette" id="1406">
+    <flow cars="176" hour="1" trucks="16"/>
+    <flow cars="108" hour="2" trucks="7"/>
+    <flow cars="41" hour="3" trucks="6"/>
+    <flow cars="46" hour="4" trucks="10"/>
+    <flow cars="55" hour="5" trucks="30"/>
+    <flow cars="149" hour="6" trucks="44"/>
+    <flow cars="448" hour="7" trucks="94"/>
+    <flow cars="1145" hour="8" trucks="175"/>
+    <flow cars="1221" hour="9" trucks="296"/>
+    <flow cars="1268" hour="10" trucks="274"/>
+    <flow cars="1284" hour="11" trucks="257"/>
+    <flow cars="1535" hour="12" trucks="227"/>
+    <flow cars="1706" hour="13" trucks="171"/>
+    <flow cars="1732" hour="14" trucks="218"/>
+    <flow cars="2394" hour="15" trucks="0"/>
+    <flow cars="2433" hour="16" trucks="194"/>
+    <flow cars="3469" hour="17" trucks="204"/>
+    <flow cars="3938" hour="18" trucks="148"/>
+    <flow cars="3556" hour="19" trucks="102"/>
+    <flow cars="1990" hour="20" trucks="46"/>
+    <flow cars="1130" hour="21" trucks="30"/>
+    <flow cars="760" hour="22" trucks="26"/>
+    <flow cars="733" hour="23" trucks="19"/>
+    <flow cars="389" hour="24" trucks="9"/>
+  </loop>
+  <loop datefrom="27.3.2012" dateto="27.3.2012" direction="Luxembourg - Esch-sur-Alzette" id="1406">
+    <flow cars="149" hour="1" trucks="5"/>
+    <flow cars="76" hour="2" trucks="3"/>
+    <flow cars="41" hour="3" trucks="6"/>
+    <flow cars="33" hour="4" trucks="9"/>
+    <flow cars="65" hour="5" trucks="15"/>
+    <flow cars="147" hour="6" trucks="42"/>
+    <flow cars="464" hour="7" trucks="114"/>
+    <flow cars="1262" hour="8" trucks="182"/>
+    <flow cars="1281" hour="9" trucks="281"/>
+    <flow cars="1273" hour="10" trucks="264"/>
+    <flow cars="1383" hour="11" trucks="231"/>
+    <flow cars="1605" hour="12" trucks="236"/>
+    <flow cars="1834" hour="13" trucks="180"/>
+    <flow cars="1977" hour="14" trucks="196"/>
+    <flow cars="2307" hour="15" trucks="221"/>
+    <flow cars="2553" hour="16" trucks="177"/>
+    <flow cars="3724" hour="17" trucks="180"/>
+    <flow cars="3908" hour="18" trucks="99"/>
+    <flow cars="3419" hour="19" trucks="75"/>
+    <flow cars="2014" hour="20" trucks="38"/>
+    <flow cars="1286" hour="21" trucks="38"/>
+    <flow cars="835" hour="22" trucks="27"/>
+    <flow cars="715" hour="23" trucks="13"/>
+    <flow cars="427" hour="24" trucks="11"/>
+  </loop>
+  <loop datefrom="20.3.2012" dateto="20.3.2012" direction="Luxembourg - Esch-sur-Alzette" id="1406">
+    <flow cars="138" hour="1" trucks="9"/>
+    <flow cars="90" hour="2" trucks="2"/>
+    <flow cars="38" hour="3" trucks="7"/>
+    <flow cars="36" hour="4" trucks="10"/>
+    <flow cars="56" hour="5" trucks="17"/>
+    <flow cars="161" hour="6" trucks="48"/>
+    <flow cars="562" hour="7" trucks="125"/>
+    <flow cars="1348" hour="8" trucks="175"/>
+    <flow cars="1459" hour="9" trucks="260"/>
+    <flow cars="1289" hour="10" trucks="223"/>
+    <flow cars="1326" hour="11" trucks="231"/>
+    <flow cars="1602" hour="12" trucks="231"/>
+    <flow cars="1881" hour="13" trucks="171"/>
+    <flow cars="1773" hour="14" trucks="183"/>
+    <flow cars="2170" hour="15" trucks="170"/>
+    <flow cars="2468" hour="16" trucks="214"/>
+    <flow cars="3724" hour="17" trucks="250"/>
+    <flow cars="3584" hour="18" trucks="294"/>
+    <flow cars="3564" hour="19" trucks="65"/>
+    <flow cars="1877" hour="20" trucks="61"/>
+    <flow cars="1108" hour="21" trucks="41"/>
+    <flow cars="882" hour="22" trucks="24"/>
+    <flow cars="724" hour="23" trucks="12"/>
+    <flow cars="389" hour="24" trucks="20"/>
+  </loop>
+  <loop datefrom="13.3.2012" dateto="13.3.2012" direction="Luxembourg - Esch-sur-Alzette" id="1406">
+    <flow cars="173" hour="1" trucks="11"/>
+    <flow cars="85" hour="2" trucks="5"/>
+    <flow cars="52" hour="3" trucks="9"/>
+    <flow cars="46" hour="4" trucks="9"/>
+    <flow cars="59" hour="5" trucks="21"/>
+    <flow cars="151" hour="6" trucks="53"/>
+    <flow cars="547" hour="7" trucks="124"/>
+    <flow cars="1340" hour="8" trucks="185"/>
+    <flow cars="1439" hour="9" trucks="321"/>
+    <flow cars="1193" hour="10" trucks="239"/>
+    <flow cars="1401" hour="11" trucks="195"/>
+    <flow cars="1609" hour="12" trucks="230"/>
+    <flow cars="1811" hour="13" trucks="163"/>
+    <flow cars="1772" hour="14" trucks="171"/>
+    <flow cars="2220" hour="15" trucks="192"/>
+    <flow cars="2492" hour="16" trucks="197"/>
+    <flow cars="3697" hour="17" trucks="206"/>
+    <flow cars="3751" hour="18" trucks="147"/>
+    <flow cars="3404" hour="19" trucks="72"/>
+    <flow cars="1753" hour="20" trucks="54"/>
+    <flow cars="1181" hour="21" trucks="31"/>
+    <flow cars="877" hour="22" trucks="33"/>
+    <flow cars="731" hour="23" trucks="22"/>
+    <flow cars="404" hour="24" trucks="12"/>
+  </loop>
+  <loop datefrom="6.3.2012" dateto="6.3.2012" direction="Luxembourg - Esch-sur-Alzette" id="1406">
+    <flow cars="161" hour="1" trucks="12"/>
+    <flow cars="93" hour="2" trucks="4"/>
+    <flow cars="47" hour="3" trucks="4"/>
+    <flow cars="40" hour="4" trucks="14"/>
+    <flow cars="59" hour="5" trucks="21"/>
+    <flow cars="159" hour="6" trucks="41"/>
+    <flow cars="467" hour="7" trucks="120"/>
+    <flow cars="1302" hour="8" trucks="194"/>
+    <flow cars="1402" hour="9" trucks="234"/>
+    <flow cars="1229" hour="10" trucks="234"/>
+    <flow cars="1467" hour="11" trucks="255"/>
+    <flow cars="1532" hour="12" trucks="205"/>
+    <flow cars="1914" hour="13" trucks="192"/>
+    <flow cars="1675" hour="14" trucks="181"/>
+    <flow cars="1870" hour="15" trucks="139"/>
+    <flow cars="2675" hour="16" trucks="176"/>
+    <flow cars="3776" hour="17" trucks="158"/>
+    <flow cars="3867" hour="18" trucks="112"/>
+    <flow cars="3361" hour="19" trucks="77"/>
+    <flow cars="1874" hour="20" trucks="63"/>
+    <flow cars="1255" hour="21" trucks="49"/>
+    <flow cars="843" hour="22" trucks="31"/>
+    <flow cars="754" hour="23" trucks="12"/>
+    <flow cars="373" hour="24" trucks="9"/>
+  </loop>
+  <loop datefrom="28.2.2012" dateto="28.2.2012" direction="Luxembourg - Esch-sur-Alzette" id="1406">
+    <flow cars="215" hour="1" trucks="17"/>
+    <flow cars="104" hour="2" trucks="6"/>
+    <flow cars="52" hour="3" trucks="7"/>
+    <flow cars="40" hour="4" trucks="12"/>
+    <flow cars="74" hour="5" trucks="21"/>
+    <flow cars="168" hour="6" trucks="47"/>
+    <flow cars="496" hour="7" trucks="130"/>
+    <flow cars="1250" hour="8" trucks="165"/>
+    <flow cars="1406" hour="9" trucks="281"/>
+    <flow cars="1271" hour="10" trucks="267"/>
+    <flow cars="1397" hour="11" trucks="239"/>
+    <flow cars="1493" hour="12" trucks="241"/>
+    <flow cars="1765" hour="13" trucks="213"/>
+    <flow cars="1642" hour="14" trucks="208"/>
+    <flow cars="2033" hour="15" trucks="206"/>
+    <flow cars="2484" hour="16" trucks="213"/>
+    <flow cars="3585" hour="17" trucks="224"/>
+    <flow cars="3901" hour="18" trucks="116"/>
+    <flow cars="3310" hour="19" trucks="97"/>
+    <flow cars="2001" hour="20" trucks="70"/>
+    <flow cars="1244" hour="21" trucks="49"/>
+    <flow cars="873" hour="22" trucks="34"/>
+    <flow cars="804" hour="23" trucks="22"/>
+    <flow cars="428" hour="24" trucks="20"/>
+  </loop>
+  <loop datefrom="21.2.2012" dateto="21.2.2012" direction="Luxembourg - Esch-sur-Alzette" id="1406">
+    <flow cars="175" hour="1" trucks="10"/>
+    <flow cars="111" hour="2" trucks="5"/>
+    <flow cars="65" hour="3" trucks="8"/>
+    <flow cars="55" hour="4" trucks="14"/>
+    <flow cars="64" hour="5" trucks="28"/>
+    <flow cars="152" hour="6" trucks="36"/>
+    <flow cars="435" hour="7" trucks="91"/>
+    <flow cars="954" hour="8" trucks="148"/>
+    <flow cars="1158" hour="9" trucks="260"/>
+    <flow cars="1126" hour="10" trucks="293"/>
+    <flow cars="1205" hour="11" trucks="215"/>
+    <flow cars="1463" hour="12" trucks="180"/>
+    <flow cars="1530" hour="13" trucks="151"/>
+    <flow cars="1607" hour="14" trucks="157"/>
+    <flow cars="1994" hour="15" trucks="164"/>
+    <flow cars="2422" hour="16" trucks="147"/>
+    <flow cars="3422" hour="17" trucks="118"/>
+    <flow cars="3694" hour="18" trucks="86"/>
+    <flow cars="2859" hour="19" trucks="80"/>
+    <flow cars="1548" hour="20" trucks="55"/>
+    <flow cars="987" hour="21" trucks="38"/>
+    <flow cars="699" hour="22" trucks="26"/>
+    <flow cars="677" hour="23" trucks="23"/>
+    <flow cars="370" hour="24" trucks="16"/>
+  </loop>
+</loops>

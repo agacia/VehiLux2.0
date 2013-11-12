@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf8"?>
+<!DOCTYPE loops
+  PUBLIC 'University Of Luxembourg'
+  'traffic-counting-loops.dtd'>
+<loops>
+  <loop datefrom="24.4.2012" dateto="24.4.2012" direction="Belgique - Luxembourg" id="1420">
+    <flow cars="161" hour="1" trucks="102"/>
+    <flow cars="94" hour="2" trucks="79"/>
+    <flow cars="56" hour="3" trucks="69"/>
+    <flow cars="52" hour="4" trucks="49"/>
+    <flow cars="75" hour="5" trucks="71"/>
+    <flow cars="149" hour="6" trucks="73"/>
+    <flow cars="565" hour="7" trucks="163"/>
+    <flow cars="2228" hour="8" trucks="350"/>
+    <flow cars="1395" hour="9" trucks="167"/>
+    <flow cars="1155" hour="10" trucks="204"/>
+    <flow cars="1426" hour="11" trucks="253"/>
+    <flow cars="986" hour="12" trucks="310"/>
+    <flow cars="825" hour="13" trucks="199"/>
+    <flow cars="766" hour="14" trucks="259"/>
+    <flow cars="573" hour="15" trucks="416"/>
+    <flow cars="583" hour="16" trucks="321"/>
+    <flow cars="507" hour="17" trucks="340"/>
+    <flow cars="588" hour="18" trucks="300"/>
+    <flow cars="425" hour="19" trucks="269"/>
+    <flow cars="438" hour="20" trucks="221"/>
+    <flow cars="390" hour="21" trucks="237"/>
+    <flow cars="359" hour="22" trucks="206"/>
+    <flow cars="307" hour="23" trucks="146"/>
+    <flow cars="185" hour="24" trucks="113"/>
+  </loop>
+  <loop datefrom="17.4.2012" dateto="17.4.2012" direction="Belgique - Luxembourg" id="1420">
+    <flow cars="134" hour="1" trucks="89"/>
+    <flow cars="104" hour="2" trucks="73"/>
+    <flow cars="72" hour="3" trucks="52"/>
+    <flow cars="55" hour="4" trucks="53"/>
+    <flow cars="75" hour="5" trucks="70"/>
+    <flow cars="134" hour="6" trucks="88"/>
+    <flow cars="566" hour="7" trucks="204"/>
+    <flow cars="2367" hour="8" trucks="297"/>
+    <flow cars="1584" hour="9" trucks="343"/>
+    <flow cars="1502" hour="10" trucks="291"/>
+    <flow cars="1602" hour="11" trucks="324"/>
+    <flow cars="1218" hour="12" trucks="214"/>
+    <flow cars="1023" hour="13" trucks="242"/>
+    <flow cars="840" hour="14" trucks="256"/>
+    <flow cars="892" hour="15" trucks="318"/>
+    <flow cars="669" hour="16" trucks="337"/>
+    <flow cars="603" hour="17" trucks="336"/>
+    <flow cars="648" hour="18" trucks="307"/>
+    <flow cars="592" hour="19" trucks="303"/>
+    <flow cars="511" hour="20" trucks="244"/>
+    <flow cars="480" hour="21" trucks="247"/>
+    <flow cars="343" hour="22" trucks="181"/>
+    <flow cars="305" hour="23" trucks="144"/>
+    <flow cars="236" hour="24" trucks="106"/>
+  </loop>
+  <loop datefrom="10.4.2012" dateto="10.4.2012" direction="Belgique - Luxembourg" id="1420">
+    <flow cars="303" hour="1" trucks="80"/>
+    <flow cars="169" hour="2" trucks="50"/>
+    <flow cars="93" hour="3" trucks="41"/>
+    <flow cars="61" hour="4" trucks="39"/>
+    <flow cars="92" hour="5" trucks="68"/>
+    <flow cars="140" hour="6" trucks="71"/>
+    <flow cars="590" hour="7" trucks="122"/>
+    <flow cars="1706" hour="8" trucks="310"/>
+    <flow cars="2435" hour="9" trucks="196"/>
+    <flow cars="2526" hour="10" trucks="167"/>
+    <flow cars="1567" hour="11" trucks="166"/>
+    <flow cars="1174" hour="12" trucks="171"/>
+    <flow cars="1061" hour="13" trucks="186"/>
+    <flow cars="1020" hour="14" trucks="178"/>
+    <flow cars="1185" hour="15" trucks="235"/>
+    <flow cars="974" hour="16" trucks="282"/>
+    <flow cars="900" hour="17" trucks="261"/>
+    <flow cars="800" hour="18" trucks="263"/>
+    <flow cars="692" hour="19" trucks="236"/>
+    <flow cars="587" hour="20" trucks="215"/>
+    <flow cars="518" hour="21" trucks="181"/>
+    <flow cars="354" hour="22" trucks="174"/>
+    <flow cars="342" hour="23" trucks="117"/>
+    <flow cars="214" hour="24" trucks="101"/>
+  </loop>
+  <loop datefrom="3.4.2012" dateto="3.4.2012" direction="Belgique - Luxembourg" id="1420">
+    <flow cars="150" hour="1" trucks="114"/>
+    <flow cars="108" hour="2" trucks="85"/>
+    <flow cars="76" hour="3" trucks="85"/>
+    <flow cars="57" hour="4" trucks="64"/>
+    <flow cars="81" hour="5" trucks="64"/>
+    <flow cars="160" hour="6" trucks="93"/>
+    <flow cars="596" hour="7" trucks="161"/>
+    <flow cars="1983" hour="8" trucks="314"/>
+    <flow cars="2559" hour="9" trucks="256"/>
+    <flow cars="1887" hour="10" trucks="666"/>
+    <flow cars="1413" hour="11" trucks="341"/>
+    <flow cars="1034" hour="12" trucks="201"/>
+    <flow cars="886" hour="13" trucks="221"/>
+    <flow cars="822" hour="14" trucks="254"/>
+    <flow cars="943" hour="15" trucks="293"/>
+    <flow cars="742" hour="16" trucks="327"/>
+    <flow cars="698" hour="17" trucks="312"/>
+    <flow cars="651" hour="18" trucks="305"/>
+    <flow cars="617" hour="19" trucks="263"/>
+    <flow cars="497" hour="20" trucks="292"/>
+    <flow cars="464" hour="21" trucks="248"/>
+    <flow cars="373" hour="22" trucks="185"/>
+    <flow cars="307" hour="23" trucks="121"/>
+    <flow cars="212" hour="24" trucks="99"/>
+  </loop>
+  <loop datefrom="27.3.2012" dateto="27.3.2012" direction="Belgique - Luxembourg" id="1420">
+    <flow cars="144" hour="1" trucks="102"/>
+    <flow cars="89" hour="2" trucks="86"/>
+    <flow cars="59" hour="3" trucks="79"/>
+    <flow cars="49" hour="4" trucks="63"/>
+    <flow cars="79" hour="5" trucks="78"/>
+    <flow cars="133" hour="6" trucks="87"/>
+    <flow cars="591" hour="7" trucks="157"/>
+    <flow cars="2141" hour="8" trucks="245"/>
+    <flow cars="1882" hour="9" trucks="219"/>
+    <flow cars="795" hour="10" trucks="540"/>
+    <flow cars="1358" hour="11" trucks="351"/>
+    <flow cars="990" hour="12" trucks="234"/>
+    <flow cars="777" hour="13" trucks="196"/>
+    <flow cars="731" hour="14" trucks="251"/>
+    <flow cars="870" hour="15" trucks="331"/>
+    <flow cars="639" hour="16" trucks="338"/>
+    <flow cars="613" hour="17" trucks="319"/>
+    <flow cars="635" hour="18" trucks="298"/>
+    <flow cars="519" hour="19" trucks="278"/>
+    <flow cars="525" hour="20" trucks="288"/>
+    <flow cars="470" hour="21" trucks="249"/>
+    <flow cars="332" hour="22" trucks="164"/>
+    <flow cars="328" hour="23" trucks="129"/>
+    <flow cars="215" hour="24" trucks="128"/>
+  </loop>
+  <loop datefrom="20.3.2012" dateto="20.3.2012" direction="Belgique - Luxembourg" id="1420">
+    <flow cars="124" hour="1" trucks="97"/>
+    <flow cars="79" hour="2" trucks="77"/>
+    <flow cars="55" hour="3" trucks="60"/>
+    <flow cars="47" hour="4" trucks="53"/>
+    <flow cars="78" hour="5" trucks="82"/>
+    <flow cars="117" hour="6" trucks="95"/>
+    <flow cars="591" hour="7" trucks="164"/>
+    <flow cars="2160" hour="8" trucks="253"/>
+    <flow cars="1791" hour="9" trucks="249"/>
+    <flow cars="1437" hour="10" trucks="359"/>
+    <flow cars="1435" hour="11" trucks="259"/>
+    <flow cars="963" hour="12" trucks="206"/>
+    <flow cars="826" hour="13" trucks="206"/>
+    <flow cars="736" hour="14" trucks="248"/>
+    <flow cars="924" hour="15" trucks="320"/>
+    <flow cars="666" hour="16" trucks="345"/>
+    <flow cars="646" hour="17" trucks="321"/>
+    <flow cars="560" hour="18" trucks="326"/>
+    <flow cars="452" hour="19" trucks="450"/>
+    <flow cars="483" hour="20" trucks="252"/>
+    <flow cars="458" hour="21" trucks="187"/>
+    <flow cars="311" hour="22" trucks="150"/>
+    <flow cars="304" hour="23" trucks="130"/>
+    <flow cars="177" hour="24" trucks="126"/>
+  </loop>
+  <loop datefrom="13.3.2012" dateto="13.3.2012" direction="Belgique - Luxembourg" id="1420">
+    <flow cars="119" hour="1" trucks="85"/>
+    <flow cars="93" hour="2" trucks="94"/>
+    <flow cars="53" hour="3" trucks="64"/>
+    <flow cars="47" hour="4" trucks="45"/>
+    <flow cars="61" hour="5" trucks="78"/>
+    <flow cars="126" hour="6" trucks="89"/>
+    <flow cars="580" hour="7" trucks="179"/>
+    <flow cars="2277" hour="8" trucks="282"/>
+    <flow cars="1751" hour="9" trucks="202"/>
+    <flow cars="1426" hour="10" trucks="282"/>
+    <flow cars="1405" hour="11" trucks="296"/>
+    <flow cars="907" hour="12" trucks="207"/>
+    <flow cars="779" hour="13" trucks="225"/>
+    <flow cars="703" hour="14" trucks="293"/>
+    <flow cars="896" hour="15" trucks="318"/>
+    <flow cars="658" hour="16" trucks="373"/>
+    <flow cars="605" hour="17" trucks="331"/>
+    <flow cars="596" hour="18" trucks="310"/>
+    <flow cars="523" hour="19" trucks="338"/>
+    <flow cars="529" hour="20" trucks="283"/>
+    <flow cars="437" hour="21" trucks="192"/>
+    <flow cars="339" hour="22" trucks="139"/>
+    <flow cars="280" hour="23" trucks="116"/>
+    <flow cars="181" hour="24" trucks="112"/>
+  </loop>
+  <loop datefrom="6.3.2012" dateto="6.3.2012" direction="Belgique - Luxembourg" id="1420">
+    <flow cars="128" hour="1" trucks="98"/>
+    <flow cars="74" hour="2" trucks="71"/>
+    <flow cars="54" hour="3" trucks="64"/>
+    <flow cars="39" hour="4" trucks="52"/>
+    <flow cars="74" hour="5" trucks="64"/>
+    <flow cars="145" hour="6" trucks="75"/>
+    <flow cars="533" hour="7" trucks="141"/>
+    <flow cars="2040" hour="8" trucks="273"/>
+    <flow cars="1851" hour="9" trucks="225"/>
+    <flow cars="1931" hour="10" trucks="279"/>
+    <flow cars="772" hour="11" trucks="137"/>
+    <flow cars="992" hour="12" trucks="224"/>
+    <flow cars="813" hour="13" trucks="202"/>
+    <flow cars="742" hour="14" trucks="245"/>
+    <flow cars="881" hour="15" trucks="278"/>
+    <flow cars="0" hour="16" trucks="333"/>
+    <flow cars="589" hour="17" trucks="317"/>
+    <flow cars="641" hour="18" trucks="346"/>
+    <flow cars="615" hour="19" trucks="278"/>
+    <flow cars="504" hour="20" trucks="235"/>
+    <flow cars="404" hour="21" trucks="221"/>
+    <flow cars="326" hour="22" trucks="140"/>
+    <flow cars="312" hour="23" trucks="116"/>
+    <flow cars="203" hour="24" trucks="107"/>
+  </loop>
+  <loop datefrom="28.2.2012" dateto="28.2.2012" direction="Belgique - Luxembourg" id="1420">
+    <flow cars="130" hour="1" trucks="88"/>
+    <flow cars="93" hour="2" trucks="87"/>
+    <flow cars="52" hour="3" trucks="78"/>
+    <flow cars="48" hour="4" trucks="65"/>
+    <flow cars="66" hour="5" trucks="69"/>
+    <flow cars="127" hour="6" trucks="102"/>
+    <flow cars="551" hour="7" trucks="175"/>
+    <flow cars="2107" hour="8" trucks="273"/>
+    <flow cars="1571" hour="9" trucks="268"/>
+    <flow cars="1771" hour="10" trucks="264"/>
+    <flow cars="1560" hour="11" trucks="232"/>
+    <flow cars="965" hour="12" trucks="197"/>
+    <flow cars="797" hour="13" trucks="185"/>
+    <flow cars="761" hour="14" trucks="263"/>
+    <flow cars="941" hour="15" trucks="316"/>
+    <flow cars="614" hour="16" trucks="314"/>
+    <flow cars="636" hour="17" trucks="326"/>
+    <flow cars="636" hour="18" trucks="298"/>
+    <flow cars="601" hour="19" trucks="297"/>
+    <flow cars="465" hour="20" trucks="234"/>
+    <flow cars="422" hour="21" trucks="192"/>
+    <flow cars="306" hour="22" trucks="170"/>
+    <flow cars="296" hour="23" trucks="109"/>
+    <flow cars="185" hour="24" trucks="113"/>
+  </loop>
+  <loop datefrom="21.2.2012" dateto="21.2.2012" direction="Belgique - Luxembourg" id="1420">
+    <flow cars="162" hour="1" trucks="83"/>
+    <flow cars="76" hour="2" trucks="82"/>
+    <flow cars="64" hour="3" trucks="64"/>
+    <flow cars="44" hour="4" trucks="47"/>
+    <flow cars="66" hour="5" trucks="73"/>
+    <flow cars="124" hour="6" trucks="91"/>
+    <flow cars="542" hour="7" trucks="146"/>
+    <flow cars="1727" hour="8" trucks="239"/>
+    <flow cars="2329" hour="9" trucks="281"/>
+    <flow cars="2438" hour="10" trucks="244"/>
+    <flow cars="1355" hour="11" trucks="233"/>
+    <flow cars="855" hour="12" trucks="217"/>
+    <flow cars="831" hour="13" trucks="254"/>
+    <flow cars="755" hour="14" trucks="247"/>
+    <flow cars="838" hour="15" trucks="258"/>
+    <flow cars="729" hour="16" trucks="299"/>
+    <flow cars="685" hour="17" trucks="280"/>
+    <flow cars="695" hour="18" trucks="254"/>
+    <flow cars="647" hour="19" trucks="332"/>
+    <flow cars="516" hour="20" trucks="255"/>
+    <flow cars="493" hour="21" trucks="230"/>
+    <flow cars="337" hour="22" trucks="160"/>
+    <flow cars="304" hour="23" trucks="114"/>
+    <flow cars="152" hour="24" trucks="108"/>
+  </loop>
+</loops>

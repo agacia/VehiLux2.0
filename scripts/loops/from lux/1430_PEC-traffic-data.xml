@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf8"?>
+<!DOCTYPE loops
+  PUBLIC 'University Of Luxembourg'
+  'traffic-counting-loops.dtd'>
+<loops>
+  <loop datefrom="24.4.2012" dateto="24.4.2012" direction="Echangeur Munsbach - Aire de Wasserbillig" id="1430">
+    <flow cars="61" hour="1" trucks="25"/>
+    <flow cars="36" hour="2" trucks="24"/>
+    <flow cars="39" hour="3" trucks="26"/>
+    <flow cars="26" hour="4" trucks="38"/>
+    <flow cars="65" hour="5" trucks="56"/>
+    <flow cars="86" hour="6" trucks="56"/>
+    <flow cars="210" hour="7" trucks="105"/>
+    <flow cars="336" hour="8" trucks="77"/>
+    <flow cars="322" hour="9" trucks="85"/>
+    <flow cars="391" hour="10" trucks="109"/>
+    <flow cars="531" hour="11" trucks="195"/>
+    <flow cars="591" hour="12" trucks="136"/>
+    <flow cars="626" hour="13" trucks="137"/>
+    <flow cars="706" hour="14" trucks="139"/>
+    <flow cars="862" hour="15" trucks="150"/>
+    <flow cars="1065" hour="16" trucks="122"/>
+    <flow cars="1880" hour="17" trucks="155"/>
+    <flow cars="2388" hour="18" trucks="142"/>
+    <flow cars="1881" hour="19" trucks="136"/>
+    <flow cars="955" hour="20" trucks="95"/>
+    <flow cars="478" hour="21" trucks="71"/>
+    <flow cars="343" hour="22" trucks="41"/>
+    <flow cars="354" hour="23" trucks="28"/>
+    <flow cars="166" hour="24" trucks="35"/>
+  </loop>
+  <loop datefrom="17.4.2012" dateto="17.4.2012" direction="Echangeur Munsbach - Aire de Wasserbillig" id="1430">
+    <flow cars="61" hour="1" trucks="23"/>
+    <flow cars="23" hour="2" trucks="23"/>
+    <flow cars="32" hour="3" trucks="30"/>
+    <flow cars="38" hour="4" trucks="45"/>
+    <flow cars="50" hour="5" trucks="55"/>
+    <flow cars="69" hour="6" trucks="68"/>
+    <flow cars="230" hour="7" trucks="108"/>
+    <flow cars="335" hour="8" trucks="75"/>
+    <flow cars="345" hour="9" trucks="96"/>
+    <flow cars="479" hour="10" trucks="143"/>
+    <flow cars="488" hour="11" trucks="134"/>
+    <flow cars="506" hour="12" trucks="132"/>
+    <flow cars="677" hour="13" trucks="158"/>
+    <flow cars="675" hour="14" trucks="128"/>
+    <flow cars="841" hour="15" trucks="128"/>
+    <flow cars="1143" hour="16" trucks="141"/>
+    <flow cars="1896" hour="17" trucks="151"/>
+    <flow cars="2502" hour="18" trucks="131"/>
+    <flow cars="1842" hour="19" trucks="121"/>
+    <flow cars="933" hour="20" trucks="90"/>
+    <flow cars="489" hour="21" trucks="67"/>
+    <flow cars="272" hour="22" trucks="50"/>
+    <flow cars="302" hour="23" trucks="23"/>
+    <flow cars="160" hour="24" trucks="31"/>
+  </loop>
+  <loop datefrom="10.4.2012" dateto="10.4.2012" direction="Echangeur Munsbach - Aire de Wasserbillig" id="1430">
+    <flow cars="98" hour="1" trucks="24"/>
+    <flow cars="39" hour="2" trucks="29"/>
+    <flow cars="42" hour="3" trucks="31"/>
+    <flow cars="40" hour="4" trucks="44"/>
+    <flow cars="77" hour="5" trucks="63"/>
+    <flow cars="87" hour="6" trucks="56"/>
+    <flow cars="195" hour="7" trucks="76"/>
+    <flow cars="310" hour="8" trucks="89"/>
+    <flow cars="372" hour="9" trucks="60"/>
+    <flow cars="544" hour="10" trucks="84"/>
+    <flow cars="660" hour="11" trucks="92"/>
+    <flow cars="659" hour="12" trucks="82"/>
+    <flow cars="653" hour="13" trucks="119"/>
+    <flow cars="712" hour="14" trucks="97"/>
+    <flow cars="885" hour="15" trucks="92"/>
+    <flow cars="1131" hour="16" trucks="99"/>
+    <flow cars="1817" hour="17" trucks="103"/>
+    <flow cars="2269" hour="18" trucks="71"/>
+    <flow cars="1641" hour="19" trucks="62"/>
+    <flow cars="789" hour="20" trucks="69"/>
+    <flow cars="410" hour="21" trucks="48"/>
+    <flow cars="295" hour="22" trucks="40"/>
+    <flow cars="249" hour="23" trucks="20"/>
+    <flow cars="133" hour="24" trucks="26"/>
+  </loop>
+  <loop datefrom="3.4.2012" dateto="3.4.2012" direction="Echangeur Munsbach - Aire de Wasserbillig" id="1430">
+    <flow cars="75" hour="1" trucks="30"/>
+    <flow cars="39" hour="2" trucks="36"/>
+    <flow cars="22" hour="3" trucks="36"/>
+    <flow cars="40" hour="4" trucks="47"/>
+    <flow cars="50" hour="5" trucks="52"/>
+    <flow cars="93" hour="6" trucks="70"/>
+    <flow cars="228" hour="7" trucks="106"/>
+    <flow cars="297" hour="8" trucks="100"/>
+    <flow cars="325" hour="9" trucks="130"/>
+    <flow cars="502" hour="10" trucks="128"/>
+    <flow cars="614" hour="11" trucks="129"/>
+    <flow cars="639" hour="12" trucks="160"/>
+    <flow cars="641" hour="13" trucks="135"/>
+    <flow cars="705" hour="14" trucks="115"/>
+    <flow cars="889" hour="15" trucks="133"/>
+    <flow cars="1236" hour="16" trucks="137"/>
+    <flow cars="1842" hour="17" trucks="153"/>
+    <flow cars="2308" hour="18" trucks="136"/>
+    <flow cars="1794" hour="19" trucks="115"/>
+    <flow cars="842" hour="20" trucks="96"/>
+    <flow cars="445" hour="21" trucks="84"/>
+    <flow cars="285" hour="22" trucks="42"/>
+    <flow cars="262" hour="23" trucks="34"/>
+    <flow cars="133" hour="24" trucks="30"/>
+  </loop>
+  <loop datefrom="27.3.2012" dateto="27.3.2012" direction="Echangeur Munsbach - Aire de Wasserbillig" id="1430">
+    <flow cars="67" hour="1" trucks="38"/>
+    <flow cars="38" hour="2" trucks="23"/>
+    <flow cars="34" hour="3" trucks="37"/>
+    <flow cars="33" hour="4" trucks="52"/>
+    <flow cars="51" hour="5" trucks="56"/>
+    <flow cars="75" hour="6" trucks="82"/>
+    <flow cars="217" hour="7" trucks="93"/>
+    <flow cars="327" hour="8" trucks="85"/>
+    <flow cars="349" hour="9" trucks="97"/>
+    <flow cars="504" hour="10" trucks="138"/>
+    <flow cars="489" hour="11" trucks="149"/>
+    <flow cars="558" hour="12" trucks="149"/>
+    <flow cars="637" hour="13" trucks="147"/>
+    <flow cars="648" hour="14" trucks="120"/>
+    <flow cars="803" hour="15" trucks="123"/>
+    <flow cars="1093" hour="16" trucks="109"/>
+    <flow cars="1916" hour="17" trucks="121"/>
+    <flow cars="2490" hour="18" trucks="120"/>
+    <flow cars="1802" hour="19" trucks="133"/>
+    <flow cars="915" hour="20" trucks="69"/>
+    <flow cars="504" hour="21" trucks="82"/>
+    <flow cars="327" hour="22" trucks="54"/>
+    <flow cars="315" hour="23" trucks="43"/>
+    <flow cars="150" hour="24" trucks="21"/>
+  </loop>
+  <loop datefrom="20.3.2012" dateto="20.3.2012" direction="Echangeur Munsbach - Aire de Wasserbillig" id="1430">
+    <flow cars="66" hour="1" trucks="39"/>
+    <flow cars="32" hour="2" trucks="30"/>
+    <flow cars="31" hour="3" trucks="27"/>
+    <flow cars="25" hour="4" trucks="30"/>
+    <flow cars="44" hour="5" trucks="56"/>
+    <flow cars="69" hour="6" trucks="65"/>
+    <flow cars="183" hour="7" trucks="92"/>
+    <flow cars="327" hour="8" trucks="70"/>
+    <flow cars="359" hour="9" trucks="93"/>
+    <flow cars="414" hour="10" trucks="130"/>
+    <flow cars="501" hour="11" trucks="162"/>
+    <flow cars="491" hour="12" trucks="131"/>
+    <flow cars="608" hour="13" trucks="151"/>
+    <flow cars="680" hour="14" trucks="137"/>
+    <flow cars="798" hour="15" trucks="122"/>
+    <flow cars="1083" hour="16" trucks="139"/>
+    <flow cars="1958" hour="17" trucks="143"/>
+    <flow cars="2413" hour="18" trucks="157"/>
+    <flow cars="1724" hour="19" trucks="108"/>
+    <flow cars="864" hour="20" trucks="82"/>
+    <flow cars="488" hour="21" trucks="73"/>
+    <flow cars="334" hour="22" trucks="45"/>
+    <flow cars="305" hour="23" trucks="36"/>
+    <flow cars="132" hour="24" trucks="23"/>
+  </loop>
+  <loop datefrom="13.3.2012" dateto="13.3.2012" direction="Echangeur Munsbach - Aire de Wasserbillig" id="1430">
+    <flow cars="52" hour="1" trucks="24"/>
+    <flow cars="24" hour="2" trucks="24"/>
+    <flow cars="30" hour="3" trucks="34"/>
+    <flow cars="30" hour="4" trucks="42"/>
+    <flow cars="36" hour="5" trucks="50"/>
+    <flow cars="86" hour="6" trucks="75"/>
+    <flow cars="193" hour="7" trucks="77"/>
+    <flow cars="304" hour="8" trucks="79"/>
+    <flow cars="310" hour="9" trucks="103"/>
+    <flow cars="450" hour="10" trucks="127"/>
+    <flow cars="522" hour="11" trucks="150"/>
+    <flow cars="538" hour="12" trucks="111"/>
+    <flow cars="610" hour="13" trucks="161"/>
+    <flow cars="642" hour="14" trucks="116"/>
+    <flow cars="800" hour="15" trucks="130"/>
+    <flow cars="1109" hour="16" trucks="139"/>
+    <flow cars="1859" hour="17" trucks="141"/>
+    <flow cars="2495" hour="18" trucks="125"/>
+    <flow cars="1800" hour="19" trucks="95"/>
+    <flow cars="879" hour="20" trucks="94"/>
+    <flow cars="449" hour="21" trucks="64"/>
+    <flow cars="280" hour="22" trucks="42"/>
+    <flow cars="302" hour="23" trucks="26"/>
+    <flow cars="143" hour="24" trucks="23"/>
+  </loop>
+  <loop datefrom="6.3.2012" dateto="6.3.2012" direction="Echangeur Munsbach - Aire de Wasserbillig" id="1430">
+    <flow cars="50" hour="1" trucks="24"/>
+    <flow cars="36" hour="2" trucks="26"/>
+    <flow cars="29" hour="3" trucks="43"/>
+    <flow cars="28" hour="4" trucks="37"/>
+    <flow cars="33" hour="5" trucks="43"/>
+    <flow cars="85" hour="6" trucks="61"/>
+    <flow cars="195" hour="7" trucks="101"/>
+    <flow cars="325" hour="8" trucks="75"/>
+    <flow cars="323" hour="9" trucks="98"/>
+    <flow cars="432" hour="10" trucks="147"/>
+    <flow cars="443" hour="11" trucks="137"/>
+    <flow cars="530" hour="12" trucks="141"/>
+    <flow cars="593" hour="13" trucks="124"/>
+    <flow cars="633" hour="14" trucks="133"/>
+    <flow cars="812" hour="15" trucks="142"/>
+    <flow cars="1030" hour="16" trucks="125"/>
+    <flow cars="1763" hour="17" trucks="126"/>
+    <flow cars="2475" hour="18" trucks="144"/>
+    <flow cars="1739" hour="19" trucks="107"/>
+    <flow cars="927" hour="20" trucks="98"/>
+    <flow cars="457" hour="21" trucks="65"/>
+    <flow cars="290" hour="22" trucks="38"/>
+    <flow cars="268" hour="23" trucks="27"/>
+    <flow cars="127" hour="24" trucks="29"/>
+  </loop>
+  <loop datefrom="28.2.2012" dateto="28.2.2012" direction="Echangeur Munsbach - Aire de Wasserbillig" id="1430">
+    <flow cars="85" hour="1" trucks="20"/>
+    <flow cars="32" hour="2" trucks="28"/>
+    <flow cars="29" hour="3" trucks="26"/>
+    <flow cars="35" hour="4" trucks="43"/>
+    <flow cars="31" hour="5" trucks="48"/>
+    <flow cars="65" hour="6" trucks="56"/>
+    <flow cars="192" hour="7" trucks="82"/>
+    <flow cars="308" hour="8" trucks="83"/>
+    <flow cars="311" hour="9" trucks="74"/>
+    <flow cars="456" hour="10" trucks="135"/>
+    <flow cars="418" hour="11" trucks="127"/>
+    <flow cars="489" hour="12" trucks="136"/>
+    <flow cars="629" hour="13" trucks="142"/>
+    <flow cars="670" hour="14" trucks="129"/>
+    <flow cars="807" hour="15" trucks="129"/>
+    <flow cars="1064" hour="16" trucks="125"/>
+    <flow cars="1857" hour="17" trucks="133"/>
+    <flow cars="2293" hour="18" trucks="129"/>
+    <flow cars="1737" hour="19" trucks="102"/>
+    <flow cars="882" hour="20" trucks="103"/>
+    <flow cars="486" hour="21" trucks="58"/>
+    <flow cars="294" hour="22" trucks="49"/>
+    <flow cars="290" hour="23" trucks="42"/>
+    <flow cars="139" hour="24" trucks="28"/>
+  </loop>
+  <loop datefrom="21.2.2012" dateto="21.2.2012" direction="Echangeur Munsbach - Aire de Wasserbillig" id="1430">
+    <flow cars="43" hour="1" trucks="24"/>
+    <flow cars="27" hour="2" trucks="31"/>
+    <flow cars="30" hour="3" trucks="26"/>
+    <flow cars="34" hour="4" trucks="49"/>
+    <flow cars="37" hour="5" trucks="46"/>
+    <flow cars="63" hour="6" trucks="63"/>
+    <flow cars="178" hour="7" trucks="90"/>
+    <flow cars="253" hour="8" trucks="81"/>
+    <flow cars="263" hour="9" trucks="107"/>
+    <flow cars="422" hour="10" trucks="123"/>
+    <flow cars="501" hour="11" trucks="109"/>
+    <flow cars="545" hour="12" trucks="118"/>
+    <flow cars="561" hour="13" trucks="122"/>
+    <flow cars="597" hour="14" trucks="105"/>
+    <flow cars="729" hour="15" trucks="108"/>
+    <flow cars="868" hour="16" trucks="132"/>
+    <flow cars="1279" hour="17" trucks="120"/>
+    <flow cars="1896" hour="18" trucks="128"/>
+    <flow cars="1488" hour="19" trucks="106"/>
+    <flow cars="769" hour="20" trucks="80"/>
+    <flow cars="419" hour="21" trucks="65"/>
+    <flow cars="230" hour="22" trucks="47"/>
+    <flow cars="241" hour="23" trucks="30"/>
+    <flow cars="106" hour="24" trucks="28"/>
+  </loop>
+</loops>
