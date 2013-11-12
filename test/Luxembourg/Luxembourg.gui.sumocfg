@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <files>
+       <net-file>Luxembourg.net.xml</net-file>
+   	<!--<route-files>Luxembourg.rou.xml</route-files>-->
+        <additional-files value="Luxembourg.add.xml" />
+    </files>
+   <time>
+      <begin>0</begin>
+      <end>39600</end>
+   </time>
+   <time-to-teleport>0</time-to-teleport>
+   <route-steps value="100" />
+   <lanechange.allow-swap value="true" />
+   <report>
+      <verbose>true</verbose>
+   </report>
+</configuration>
